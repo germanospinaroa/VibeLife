@@ -1,0 +1,172 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fafaf7;
+  --foreground: #4a4a4a;
+  --muted: #66766d;
+  --surface: rgba(255, 255, 255, 0.72);
+  --surface-strong: #ffffff;
+  --primary: #9bc56a;
+  --primary-deep: #7eaf56;
+  --teal: #456f78;
+  --teal-deep: #3e6670;
+  --sage: #b8c9a3;
+  --stone: #ecede8;
+  --line: rgba(74, 74, 74, 0.1);
+  --shadow: 0 20px 60px rgba(62, 102, 112, 0.12);
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-surface: var(--surface);
+  --color-surface-strong: var(--surface-strong);
+  --color-primary: var(--primary);
+  --color-primary-deep: var(--primary-deep);
+  --color-teal: var(--teal);
+  --color-teal-deep: var(--teal-deep);
+  --color-sage: var(--sage);
+  --color-stone: var(--stone);
+  --font-sans: var(--font-body);
+  --font-heading: var(--font-display);
+}
+
+*,
+*::before,
+*::after {
+  border-color: var(--line);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at top left, rgba(155, 197, 106, 0.12), transparent 30%),
+    radial-gradient(circle at top right, rgba(69, 111, 120, 0.12), transparent 28%),
+    linear-gradient(180deg, #fefefb 0%, #fafaf7 45%, #f4faef 100%);
+  color: var(--foreground);
+  font-family: var(--font-body), sans-serif;
+  text-rendering: optimizeLegibility;
+}
+
+body:has([data-adelvis-page]) [data-site-header],
+body:has([data-adelvis-page]) [data-site-footer],
+body:has([data-adelvis-page]) [data-site-whatsapp] {
+  display: none;
+}
+
+body:has([data-adelvis-page]) {
+  background:
+    radial-gradient(circle at top left, rgba(155, 197, 106, 0.18), transparent 28%),
+    radial-gradient(circle at top right, rgba(69, 111, 120, 0.14), transparent 26%),
+    linear-gradient(180deg, #fffefb 0%, #f8fbf5 52%, #eef6ea 100%);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display), sans-serif;
+  letter-spacing: -0.04em;
+  color: #2f4541;
+}
+
+::selection {
+  background: rgba(155, 197, 106, 0.35);
+  color: #24423d;
+}
+
+a,
+button,
+input,
+textarea,
+select {
+  outline-color: rgba(69, 111, 120, 0.3);
+}
+
+.surface-panel {
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.72));
+  border: 1px solid rgba(255, 255, 255, 0.7);
+  box-shadow: var(--shadow);
+  backdrop-filter: blur(18px);
+}
+
+.section-mesh {
+  background-image:
+    linear-gradient(rgba(255, 255, 255, 0.3) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255, 255, 255, 0.25) 1px, transparent 1px);
+  background-position: center center;
+  background-size: 120px 120px;
+  mask-image: radial-gradient(circle at center, black, transparent 78%);
+}
+
+.soft-outline {
+  border: 1px solid rgba(74, 74, 74, 0.08);
+}
+
+.text-gradient {
+  background: linear-gradient(120deg, var(--teal-deep), #688d96 42%, var(--primary-deep) 90%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.hero-glow {
+  background:
+    radial-gradient(circle at 20% 20%, rgba(155, 197, 106, 0.45), transparent 32%),
+    radial-gradient(circle at 75% 18%, rgba(69, 111, 120, 0.28), transparent 34%),
+    radial-gradient(circle at 50% 80%, rgba(184, 201, 163, 0.35), transparent 38%);
+}
+
+.mask-fade {
+  mask-image: linear-gradient(to bottom, black 75%, transparent 100%);
+}
+
+.story-gradient {
+  background:
+    linear-gradient(160deg, rgba(155, 197, 106, 0.14), rgba(255, 255, 255, 0.78)),
+    linear-gradient(320deg, rgba(69, 111, 120, 0.16), transparent 58%);
+}
+
+.page-noise::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(rgba(74, 74, 74, 0.06) 0.8px, transparent 0.8px);
+  background-size: 24px 24px;
+  opacity: 0.18;
+  pointer-events: none;
+}
+
+@keyframes whatsapp-soft-pulse {
+  0% {
+    transform: scale(1);
+    opacity: 0.55;
+  }
+
+  70% {
+    transform: scale(1.32);
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1.32);
+    opacity: 0;
+  }
+}
+
+.whatsapp-pulse::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: 9999px;
+  background: rgba(69, 111, 120, 0.24);
+  animation: whatsapp-soft-pulse 2.8s ease-out infinite;
+  pointer-events: none;
+}

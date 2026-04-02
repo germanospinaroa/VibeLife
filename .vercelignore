@@ -1,0 +1,7 @@
+.next
+.tools
+.vercel
+node_modules
+supabase
+README.md
+CLAUDE.md
