@@ -12,8 +12,8 @@ export const faqItems: readonly FaqItem[] = [
       en: "What is VibeLife?",
     },
     answer: {
-      es: "Es una marca enfocada en bienestar, hábitos saludables y acompañamiento.",
-      en: "It is a brand focused on wellness, healthy habits and guidance.",
+      es: "VibeLife es un espacio de bienestar natural donde encontrarás productos seleccionados y acompañamiento personalizado para ayudarte a tener más energía, mejores hábitos y sentirte mejor en tu día a día. No somos una farmacia ni un programa de dieta — somos una guía y un punto de partida real.",
+      en: "VibeLife is a natural wellness space where you will find selected products and personalized guidance to help you have more energy, better habits and feel better every day. We are not a pharmacy or a diet program — we are a guide and a real starting point.",
     },
   },
   {
@@ -22,8 +22,8 @@ export const faqItems: readonly FaqItem[] = [
       en: "What kind of products do you offer?",
     },
     answer: {
-      es: "Trabajamos con productos Zilis enfocados en bienestar y pensados para complementar tu rutina.",
-      en: "We work with Zilis products focused on wellness and designed to complement your routine.",
+      es: "Trabajamos con productos Zilis: suplementos naturales diseñados para apoyar la energía, el equilibrio, el bienestar físico y la nutrición. Cada producto tiene un perfil específico. Te ayudamos a elegir el correcto para ti.",
+      en: "We work with Zilis products: natural supplements designed to support energy, balance, physical wellness and nutrition. Each product has a specific profile. We help you choose the right one for you.",
     },
   },
   {
@@ -32,8 +32,8 @@ export const faqItems: readonly FaqItem[] = [
       en: "How do I know which product is right for me?",
     },
     answer: {
-      es: "Puedes contactarnos por WhatsApp y te orientamos según tu rutina, tus objetivos y lo que estás buscando.",
-      en: "You can contact us on WhatsApp and we will guide you based on your routine, goals and what you are looking for.",
+      es: "Escríbenos por WhatsApp y cuéntanos cómo te sientes. En 5 minutos te orientamos según tu situación — sin presión, sin catálogo, sin que tengas que saber de antemano qué necesitas.",
+      en: "Write to us on WhatsApp and tell us how you are feeling. In 5 minutes we will guide you based on your situation — no pressure, no catalog, no need to know in advance what you need.",
     },
   },
   {
@@ -42,18 +42,28 @@ export const faqItems: readonly FaqItem[] = [
       en: "Do the products replace medical treatments?",
     },
     answer: {
-      es: "No. Son complementos dentro de un estilo de vida saludable y no sustituyen la orientación médica profesional.",
-      en: "No. They are complements within a healthy lifestyle and do not replace professional medical guidance.",
+      es: "No. Nuestros productos son suplementos naturales de apoyo y bienestar. No reemplazan diagnósticos ni tratamientos médicos. Si tienes una condición de salud, consúltalo con tu médico. Podemos ser un complemento — no un reemplazo.",
+      en: "No. Our products are natural supplements for support and wellness. They do not replace diagnoses or medical treatments. If you have a health condition, consult your doctor. We can be a complement — not a replacement.",
     },
   },
   {
     question: {
-      es: "¿Necesito cambiar mi rutina?",
-      en: "Do I need to change my routine?",
+      es: "¿Necesito cambiar mi rutina completamente?",
+      en: "Do I need to completely change my routine?",
     },
     answer: {
-      es: "No necesariamente, pero pequeños cambios pueden ayudarte a obtener mejores resultados con más constancia.",
-      en: "Not necessarily, but small changes can help you get better results with more consistency.",
+      es: "No. De hecho, ese es uno de los errores más comunes. Los productos están diseñados para integrarse en tu vida actual — no para exigirte una versión perfecta de ti misma. Empieza pequeño. Sostenlo. Crece desde ahí.",
+      en: "No. In fact, that is one of the most common mistakes. The products are designed to integrate into your current life — not to demand a perfect version of yourself. Start small. Sustain it. Grow from there.",
+    },
+  },
+  {
+    question: {
+      es: "¿Qué pasa si no me funciona?",
+      en: "What if it doesn't work for me?",
+    },
+    answer: {
+      es: "Nos importa que tengas resultados reales. Si en las primeras semanas no notas nada, escríbenos — revisamos contigo si el producto es el correcto, si la dosis es adecuada y qué ajuste tiene sentido. No te quedas sola con una duda.",
+      en: "We care about you getting real results. If in the first few weeks you notice nothing, write to us — we will review with you whether the product is the right fit, whether the dosage is appropriate and what adjustment makes sense. You are not left alone with a question.",
     },
   },
 ] as const;

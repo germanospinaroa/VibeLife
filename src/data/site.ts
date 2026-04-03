@@ -23,8 +23,8 @@ export const site = {
   },
   url: siteUrl,
   description: {
-    es: "Una experiencia enfocada en bienestar natural, hábitos saludables y crecimiento personal.",
-    en: "An experience focused on natural wellness, healthy habits and personal growth.",
+    es: "VibeLife | Bienestar natural y acompañamiento real para mujeres que quieren más energía, mejores hábitos y volver a sentirse bien. Productos Zilis + orientación personalizada.",
+    en: "VibeLife | Natural wellness and real support for women who want more energy, better habits and to feel like themselves again. Zilis products + personalized guidance.",
   },
   whatsapp: {
     number: whatsappNumber,

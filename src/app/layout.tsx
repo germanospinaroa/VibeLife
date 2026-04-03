@@ -30,7 +30,7 @@ export const metadata: Metadata = {
     icon: "/images/brand/vibelife-logo-transparent.png",
   },
   openGraph: {
-    title: `${site.name} | ${site.tagline.en}`,
+    title: "¿Cansada de intentar? Esto es diferente. — VibeLife",
     description: site.description.es,
     type: "website",
     siteName: site.name,

@@ -15,8 +15,8 @@ const blocks = [
       en: "Improve your daily energy",
     },
     description: {
-      es: "Una rutina bien acompañada puede ayudarte a sostener enfoque, constancia y mejor rendimiento durante el día.",
-      en: "A well-supported routine can help you sustain focus, consistency and better performance throughout the day.",
+      es: "Empieza por recuperar el combustible. Sin energía, todo lo demás es fuerza de voluntad pura — y eso se agota.",
+      en: "Start by recovering your fuel. Without energy, everything else is pure willpower — and that runs out.",
     },
     icon: Bolt,
   },
@@ -26,8 +26,8 @@ const blocks = [
       en: "Build healthier habits",
     },
     description: {
-      es: "Los cambios pequeños y repetidos suelen tener más impacto que los esfuerzos aislados o difíciles de sostener.",
-      en: "Small repeated changes usually have more impact than isolated efforts that are hard to sustain.",
+      es: "No necesitas disciplina perfecta. Necesitas hábitos que se adapten a una vida real, ocupada y a veces caótica.",
+      en: "You don't need perfect discipline. You need habits that adapt to a real, busy, sometimes chaotic life.",
     },
     icon: HeartHandshake,
   },
@@ -37,8 +37,8 @@ const blocks = [
       en: "Take care of your wellness naturally",
     },
     description: {
-      es: "El descanso, el movimiento, la alimentación y los productos adecuados pueden complementar una rutina más equilibrada.",
-      en: "Rest, movement, nutrition and the right products can complement a more balanced routine.",
+      es: "Apoyo natural para lo que ya quieres hacer. No para reemplazar tu esfuerzo — para que ese esfuerzo rinda más.",
+      en: "Natural support for what you already want to do. Not to replace your effort — to make that effort go further.",
     },
     icon: Leaf,
   },
@@ -53,15 +53,15 @@ export function HowVibeLifeHelpsSection() {
         align="center"
         title={localize(
           {
-            es: "¿Cómo puedes mejorar tu bienestar?",
-            en: "How can you improve your wellness?",
+            es: "¿Por dónde empezar si ya intentaste de todo?",
+            en: "Where to start when you have already tried everything?",
           },
           language,
         )}
         description={localize(
           {
-            es: "Existen diferentes formas de apoyar tu bienestar, desde hábitos diarios hasta el uso de productos adecuados que complementen tu rutina.",
-            en: "There are different ways to support your wellness, from daily habits to the use of suitable products that complement your routine.",
+            es: "No con otro plan enorme. Con el primer paso correcto para ti.",
+            en: "Not with another huge plan. With the right first step for you.",
           },
           language,
         )}
@@ -69,8 +69,8 @@ export function HowVibeLifeHelpsSection() {
       <p className="mx-auto mt-6 max-w-3xl text-center text-sm leading-7 text-[#5c746d] sm:text-base">
         {localize(
           {
-            es: "No se trata de hacerlo todo a la vez, sino de entender qué cambios pueden ayudarte hoy y sostenerlos con más claridad.",
-            en: "It is not about doing everything at once, but about understanding which changes can help you today and sustaining them more clearly.",
+            es: "Cada persona llega a VibeLife desde un lugar diferente. Algunas con mucho cansancio. Otras con poco enfoque. Otras sin saber exactamente qué les pasa. Por eso no mandamos lo mismo a todas. Primero entendemos cómo estás — y desde ahí orientamos.",
+            en: "Everyone comes to VibeLife from a different place. Some exhausted. Others unfocused. Others not quite sure what is wrong. That is why we do not send everyone the same thing. First we understand where you are — and from there we guide you.",
           },
           language,
         )}

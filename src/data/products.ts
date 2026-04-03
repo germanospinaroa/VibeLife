@@ -19,12 +19,12 @@ export const products: Product[] = [
     slug: "rise",
     name: "Rise",
     kicker: {
-      es: "Energía y enfoque diario",
-      en: "Daily energy and focus",
+      es: "Para la que necesita encenderse en las mañanas",
+      en: "For the one who needs to wake up and ignite",
     },
     shortDescription: {
-      es: "Ideal para mejorar tu energía y mantenerte activo durante el día.",
-      en: "Ideal to support your energy and help you stay active during the day.",
+      es: "Energía sostenida para el día completo. No el pico del café que cae a las 10am. Enfoque real para la que tiene mucho que dar y poco combustible.",
+      en: "Sustained energy for the whole day. Not the coffee spike that crashes at 10am. Real focus for the woman who has a lot to give and little fuel left.",
     },
     heroDescription: {
       es: "Una opción pensada para acompañar rutinas enfocadas en energía, enfoque y bienestar diario.",
@@ -82,12 +82,12 @@ export const products: Product[] = [
     slug: "amalaki",
     name: "Amalaki",
     kicker: {
-      es: "Equilibrio y nutrición",
-      en: "Balance and nourishment",
+      es: "Para la que quiere recuperar el equilibrio desde adentro",
+      en: "For the one who wants to restore balance from within",
     },
     shortDescription: {
-      es: "Apoya tu bienestar y equilibrio desde una rutina más natural.",
-      en: "Supports your wellness and balance through a more natural routine.",
+      es: "Bienestar que empieza en lo que no se ve. Digestión, inflamación, vitalidad. Para la que siente que algo no está bien aunque no sabe exactamente qué.",
+      en: "Wellness that starts where you cannot see. Digestion, inflammation, vitality. For the woman who feels something is off but cannot quite name it.",
     },
     heroDescription: {
       es: "Una opción alineada con rutinas que priorizan equilibrio, cuidado diario y bienestar natural.",
@@ -145,12 +145,12 @@ export const products: Product[] = [
     slug: "accell",
     name: "Accell",
     kicker: {
-      es: "Ritmo activo",
-      en: "Active rhythm",
+      es: "Para la que quiere volver a moverse sin agotarse",
+      en: "For the one who wants to move again without exhausting herself",
     },
     shortDescription: {
-      es: "Perfecto para personas con un estilo de vida activo y enfocado.",
-      en: "Perfect for people with an active and focused lifestyle.",
+      es: "Apoya tu rendimiento físico y tu recuperación. Para la que quiere ser más activa pero el cuerpo no le responde como antes.",
+      en: "Supports your physical performance and recovery. For the woman who wants to be more active but whose body no longer responds the way it used to.",
     },
     heroDescription: {
       es: "Una opción pensada para acompañar rutinas con movimiento, enfoque y constancia.",
@@ -208,12 +208,12 @@ export const products: Product[] = [
     slug: "b-fit",
     name: "B-Fit",
     kicker: {
-      es: "Bienestar físico",
-      en: "Physical wellness",
+      es: "Para la que quiere sentirse bien en su cuerpo, no perfecta",
+      en: "For the one who wants to feel good in her body, not perfect",
     },
     shortDescription: {
-      es: "Acompaña hábitos que contribuyen a tu bienestar físico.",
-      en: "Supports habits that contribute to your physical wellness.",
+      es: "Acompaña hábitos de bienestar físico de forma consistente. No para cambiar todo — para sostener lo que ya estás construyendo.",
+      en: "Supports physical wellness habits consistently. Not to change everything — to sustain what you are already building.",
     },
     heroDescription: {
       es: "Una opción enfocada en acompañar hábitos constantes dentro de una rutina orientada a bienestar físico.",

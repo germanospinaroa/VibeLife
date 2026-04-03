@@ -15,8 +15,8 @@ const habits = [
       en: "Sleep better",
     },
     description: {
-      es: "El descanso impacta todo tu sistema.",
-      en: "Rest impacts your whole system.",
+      es: "El cansancio que no se va con dormir tiene nombre. Cuando el descanso mejora de verdad, el día cambia desde el principio.",
+      en: "The tiredness that does not go away with sleep has a name. When rest truly improves, the day changes from the very beginning.",
     },
     icon: Moon,
   },
@@ -26,30 +26,30 @@ const habits = [
       en: "Eat better",
     },
     description: {
-      es: "Lo que consumes influye directamente en tu energía.",
-      en: "What you consume directly influences your energy.",
+      es: "No se trata de dieta perfecta. Se trata de que lo que comes te dé energía, no te la quite.",
+      en: "It is not about a perfect diet. It is about what you eat giving you energy, not taking it away.",
     },
     icon: Apple,
   },
   {
     title: {
-      es: "Mantenerte activo",
+      es: "Mantenerte activa",
       en: "Stay active",
     },
     description: {
-      es: "El movimiento es clave para el bienestar.",
-      en: "Movement is key to wellbeing.",
+      es: "No hace falta una hora en el gimnasio. El movimiento diario, aunque sea poco, cambia cómo te sientes por dentro.",
+      en: "You do not need an hour at the gym. Daily movement, even a little, changes how you feel on the inside.",
     },
     icon: Activity,
   },
   {
     title: {
       es: "Apoyarte en soluciones adecuadas",
-      en: "Support yourself with suitable solutions",
+      en: "Support yourself with the right solutions",
     },
     description: {
-      es: "Algunos productos pueden complementar tu proceso.",
-      en: "Some products can complement your process.",
+      es: "El apoyo correcto no reemplaza tus hábitos — los hace sostenibles cuando la vida está caótica.",
+      en: "The right support does not replace your habits — it makes them sustainable when life is chaotic.",
     },
     icon: PlusCircle,
   },
@@ -64,28 +64,19 @@ export function HabitsThatMakeDifferenceSection() {
         align="center"
         title={localize(
           {
-            es: "Hábitos que marcan la diferencia",
-            en: "Habits that make a difference",
+            es: "No necesitas cambiar todo. Necesitas cambiar lo correcto.",
+            en: "You do not need to change everything. You need to change the right things.",
           },
           language,
         )}
         description={localize(
           {
-            es: "El bienestar no suele depender de una sola decisión, sino de hábitos que se repiten y se sostienen en el tiempo.",
-            en: "Wellness usually does not depend on a single decision, but on habits that are repeated and sustained over time.",
+            es: "Cuando mejoras el descanso, la alimentación, el movimiento y el apoyo que le das a tu cuerpo, todo lo demás empieza a caer en su lugar. No de golpe — pero sí de forma real.",
+            en: "When you improve rest, nutrition, movement and the support you give your body, everything else starts to fall into place. Not all at once — but genuinely.",
           },
           language,
         )}
       />
-      <p className="mx-auto mt-6 max-w-3xl text-center text-sm leading-7 text-[#5c746d] sm:text-base">
-        {localize(
-          {
-            es: "Cuando mejoras tu descanso, tu alimentación, tu movimiento y el apoyo que eliges para tu rutina, también mejora la forma en la que te sientes cada día.",
-            en: "When you improve your rest, nutrition, movement and the support you choose for your routine, the way you feel each day also improves.",
-          },
-          language,
-        )}
-      </p>
 
       <StaggerGroup className="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
         {habits.map((habit) => {

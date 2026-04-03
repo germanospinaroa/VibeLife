@@ -12,16 +12,16 @@ import { localize } from "@/lib/i18n";
 
 const communityHighlights = [
   {
-    es: "Guía para mejorar tus hábitos",
-    en: "Guidance to improve your habits",
+    es: "Orientación personalizada — te decimos cuál producto tiene más sentido para ti",
+    en: "Personalized guidance — we tell you which product makes the most sense for you",
   },
   {
-    es: "Consejos aplicables en tu día a día",
-    en: "Tips you can apply in your daily life",
+    es: "Seguimiento real — resolvemos tus dudas mientras usas el producto, no solo al comprarlo",
+    en: "Real follow-up — we answer your questions while you use the product, not just when you buy it",
   },
   {
-    es: "Acompañamiento en tu proceso",
-    en: "Support throughout your process",
+    es: "Comunidad de mujeres — un espacio donde otras están en el mismo camino",
+    en: "Community of women — a space where others are on the same journey",
   },
 ];
 
@@ -35,15 +35,15 @@ export function CommunityHighlightSection() {
           <SectionHeading
             title={localize(
               {
-                es: "Acompañamiento para mejorar tu estilo de vida",
-                en: "Support to improve your lifestyle",
+                es: "No compras un producto y quedas sola",
+                en: "You do not buy a product and get left alone",
               },
               language,
             )}
             description={localize(
               {
-                es: "No solo encuentras productos, también guía, contenido y acompañamiento para ayudarte a construir hábitos más saludables.",
-                en: "You will not only find products, but also guidance, content and support to help you build healthier habits.",
+                es: "En VibeLife hay una persona real al otro lado. Alguien que te orienta, responde tus dudas y te acompaña en el proceso — no un chatbot, no un catálogo. Porque el producto ayuda. Pero lo que sostiene el proceso es saber que no estás sola.",
+                en: "At VibeLife there is a real person on the other side. Someone who guides you, answers your questions and supports you through the process — not a chatbot, not a catalog. Because the product helps. But what sustains the process is knowing you are not alone.",
               },
               language,
             )}
@@ -72,8 +72,8 @@ export function CommunityHighlightSection() {
               <h3 className="mt-6 text-3xl font-semibold">
                 {localize(
                   {
-                    es: "Acompañamiento para sostener mejores hábitos",
-                    en: "Support to sustain better habits",
+                    es: "Una persona real, no un catálogo",
+                    en: "A real person, not a catalog",
                   },
                   language,
                 )}
@@ -81,8 +81,8 @@ export function CommunityHighlightSection() {
               <p className="mt-4 text-sm leading-8 text-muted sm:text-base">
                 {localize(
                   {
-                    es: "Un espacio para seguir aprendiendo, resolver dudas y mantener hábitos con más constancia.",
-                    en: "A space to keep learning, resolve questions and sustain habits more consistently.",
+                    es: "Te acompañamos desde el primer mensaje hasta que el proceso se sostiene solo.",
+                    en: "We walk with you from the first message until the process holds itself.",
                   },
                   language,
                 )}

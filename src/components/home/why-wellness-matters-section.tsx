@@ -11,34 +11,34 @@ import { localize } from "@/lib/i18n";
 const pillars = [
   {
     title: {
-      es: "Energía diaria",
-      en: "Daily energy",
+      es: "Energía que dura todo el día",
+      en: "Energy that lasts all day",
     },
     description: {
-      es: "Sentirte con energía no debería ser algo ocasional.",
-      en: "Feeling energized should not be something occasional.",
+      es: "No solo para el café de las 8am. Para las 3pm cuando todo cae.",
+      en: "Not just for the 8am coffee. For the 3pm slump when everything falls apart.",
     },
     icon: Bolt,
   },
   {
     title: {
-      es: "Hábitos sostenibles",
-      en: "Sustainable habits",
+      es: "Hábitos que se sostienen solos",
+      en: "Habits that sustain themselves",
     },
     description: {
-      es: "Tu bienestar depende de lo que haces todos los días.",
-      en: "Your wellness depends on what you do every day.",
+      es: "Pequeños. Reales. Que no dependen de que estés perfecta ese día.",
+      en: "Small. Real. That don't depend on you being perfect that day.",
     },
     icon: CheckCircle2,
   },
   {
     title: {
-      es: "Equilibrio físico y mental",
-      en: "Physical and mental balance",
+      es: "Tu cuerpo y tu mente en el mismo canal",
+      en: "Your body and mind on the same channel",
     },
     description: {
-      es: "Cuerpo y mente trabajan juntos.",
-      en: "Body and mind work together.",
+      es: "Cuando uno mejora, el otro lo siente. Así de conectados están.",
+      en: "When one improves, the other feels it. They are that connected.",
     },
     icon: HeartHandshake,
   },
@@ -54,28 +54,19 @@ export function WhyWellnessMattersSection() {
           <SectionHeading
             title={localize(
               {
-                es: "Cuidar tu bienestar no es un lujo, es una necesidad",
-                en: "Taking care of your wellness is not a luxury, it is a necessity",
+                es: "Lo que cambia cuando tu cuerpo tiene lo que necesita",
+                en: "What changes when your body has what it needs",
               },
               language,
             )}
             description={localize(
               {
-                es: "El ritmo de vida actual, el estrés, la alimentación y los hábitos diarios impactan directamente en cómo te sientes, cómo rindes y cómo vives.",
-                en: "Today’s pace of life, stress, nutrition and daily habits directly impact how you feel, how you perform and how you live.",
+                es: "No se trata de hacer más. Se trata de empezar a funcionar mejor con lo que ya tienes — y el apoyo correcto.",
+                en: "It is not about doing more. It is about starting to function better with what you already have — and the right support.",
               },
               language,
             )}
           />
-          <p className="mt-6 max-w-2xl text-pretty text-sm leading-8 text-[#5c746d] sm:text-base">
-            {localize(
-              {
-                es: "Muchas veces normalizamos el cansancio, la falta de energía o el desbalance, sin darnos cuenta de que pequeños cambios pueden marcar una gran diferencia.",
-                en: "Many times we normalize tiredness, low energy or imbalance without realizing that small changes can make a big difference.",
-              },
-              language,
-            )}
-          </p>
         </div>
 
         <StaggerGroup className="grid gap-4 md:grid-cols-3 lg:grid-cols-1">

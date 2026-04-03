@@ -1,5 +1,7 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:is(.dark *));
+
 :root {
   --background: #fafaf7;
   --foreground: #4a4a4a;
@@ -30,6 +32,39 @@
   --color-stone: var(--stone);
   --font-sans: var(--font-body);
   --font-heading: var(--font-display);
+  --animate-shiny-text: shiny-text 8s infinite;
+  --animate-marquee: marquee var(--duration) infinite linear;
+  --animate-marquee-vertical: marquee-vertical var(--duration) linear infinite;
+  --animate-gradient: gradient 8s linear infinite;
+  @keyframes shiny-text {
+  0%, 90%, 100% {
+    background-position: calc(-100% - var(--shiny-width)) 0;
+    }
+  30%, 60% {
+    background-position: calc(100% + var(--shiny-width)) 0;
+    }
+  }
+  @keyframes marquee {
+  from {
+    transform: translateX(0);
+    }
+  to {
+    transform: translateX(calc(-100% - var(--gap)));
+    }
+  }
+  @keyframes marquee-vertical {
+  from {
+    transform: translateY(0);
+    }
+  to {
+    transform: translateY(calc(-100% - var(--gap)));
+    }
+  }
+  @keyframes gradient {
+  to {
+    background-position: var(--bg-size, 300%) 0;
+    }
+  }
 }
 
 *,
@@ -45,12 +80,14 @@ html {
 body {
   min-height: 100vh;
   background:
-    radial-gradient(circle at top left, rgba(155, 197, 106, 0.12), transparent 30%),
-    radial-gradient(circle at top right, rgba(69, 111, 120, 0.12), transparent 28%),
-    linear-gradient(180deg, #fefefb 0%, #fafaf7 45%, #f4faef 100%);
+    radial-gradient(ellipse 80% 40% at 10% 0%, rgba(155, 197, 106, 0.18), transparent),
+    radial-gradient(ellipse 60% 35% at 90% 5%, rgba(69, 111, 120, 0.15), transparent),
+    radial-gradient(ellipse 50% 30% at 50% 100%, rgba(184, 201, 163, 0.12), transparent),
+    linear-gradient(180deg, #fefefb 0%, #fafaf7 40%, #f4faef 100%);
   color: var(--foreground);
   font-family: var(--font-body), sans-serif;
   text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
 }
 
 body:has([data-adelvis-page]) [data-site-header],
@@ -75,6 +112,12 @@ h6 {
   font-family: var(--font-display), sans-serif;
   letter-spacing: -0.04em;
   color: #2f4541;
+  line-height: 1.15;
+}
+
+h1 {
+  letter-spacing: -0.05em;
+  line-height: 1.08;
 }
 
 ::selection {
@@ -91,10 +134,13 @@ select {
 }
 
 .surface-panel {
-  background: linear-gradient(180deg, rgba(255, 255, 255, 0.88), rgba(255, 255, 255, 0.72));
-  border: 1px solid rgba(255, 255, 255, 0.7);
-  box-shadow: var(--shadow);
-  backdrop-filter: blur(18px);
+  background: linear-gradient(165deg, rgba(255, 255, 255, 0.94), rgba(248, 252, 244, 0.82));
+  border: 1px solid rgba(255, 255, 255, 0.78);
+  box-shadow:
+    0 2px 0 rgba(255, 255, 255, 0.9) inset,
+    0 24px 64px rgba(62, 102, 112, 0.13),
+    0 4px 16px rgba(62, 102, 112, 0.07);
+  backdrop-filter: blur(20px);
 }
 
 .section-mesh {
@@ -111,17 +157,28 @@ select {
 }
 
 .text-gradient {
-  background: linear-gradient(120deg, var(--teal-deep), #688d96 42%, var(--primary-deep) 90%);
+  background: linear-gradient(115deg, var(--teal-deep) 0%, #5c8e97 38%, var(--primary-deep) 80%);
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
 }
 
+.card-glow {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.card-glow:hover {
+  box-shadow:
+    0 0 0 1px rgba(155, 197, 106, 0.18),
+    0 12px 36px rgba(62, 102, 112, 0.14);
+  transform: translateY(-2px);
+}
+
 .hero-glow {
   background:
-    radial-gradient(circle at 20% 20%, rgba(155, 197, 106, 0.45), transparent 32%),
-    radial-gradient(circle at 75% 18%, rgba(69, 111, 120, 0.28), transparent 34%),
-    radial-gradient(circle at 50% 80%, rgba(184, 201, 163, 0.35), transparent 38%);
+    radial-gradient(ellipse 55% 45% at 18% 18%, rgba(155, 197, 106, 0.52), transparent),
+    radial-gradient(ellipse 45% 38% at 80% 15%, rgba(69, 111, 120, 0.34), transparent),
+    radial-gradient(ellipse 40% 32% at 50% 88%, rgba(184, 201, 163, 0.4), transparent);
 }
 
 .mask-fade {
