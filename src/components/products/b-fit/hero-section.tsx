@@ -18,64 +18,36 @@ export function BFitHeroSection() {
       <div className="mt-8 grid gap-10 lg:grid-cols-[1fr_1fr] lg:items-center">
         {/* Left: Text Content */}
         <Reveal delay={0.1} className="flex flex-col gap-6">
-          <h1 className="text-balance text-4xl font-semibold leading-tight text-[#2f4541] sm:text-5xl">
-            {localize(
-              {
-                es: "Sentirte bien en tu cuerpo no debería sentirse como una lucha constante",
-                en: "Feeling good in your body shouldn't feel like a constant struggle",
-              },
-              language,
-            )}
-          </h1>
+          <div>
+            <h1 className="text-balance text-4xl font-semibold leading-tight text-[#2f4541] sm:text-5xl">
+              {localize(
+                {
+                  es: "No es solo bajar de peso…",
+                  en: "It's not just about losing weight…",
+                },
+                language,
+              )}
+            </h1>
+            <h2 className="text-3xl font-semibold leading-tight text-[#6f9d49] sm:text-4xl mt-2">
+              {localize(
+                {
+                  es: "es volver a sentirte bien contigo",
+                  en: "it's about feeling good with yourself again",
+                },
+                language,
+              )}
+            </h2>
+          </div>
 
           <p className="mt-8 text-base leading-8 text-[#5c746d] sm:text-lg space-y-4">
             {localize(
               {
-                es: "Si te cuesta bajar de peso, mantener hábitos o sentirte con energía, no es falta de disciplina.\n\nMuchas veces es porque tu metabolismo, tu energía y tu equilibrio interno no están funcionando correctamente.\n\nY cuando eso pasa, todo se vuelve más difícil de sostener.",
-                en: "If it's hard to lose weight, maintain habits or feel energized, it's not a lack of discipline.\n\nOften it's because your metabolism, energy and internal balance aren't functioning correctly.\n\nAnd when that happens, everything becomes harder to sustain.",
+                es: "B-Fit no es un producto aislado.\n\nEs un sistema completo que trabaja tu metabolismo, tu energía y tu estilo de vida.\n\nPorque el cambio real no viene de hacer más…\nviene de hacerlo mejor.",
+                en: "B-Fit is not an isolated product.\n\nIt's a complete system that works on your metabolism, energy, and lifestyle.\n\nBecause real change doesn't come from doing more…\nit comes from doing it better.",
               },
               language,
             )}
           </p>
-
-          <ul className="space-y-3 text-sm leading-7 text-[#5c746d] sm:text-base">
-            <li className="flex gap-3">
-              <span className="shrink-0 font-semibold text-[#6f9d49]">•</span>
-              <span>
-                {localize(
-                  { es: "Apoya tu metabolismo de forma natural", en: "Supports your metabolism naturally" },
-                  language,
-                )}
-              </span>
-            </li>
-            <li className="flex gap-3">
-              <span className="shrink-0 font-semibold text-[#6f9d49]">•</span>
-              <span>
-                {localize(
-                  { es: "Te ayuda a sentirte más ligera", en: "Helps you feel lighter" },
-                  language,
-                )}
-              </span>
-            </li>
-            <li className="flex gap-3">
-              <span className="shrink-0 font-semibold text-[#6f9d49]">•</span>
-              <span>
-                {localize(
-                  { es: "Complementa hábitos sostenibles", en: "Complements sustainable habits" },
-                  language,
-                )}
-              </span>
-            </li>
-            <li className="flex gap-3">
-              <span className="shrink-0 font-semibold text-[#6f9d49]">•</span>
-              <span>
-                {localize(
-                  { es: "Fácil de integrar en tu rutina", en: "Easy to integrate into your routine" },
-                  language,
-                )}
-              </span>
-            </li>
-          </ul>
 
           <div className="flex flex-col gap-3 pt-4 sm:flex-row sm:flex-wrap">
             <Link
