@@ -17,64 +17,37 @@ export function BFitProblemSection() {
             align="center"
             title={localize(
               {
-                es: "Si sientes que tu cuerpo ya no responde igual…",
-                en: "If you feel like your body isn't responding the way it used to…",
+                es: "No estás fallando… estás agotada",
+                en: "You're not failing… you're exhausted",
               },
               language,
             )}
           />
         </Reveal>
 
-        <Reveal delay={0.1} className="mt-8 space-y-6 text-base leading-8 text-[#5c746d] sm:text-lg">
-          <div className="space-y-4">
-            <p className="font-semibold text-[#2f4541]">
+        <Reveal delay={0.1} className="mt-8 space-y-8 text-base leading-8 text-[#5c746d] sm:text-lg">
+          <div className="space-y-4 font-semibold text-[#2f4541]">
+            <p>
               {localize(
-                { es: "Has intentado.", en: "You've tried." },
+                { es: "Has intentado hacer cambios.", en: "You've tried to make changes." },
                 language,
               )}
             </p>
-            <p className="font-semibold text-[#2f4541]">
+            <p>
               {localize(
-                { es: "Has empezado.", en: "You've started." },
+                { es: "Comer mejor.", en: "Eat better." },
                 language,
               )}
             </p>
-            <p className="font-semibold text-[#2f4541]">
+            <p>
               {localize(
-                { es: "Has querido hacerlo bien.", en: "You've wanted to do it right." },
+                { es: "Ser constante.", en: "Be consistent." },
                 language,
               )}
             </p>
-            <p className="font-semibold text-[#2f4541]">
+            <p>
               {localize(
-                { es: "Pero algo pasa…", en: "But something happens…" },
-                language,
-              )}
-            </p>
-            <p className="font-semibold text-[#2f4541]">
-              {localize(
-                { es: "Vuelves al mismo lugar.", en: "You go back to the same place." },
-                language,
-              )}
-            </p>
-          </div>
-
-          <div className="space-y-3 rounded-xl bg-white/60 p-6">
-            <p className="font-semibold text-[#2f4541]">
-              {localize(
-                { es: "Cansancio.", en: "Fatigue." },
-                language,
-              )}
-            </p>
-            <p className="font-semibold text-[#2f4541]">
-              {localize(
-                { es: "Inflamación.", en: "Inflammation." },
-                language,
-              )}
-            </p>
-            <p className="font-semibold text-[#2f4541]">
-              {localize(
-                { es: "Falta de constancia.", en: "Lack of consistency." },
+                { es: "Volver a empezar.", en: "Start again." },
                 language,
               )}
             </p>
@@ -83,18 +56,62 @@ export function BFitProblemSection() {
           <p>
             {localize(
               {
-                es: "Y esa sensación silenciosa de frustración que nadie ve.",
-                en: "And that silent feeling of frustration that no one sees.",
+                es: "Pero algo pasa…",
+                en: "But something happens…",
               },
               language,
             )}
           </p>
 
-          <p className="rounded-xl bg-[#f0f9e8] p-6 font-semibold text-[#2f4541]">
+          <p className="font-semibold text-[#2f4541]">
             {localize(
               {
-                es: "Esto no es tu culpa.\nEs el enfoque.",
-                en: "This is not your fault.\nIt's the approach.",
+                es: "No logras sostenerlo.",
+                en: "You can't sustain it.",
+              },
+              language,
+            )}
+          </p>
+
+          <div className="rounded-xl bg-white/60 p-8 space-y-4 font-semibold text-[#2f4541]">
+            <p>
+              {localize(
+                { es: "Tu energía baja.", en: "Your energy drops." },
+                language,
+              )}
+            </p>
+            <p>
+              {localize(
+                { es: "Tu cuerpo no responde igual.", en: "Your body doesn't respond the same." },
+                language,
+              )}
+            </p>
+            <p>
+              {localize(
+                {
+                  es: "Te sientes inflamada, cansada… desconectada de ti.",
+                  en: "You feel bloated, tired… disconnected from yourself.",
+                },
+                language,
+              )}
+            </p>
+          </div>
+
+          <p>
+            {localize(
+              {
+                es: "Y lo peor no es eso.",
+                en: "And the worst part is not that.",
+              },
+              language,
+            )}
+          </p>
+
+          <p className="text-lg font-semibold text-[#2f4541] italic">
+            {localize(
+              {
+                es: "Es esa sensación interna de: \"¿por qué nada me funciona a mí?\"",
+                en: "It's that inner feeling of: \"Why doesn't anything work for me?\"",
               },
               language,
             )}

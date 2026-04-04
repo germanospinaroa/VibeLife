@@ -17,60 +17,89 @@ export function BFitPerspectiveSection() {
             align="center"
             title={localize(
               {
-                es: "Tu cuerpo no necesita más exigencia… necesita mejor apoyo",
-                en: "Your body doesn't need more pressure… it needs better support",
+                es: "Cuando tu cuerpo empieza a sentirse mejor… todo cambia",
+                en: "When your body starts to feel better… everything changes",
               },
               language,
             )}
           />
         </Reveal>
 
-        <Reveal delay={0.1} className="mt-8 space-y-6 text-base leading-8 text-[#5c746d] sm:text-lg">
-          <p>
+        <Reveal delay={0.1} className="mt-8 space-y-8 text-base leading-8 text-[#5c746d] sm:text-lg">
+          <p className="font-semibold text-[#2f4541] text-lg">
             {localize(
               {
-                es: "Cuando tu cuerpo empieza a sentirse mejor, todo cambia:",
-                en: "When your body starts to feel better, everything changes:",
+                es: "No necesitas hacerlo perfecto.",
+                en: "You don't need to do it perfectly.",
               },
               language,
             )}
           </p>
 
-          <div className="space-y-4">
-            <div className="flex gap-4">
-              <span className="shrink-0 text-xl font-bold text-[#6f9d49]">→</span>
-              <p className="font-semibold text-[#2f4541]">
+          <p className="font-semibold text-[#2f4541] text-lg">
+            {localize(
+              {
+                es: "Necesitas sentirte mejor.",
+                en: "You need to feel better.",
+              },
+              language,
+            )}
+          </p>
+
+          <p>
+            {localize(
+              {
+                es: "Porque cuando eso pasa:",
+                en: "Because when that happens:",
+              },
+              language,
+            )}
+          </p>
+
+          <div className="rounded-xl bg-white/70 p-6 space-y-3">
+            <div className="flex gap-3">
+              <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
+              <p>
                 {localize(
-                  { es: "más energía", en: "more energy" },
+                  { es: "tienes más energía sin forzarte", en: "you have more energy without forcing it" },
                   language,
                 )}
               </p>
             </div>
-            <div className="flex gap-4">
-              <span className="shrink-0 text-xl font-bold text-[#6f9d49]">→</span>
-              <p className="font-semibold text-[#2f4541]">
+            <div className="flex gap-3">
+              <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
+              <p>
                 {localize(
-                  { es: "más claridad", en: "more clarity" },
+                  { es: "te sientes más ligera", en: "you feel lighter" },
                   language,
                 )}
               </p>
             </div>
-            <div className="flex gap-4">
-              <span className="shrink-0 text-xl font-bold text-[#6f9d49]">→</span>
-              <p className="font-semibold text-[#2f4541]">
+            <div className="flex gap-3">
+              <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
+              <p>
                 {localize(
-                  { es: "más control", en: "more control" },
+                  { es: "recuperas claridad mental", en: "you regain mental clarity" },
+                  language,
+                )}
+              </p>
+            </div>
+            <div className="flex gap-3">
+              <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
+              <p>
+                {localize(
+                  { es: "te es más fácil sostener hábitos", en: "it becomes easier to maintain habits" },
                   language,
                 )}
               </p>
             </div>
           </div>
 
-          <p className="rounded-xl bg-white/60 p-6 italic text-[#2f4541]">
+          <p className="italic text-[#2f4541] font-semibold">
             {localize(
               {
-                es: "Y desde ahí, sostener hábitos deja de ser una lucha.",
-                en: "And from there, maintaining habits stops being a struggle.",
+                es: "Y desde ahí… todo empieza a fluir diferente.",
+                en: "And from there… everything starts to flow differently.",
               },
               language,
             )}

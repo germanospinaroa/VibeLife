@@ -21,18 +21,18 @@ export function BFitHeroSection() {
           <h1 className="text-balance text-4xl font-semibold leading-tight text-[#2f4541] sm:text-5xl">
             {localize(
               {
-                es: "Sentirte bien en tu cuerpo no debería sentirse como una batalla diaria",
-                en: "Feeling good in your body shouldn't feel like a daily battle",
+                es: "Sentirte bien en tu cuerpo no debería sentirse como una lucha constante",
+                en: "Feeling good in your body shouldn't feel like a constant struggle",
               },
               language,
             )}
           </h1>
 
-          <p className="text-base leading-8 text-[#5c746d] sm:text-lg">
+          <p className="mt-6 text-base leading-8 text-[#5c746d] sm:text-lg space-y-3">
             {localize(
               {
-                es: "Si has intentado varias cosas y sientes que nada se sostiene, no es falta de disciplina… es que necesitas un enfoque diferente.\n\nB-Fit puede ser ese punto de partida.",
-                en: "If you've tried several things and feel like nothing lasts, it's not a lack of discipline… it's that you need a different approach.\n\nB-Fit can be that starting point.",
+                es: "Si has intentado varias veces y siempre vuelves al mismo punto… no es falta de disciplina.\n\nEs que nadie te ha enseñado a empezar desde el lugar correcto.",
+                en: "If you've tried several times and always come back to the same point… it's not a lack of discipline.\n\nIt's that no one has taught you how to start from the right place.",
               },
               language,
             )}
