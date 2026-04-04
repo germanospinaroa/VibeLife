@@ -4,6 +4,7 @@ import { BFitEducationSection } from "@/components/products/b-fit/education-sect
 import { BFitProblemSection } from "@/components/products/b-fit/problem-section";
 import { BFitBreakthroughSection } from "@/components/products/b-fit/breakthrough-section";
 import { BFitIntroductionSection } from "@/components/products/b-fit/introduction-bfit-section";
+import { BFitComponentsBenefitsSection } from "@/components/products/b-fit/components-benefits-section";
 import { BFitHowItWorksSection } from "@/components/products/b-fit/how-it-works-section";
 import { BFitBenefitsSection } from "@/components/products/b-fit/benefits-section";
 import { BFitDifferentiationSection } from "@/components/products/b-fit/differentiation-section";
@@ -28,6 +29,7 @@ export default function BFitPage() {
       <BFitProblemSection />
       <BFitBreakthroughSection />
       <BFitIntroductionSection />
+      <BFitComponentsBenefitsSection />
       <BFitHowItWorksSection />
       <BFitBenefitsSection />
       <BFitDifferentiationSection />

@@ -31,8 +31,8 @@ export function BFitHeroSection() {
           <p className="mt-8 text-base leading-8 text-[#5c746d] sm:text-lg space-y-4">
             {localize(
               {
-                es: "Si te cuesta bajar de peso, mantener hábitos o sentirte con energía, no es falta de disciplina.\n\nEn muchos casos, es porque tu metabolismo, tu energía y tu equilibrio interno no están funcionando de forma óptima.\n\nY cuando eso pasa, cualquier esfuerzo se siente el doble de difícil.",
-                en: "If it's hard to lose weight, maintain habits or feel energized, it's not a lack of discipline.\n\nIn many cases, it's because your metabolism, energy and internal balance aren't functioning optimally.\n\nAnd when that happens, any effort feels twice as hard.",
+                es: "Si te cuesta bajar de peso, mantener hábitos o sentirte con energía, no es falta de disciplina.\n\nMuchas veces es porque tu metabolismo, tu energía y tu equilibrio interno no están funcionando correctamente.\n\nY cuando eso pasa, todo se vuelve más difícil de sostener.",
+                en: "If it's hard to lose weight, maintain habits or feel energized, it's not a lack of discipline.\n\nOften it's because your metabolism, energy and internal balance aren't functioning correctly.\n\nAnd when that happens, everything becomes harder to sustain.",
               },
               language,
             )}

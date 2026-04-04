@@ -17,8 +17,8 @@ export function BFitEducationSection() {
             align="center"
             title={localize(
               {
-                es: "¿Por qué haces esfuerzos… pero tu cuerpo no responde?",
-                en: "Why do you try… but your body doesn't respond?",
+                es: "¿Por qué haces esfuerzo… pero no ves resultados?",
+                en: "Why do you try… but see no results?",
               },
               language,
             )}
@@ -29,8 +29,18 @@ export function BFitEducationSection() {
           <p className="text-lg font-semibold text-[#2f4541]">
             {localize(
               {
-                es: "Muchas mujeres viven en un estado donde su cuerpo está trabajando en contra de ellas, no a favor.",
-                en: "Many women live in a state where their body is working against them, not for them.",
+                es: "Tu cuerpo no es una máquina simple.",
+                en: "Your body is not a simple machine.",
+              },
+              language,
+            )}
+          </p>
+
+          <p className="text-lg font-semibold text-[#2f4541]">
+            {localize(
+              {
+                es: "Funciona como un sistema.",
+                en: "It works like a system.",
               },
               language,
             )}
@@ -39,8 +49,8 @@ export function BFitEducationSection() {
           <p>
             {localize(
               {
-                es: "Esto puede manifestarse como:",
-                en: "This can show up as:",
+                es: "Y cuando ese sistema está desbalanceado:",
+                en: "And when that system is out of balance:",
               },
               language,
             )}
@@ -49,41 +59,32 @@ export function BFitEducationSection() {
           <div className="rounded-xl bg-white/70 p-8 space-y-3">
             <div className="flex gap-3">
               <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
-              <p>{localize({ es: "metabolismo más lento", en: "slower metabolism" }, language)}</p>
+              <p>{localize({ es: "quemas menos energía", en: "you burn less energy" }, language)}</p>
+            </div>
+            <div className="flex gap-3">
+              <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
+              <p>{localize({ es: "acumulas más grasa", en: "you accumulate more fat" }, language)}</p>
+            </div>
+            <div className="flex gap-3">
+              <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
+              <p>{localize({ es: "te sientes más cansada", en: "you feel more tired" }, language)}</p>
             </div>
             <div className="flex gap-3">
               <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
               <p>
                 {localize(
-                  { es: "acumulación de grasa incluso haciendo 'lo correcto'", en: "fat accumulation even when doing 'the right things'" },
+                  { es: "pierdes constancia más rápido", en: "you lose consistency faster" },
                   language,
                 )}
               </p>
-            </div>
-            <div className="flex gap-3">
-              <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
-              <p>
-                {localize(
-                  { es: "sensación constante de inflamación", en: "constant feeling of bloating" },
-                  language,
-                )}
-              </p>
-            </div>
-            <div className="flex gap-3">
-              <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
-              <p>{localize({ es: "baja energía durante el día", en: "low energy throughout the day" }, language)}</p>
-            </div>
-            <div className="flex gap-3">
-              <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
-              <p>{localize({ es: "dificultad para sostener hábitos", en: "difficulty sustaining habits" }, language)}</p>
             </div>
           </div>
 
           <p className="text-lg font-semibold text-[#2f4541]">
             {localize(
               {
-                es: "El problema no es que no lo intentes.",
-                en: "The problem isn't that you're not trying.",
+                es: "Esto no significa que estés haciendo algo mal.",
+                en: "This doesn't mean you're doing something wrong.",
               },
               language,
             )}
@@ -92,20 +93,12 @@ export function BFitEducationSection() {
           <p className="text-lg font-semibold text-[#2f4541]">
             {localize(
               {
-                es: "El problema es que tu cuerpo no está en condiciones óptimas para responder.",
-                en: "The problem is that your body isn't in optimal conditions to respond.",
+                es: "Significa que tu cuerpo necesita soporte interno.",
+                en: "It means your body needs internal support.",
               },
               language,
             )}
           </p>
-
-          <div className="rounded-2xl bg-[#fff5f0] p-8 border-l-4 border-[#d97706]">
-            <div className="space-y-3">
-              <p>👉 {localize({ es: "haces más esfuerzo", en: "you make more effort" }, language)}</p>
-              <p>👉 {localize({ es: "ves menos resultado", en: "you see less result" }, language)}</p>
-              <p>👉 {localize({ es: "te frustras más rápido", en: "you get frustrated faster" }, language)}</p>
-            </div>
-          </div>
         </Reveal>
       </div>
     </SectionShell>
