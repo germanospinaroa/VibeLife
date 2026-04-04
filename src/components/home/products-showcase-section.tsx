@@ -10,6 +10,7 @@ import { SectionHeading } from "@/components/ui/section-heading";
 import { products } from "@/data/products";
 import { buttonVariants } from "@/components/ui/button";
 import { SectionShell } from "@/components/shared/section-shell";
+import { BorderBeam } from "@/components/ui/border-beam";
 import { localize } from "@/lib/i18n";
 
 export function ProductsShowcaseSection() {
