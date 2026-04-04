@@ -19,7 +19,7 @@ import { AmalakiDisclaimerSection } from "@/components/products/amalaki/disclaim
 export const metadata: Metadata = {
   title: "Amalaki | VibeLife",
   description:
-    "Amalaki es uno de los antioxidantes más potentes del mundo. Energía real, menos inflamación, y un cuerpo que realmente responde. La base que tu cuerpo necesita.",
+    "Amalaki es uno de los antioxidantes más potentes del mundo. Energía real, menos inflamación, y un cuerpo que realmente responde.",
 };
 
 export default function AmalakiPage() {
