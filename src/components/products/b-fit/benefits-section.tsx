@@ -27,12 +27,24 @@ export function BFitBenefitsSection() {
             align="center"
             title={localize(
               {
-                es: "¿Cómo puede ayudarte?",
-                en: "How can it help you?",
+                es: "Lo que puedes empezar a sentir",
+                en: "What you can start to feel",
               },
               language,
             )}
           />
+        </Reveal>
+
+        <Reveal delay={0.1} className="mt-8 mb-6 text-base leading-8 text-[#5c746d] sm:text-lg">
+          <p>
+            {localize(
+              {
+                es: "Con el uso constante y acompañado de hábitos simples, puedes notar:",
+                en: "With consistent use and simple habits, you can start to notice:",
+              },
+              language,
+            )}
+          </p>
         </Reveal>
 
         <StaggerGroup className="mt-12 space-y-4">
@@ -49,6 +61,27 @@ export function BFitBenefitsSection() {
             </StaggerItem>
           ))}
         </StaggerGroup>
+
+        <Reveal delay={0.4} className="mt-12 text-center space-y-3">
+          <p className="text-lg font-semibold text-[#2f4541]">
+            {localize(
+              {
+                es: "No es magia.",
+                en: "It's not magic.",
+              },
+              language,
+            )}
+          </p>
+          <p className="text-[#5c746d]">
+            {localize(
+              {
+                es: "Es darle a tu cuerpo lo que necesita para funcionar mejor.",
+                en: "It's giving your body what it needs to function better.",
+              },
+              language,
+            )}
+          </p>
+        </Reveal>
       </div>
     </SectionShell>
   );

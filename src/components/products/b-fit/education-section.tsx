@@ -6,19 +6,19 @@ import { SectionShell } from "@/components/shared/section-shell";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { localize } from "@/lib/i18n";
 
-export function BFitProblemSection() {
+export function BFitEducationSection() {
   const { language } = useLanguage();
 
   return (
-    <SectionShell tone="leaf">
+    <SectionShell tone="soft">
       <div className="mx-auto max-w-3xl">
         <Reveal>
           <SectionHeading
             align="center"
             title={localize(
               {
-                es: "Tu cuerpo no necesita más exigencia… necesita apoyo",
-                en: "Your body doesn't need more pressure… it needs support",
+                es: "¿Por qué sientes que haces esfuerzo… pero no ves resultados?",
+                en: "Why do you feel like you're trying… but not seeing results?",
               },
               language,
             )}
@@ -29,46 +29,46 @@ export function BFitProblemSection() {
           <p>
             {localize(
               {
-                es: "Cuando tu metabolismo está lento y tu energía baja:",
-                en: "When your metabolism is slow and your energy is low:",
+                es: "Muchas mujeres viven en un estado constante de:",
+                en: "Many women live in a constant state of:",
               },
               language,
             )}
           </p>
 
-          <div className="rounded-xl bg-white/60 p-8 space-y-3">
+          <div className="rounded-xl bg-white/60 p-8 space-y-4">
             <div className="flex gap-3">
               <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
-              <p>
+              <p className="font-semibold text-[#2f4541]">
                 {localize(
-                  { es: "te cuesta más quemar grasa", en: "it's harder to burn fat" },
+                  { es: "metabolismo lento", en: "slow metabolism" },
                   language,
                 )}
               </p>
             </div>
             <div className="flex gap-3">
               <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
-              <p>
+              <p className="font-semibold text-[#2f4541]">
                 {localize(
-                  { es: "te sientes cansada constantemente", en: "you feel constantly tired" },
+                  { es: "inflamación", en: "inflammation" },
                   language,
                 )}
               </p>
             </div>
             <div className="flex gap-3">
               <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
-              <p>
+              <p className="font-semibold text-[#2f4541]">
                 {localize(
-                  { es: "pierdes motivación rápido", en: "you lose motivation quickly" },
+                  { es: "baja energía", en: "low energy" },
                   language,
                 )}
               </p>
             </div>
             <div className="flex gap-3">
               <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
-              <p>
+              <p className="font-semibold text-[#2f4541]">
                 {localize(
-                  { es: "abandonas antes de ver resultados", en: "you quit before seeing results" },
+                  { es: "desbalance interno", en: "internal imbalance" },
                   language,
                 )}
               </p>
@@ -78,30 +78,30 @@ export function BFitProblemSection() {
           <p className="font-semibold text-[#2f4541]">
             {localize(
               {
-                es: "Y eso crea un ciclo:",
-                en: "And that creates a cycle:",
+                es: "Y eso genera algo muy frustrante:",
+                en: "And that creates something very frustrating:",
               },
               language,
             )}
           </p>
 
-          <div className="rounded-2xl bg-[#fff5f0] p-8 border-l-4 border-[#d97706]">
+          <div className="rounded-2xl bg-[#f0f9e8] p-8 border-l-4 border-[#6f9d49]">
             <p className="text-lg font-semibold text-[#2f4541]">
               {localize(
                 {
-                  es: "intentas → te frustras → abandonas → vuelves a empezar",
-                  en: "you try → you get frustrated → you quit → you start again",
+                  es: "Haces cambios… pero tu cuerpo no responde igual",
+                  en: "You make changes… but your body doesn't respond the same way",
                 },
                 language,
               )}
             </p>
           </div>
 
-          <p className="italic text-[#5c746d]">
+          <p>
             {localize(
               {
-                es: "Sin apoyo interno, cada intento es más difícil que el anterior.",
-                en: "Without internal support, each attempt becomes harder than the last.",
+                es: "No porque estés haciendo algo mal.\nSino porque tu cuerpo no está en condiciones óptimas para cambiar.",
+                en: "Not because you're doing something wrong.\nBut because your body isn't in optimal conditions to change.",
               },
               language,
             )}

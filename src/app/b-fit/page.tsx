@@ -1,10 +1,11 @@
 import type { Metadata } from "next";
 import { BFitHeroSection } from "@/components/products/b-fit/hero-section";
+import { BFitEducationSection } from "@/components/products/b-fit/education-section";
 import { BFitProblemSection } from "@/components/products/b-fit/problem-section";
 import { BFitBreakthroughSection } from "@/components/products/b-fit/breakthrough-section";
-import { BFitPerspectiveSection } from "@/components/products/b-fit/perspective-section";
-import { BFitWhatIsSection } from "@/components/products/b-fit/what-is-section";
+import { BFitIntroductionSection } from "@/components/products/b-fit/introduction-bfit-section";
 import { BFitBenefitsSection } from "@/components/products/b-fit/benefits-section";
+import { BFitDifferentiationSection } from "@/components/products/b-fit/differentiation-section";
 import { BFitHowToUseSection } from "@/components/products/b-fit/how-to-use-section";
 import { BFitAudienceSection } from "@/components/products/b-fit/audience-section";
 import { BFitSupportSection } from "@/components/products/b-fit/support-section";
@@ -22,11 +23,12 @@ export default function BFitPage() {
     <>
       <FloatingHelpButton />
       <BFitHeroSection />
+      <BFitEducationSection />
       <BFitProblemSection />
       <BFitBreakthroughSection />
-      <BFitPerspectiveSection />
-      <BFitWhatIsSection />
+      <BFitIntroductionSection />
       <BFitBenefitsSection />
+      <BFitDifferentiationSection />
       <BFitHowToUseSection />
       <BFitAudienceSection />
       <BFitSupportSection />
