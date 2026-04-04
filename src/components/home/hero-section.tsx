@@ -160,16 +160,16 @@ export function HeroSection() {
                     ))}
                   </div>
 
-                  <div className="relative flex min-h-[200px] items-center justify-center sm:min-h-[240px]">
-                    <div className="relative w-full max-w-[16rem] sm:max-w-[19rem]">
+                  <div className="relative flex min-h-[240px] items-center justify-center sm:min-h-[300px]">
+                    <div className="relative w-full max-w-[16rem] sm:max-w-[20rem]">
                       <div aria-hidden="true" className="absolute inset-[-10%] rounded-full bg-white/82 blur-3xl" />
                       <Image
-                        alt="VibeLife"
-                        className="relative mx-auto h-auto w-full drop-shadow-[0_22px_40px_rgba(62,102,112,0.14)]"
-                        height={340}
+                        alt="Valentina - VibeLife"
+                        className="relative mx-auto h-auto w-full rounded-2xl object-cover drop-shadow-[0_22px_40px_rgba(62,102,112,0.14)]"
+                        height={400}
                         priority
-                        src="/images/brand/vibelife-logo-transparent.png"
-                        width={340}
+                        src="/images/brand/valentina-avatar.jpg"
+                        width={320}
                       />
                     </div>
                   </div>
