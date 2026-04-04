@@ -42,8 +42,8 @@ export function RiseHeroSection() {
           <p className="mt-8 text-base leading-8 text-[#5c746d] sm:text-lg space-y-4">
             {localize(
               {
-                es: "RISE no es solo energía.\n\nEs claridad mental, equilibrio y una nueva forma de empezar tu día.\n\nPorque no se trata de despertarte…\nse trata de cómo te sientes cuando lo haces.",
-                en: "RISE isn't just energy.\n\nIt's mental clarity, balance, and a new way to start your day.\n\nBecause it's not about waking up…\nit's about how you feel when you do.",
+                es: "Si dependes del café para funcionar, pero igual te sientes cansada, ansiosa o saturada…\nel problema no es tu energía.\nEs cómo la estás generando.",
+                en: "If you depend on coffee to function, but still feel tired, anxious, or overwhelmed…\nthe problem isn't your energy.\nIt's how you're creating it.",
               },
               language,
             )}
