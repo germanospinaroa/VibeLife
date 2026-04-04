@@ -81,7 +81,7 @@ export function RiseHeroSection() {
               className="h-full w-full object-contain"
               height={600}
               priority
-              src="/images/products/rise-sin-fondo.png"
+              src="/images/products/rise-portrait.png"
               width={400}
             />
           </div>
