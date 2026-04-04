@@ -26,15 +26,38 @@ export function BFitProblemSection() {
         </Reveal>
 
         <Reveal delay={0.1} className="mt-8 space-y-6 text-base leading-8 text-[#5c746d] sm:text-lg">
-          <p>
-            {localize(
-              {
-                es: "Tal vez has intentado varias cosas.\nDietas, rutinas, cambios… y vuelves al mismo punto.",
-                en: "Maybe you've tried several things.\nDiets, routines, changes… and you keep coming back to the same place.",
-              },
-              language,
-            )}
-          </p>
+          <div className="space-y-4">
+            <p className="font-semibold text-[#2f4541]">
+              {localize(
+                { es: "Has intentado.", en: "You've tried." },
+                language,
+              )}
+            </p>
+            <p className="font-semibold text-[#2f4541]">
+              {localize(
+                { es: "Has empezado.", en: "You've started." },
+                language,
+              )}
+            </p>
+            <p className="font-semibold text-[#2f4541]">
+              {localize(
+                { es: "Has querido hacerlo bien.", en: "You've wanted to do it right." },
+                language,
+              )}
+            </p>
+            <p className="font-semibold text-[#2f4541]">
+              {localize(
+                { es: "Pero algo pasa…", en: "But something happens…" },
+                language,
+              )}
+            </p>
+            <p className="font-semibold text-[#2f4541]">
+              {localize(
+                { es: "Vuelves al mismo lugar.", en: "You go back to the same place." },
+                language,
+              )}
+            </p>
+          </div>
 
           <div className="space-y-3 rounded-xl bg-white/60 p-6">
             <p className="font-semibold text-[#2f4541]">
@@ -60,8 +83,8 @@ export function BFitProblemSection() {
           <p>
             {localize(
               {
-                es: "Y esa sensación de que estás haciendo esfuerzo, pero no ves resultados.",
-                en: "And that feeling that you're making an effort, but you don't see results.",
+                es: "Y esa sensación silenciosa de frustración que nadie ve.",
+                en: "And that silent feeling of frustration that no one sees.",
               },
               language,
             )}
@@ -70,8 +93,8 @@ export function BFitProblemSection() {
           <p className="rounded-xl bg-[#f0f9e8] p-6 font-semibold text-[#2f4541]">
             {localize(
               {
-                es: "No es falta de disciplina.\nEs que necesitas un enfoque diferente.",
-                en: "It's not a lack of discipline.\nIt's that you need a different approach.",
+                es: "Esto no es tu culpa.\nEs el enfoque.",
+                en: "This is not your fault.\nIt's the approach.",
               },
               language,
             )}

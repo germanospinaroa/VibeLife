@@ -25,8 +25,8 @@ export function BFitAudienceSection() {
             align="center"
             title={localize(
               {
-                es: "Esto es para ti si…",
-                en: "This is for you if…",
+                es: "Esto es para ti si estás cansada de empezar… y volver a empezar",
+                en: "This is for you if you're tired of starting… and starting again",
               },
               language,
             )}

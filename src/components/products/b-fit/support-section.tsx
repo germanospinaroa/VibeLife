@@ -42,11 +42,18 @@ export function BFitSupportSection() {
               )}
             </p>
 
+            <p className="font-semibold text-[#2f4541]">
+              {localize(
+                { es: "Se trata de acompañarte.", en: "It's about supporting you." },
+                language,
+              )}
+            </p>
+
             <p>
               {localize(
                 {
-                  es: "Te acompañamos paso a paso para ayudarte a integrar esto en tu vida de forma real, sostenible y consciente.",
-                  en: "We support you step by step to help you integrate this into your life in a real, sustainable and conscious way.",
+                  es: "Porque hacerlo sola es difícil…\nPero con guía, claridad y estructura, todo cambia.",
+                  en: "Because doing it alone is hard…\nBut with guidance, clarity and structure, everything changes.",
                 },
                 language,
               )}

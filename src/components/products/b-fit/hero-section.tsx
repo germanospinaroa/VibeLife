@@ -21,8 +21,8 @@ export function BFitHeroSection() {
           <h1 className="text-balance text-4xl font-semibold leading-tight text-[#2f4541] sm:text-5xl">
             {localize(
               {
-                es: "Sentirte mejor en tu cuerpo no tiene que ser una lucha constante",
-                en: "Feeling better in your body doesn't have to be a constant struggle",
+                es: "Sentirte bien en tu cuerpo no debería sentirse como una batalla diaria",
+                en: "Feeling good in your body shouldn't feel like a daily battle",
               },
               language,
             )}
@@ -31,8 +31,8 @@ export function BFitHeroSection() {
           <p className="text-base leading-8 text-[#5c746d] sm:text-lg">
             {localize(
               {
-                es: "B-Fit es una forma simple de acompañar tu metabolismo, ayudarte a recuperar equilibrio y sentirte más ligera, con más control y energía en tu día a día.",
-                en: "B-Fit is a simple way to support your metabolism, help you recover balance and feel lighter, with more control and energy in your daily life.",
+                es: "Si has intentado varias cosas y sientes que nada se sostiene, no es falta de disciplina… es que necesitas un enfoque diferente.\n\nB-Fit puede ser ese punto de partida.",
+                en: "If you've tried several things and feel like nothing lasts, it's not a lack of discipline… it's that you need a different approach.\n\nB-Fit can be that starting point.",
               },
               language,
             )}

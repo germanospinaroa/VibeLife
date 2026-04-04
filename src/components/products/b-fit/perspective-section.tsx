@@ -17,8 +17,8 @@ export function BFitPerspectiveSection() {
             align="center"
             title={localize(
               {
-                es: "No se trata de hacer más… se trata de hacerlo mejor",
-                en: "It's not about doing more… it's about doing it better",
+                es: "Tu cuerpo no necesita más exigencia… necesita mejor apoyo",
+                en: "Your body doesn't need more pressure… it needs better support",
               },
               language,
             )}
@@ -29,8 +29,8 @@ export function BFitPerspectiveSection() {
           <p>
             {localize(
               {
-                es: "Cuando tu cuerpo recibe el apoyo correcto, todo empieza a sentirse distinto:",
-                en: "When your body receives the right support, everything starts to feel different:",
+                es: "Cuando tu cuerpo empieza a sentirse mejor, todo cambia:",
+                en: "When your body starts to feel better, everything changes:",
               },
               language,
             )}

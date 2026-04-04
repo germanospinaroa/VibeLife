@@ -17,8 +17,8 @@ export function BFitTestimonialsSection() {
             align="center"
             title={localize(
               {
-                es: "Lo que otras mujeres están logrando",
-                en: "What other women are achieving",
+                es: "Historias reales de mujeres que decidieron empezar diferente",
+                en: "Real stories from women who decided to start differently",
               },
               language,
             )}
@@ -30,8 +30,8 @@ export function BFitTestimonialsSection() {
             <p className="text-base leading-8 text-[#6e847d] sm:text-lg italic">
               {localize(
                 {
-                  es: "(Aquí luego agregamos testimonios reales de mujeres que ya están viendo cambios)",
-                  en: "(Real testimonials from women who are already seeing changes will be added here)",
+                  es: "(Aquí luego agregamos testimonios)",
+                  en: "(Testimonials coming soon)",
                 },
                 language,
               )}

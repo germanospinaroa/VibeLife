@@ -10,6 +10,7 @@ import { BFitNotForSection } from "@/components/products/b-fit/not-for-section";
 import { BFitSupportSection } from "@/components/products/b-fit/support-section";
 import { BFitTestimonialsSection } from "@/components/products/b-fit/testimonials-section";
 import { BFitFinalCtaSection } from "@/components/products/b-fit/final-cta-section";
+import { FloatingHelpButton } from "@/components/products/b-fit/floating-help-button";
 
 export const metadata: Metadata = {
   title: "B-Fit | VibeLife",
@@ -20,6 +21,7 @@ export const metadata: Metadata = {
 export default function BFitPage() {
   return (
     <>
+      <FloatingHelpButton />
       <BFitHeroSection />
       <BFitProblemSection />
       <BFitPerspectiveSection />

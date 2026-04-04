@@ -26,29 +26,41 @@ export function BFitWhatIsSection() {
         </Reveal>
 
         <Reveal delay={0.1} className="mt-8 space-y-6 text-base leading-8 text-[#5c746d] sm:text-lg">
+          <div className="space-y-4 rounded-2xl bg-[#f0f9e8] p-8">
+            <p className="text-2xl font-semibold text-[#2f4541]">
+              {localize(
+                { es: "B-Fit no es la solución.", en: "B-Fit is not the solution." },
+                language,
+              )}
+            </p>
+            <p className="text-2xl font-semibold text-[#2f4541]">
+              {localize(
+                { es: "Es el inicio.", en: "It's the start." },
+                language,
+              )}
+            </p>
+          </div>
+
           <p>
             {localize(
               {
-                es: "B-Fit es un complemento diseñado para acompañar tu metabolismo y ayudarte a crear un entorno más favorable para sentirte mejor en tu cuerpo.",
-                en: "B-Fit is a supplement designed to support your metabolism and help you create a more favorable environment to feel better in your body.",
+                es: "Es una herramienta que te ayuda a crear un entorno más favorable en tu cuerpo para que empezar —y sostener— sea posible.",
+                en: "It's a tool that helps you create a more favorable environment in your body so that starting —and sustaining— becomes possible.",
               },
               language,
             )}
           </p>
 
-          <div className="space-y-4 rounded-2xl bg-[#f0f9e8] p-8">
+          <div className="space-y-3">
             <p className="font-semibold text-[#2f4541]">
               {localize(
-                { es: "No es una solución mágica.", en: "It's not a magic solution." },
+                { es: "Pequeños cambios.", en: "Small changes." },
                 language,
               )}
             </p>
             <p className="font-semibold text-[#2f4541]">
               {localize(
-                {
-                  es: "Es una herramienta que, junto con pequeños cambios, puede marcar una gran diferencia.",
-                  en: "It's a tool that, combined with small changes, can make a big difference.",
-                },
+                { es: "Resultados reales.", en: "Real results." },
                 language,
               )}
             </p>

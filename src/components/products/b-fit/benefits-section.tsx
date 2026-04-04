@@ -12,11 +12,11 @@ export function BFitBenefitsSection() {
   const { language } = useLanguage();
 
   const benefits = [
-    { es: "Apoya el metabolismo", en: "Supports metabolism" },
-    { es: "Contribuye al equilibrio del cuerpo", en: "Contributes to body balance" },
-    { es: "Ayuda a sentirte más ligera", en: "Helps you feel lighter" },
-    { es: "Facilita la constancia en hábitos", en: "Facilitates habit consistency" },
-    { es: "Complementa tu estilo de vida", en: "Complements your lifestyle" },
+    { es: "Apoya tu metabolismo desde adentro", en: "Supports your metabolism from within" },
+    { es: "Te ayuda a sentirte más ligera y con más energía", en: "Helps you feel lighter and more energetic" },
+    { es: "Reduce la sensación de estancamiento", en: "Reduces the feeling of being stuck" },
+    { es: "Facilita que sostengas hábitos", en: "Makes it easier to stick to habits" },
+    { es: "Acompaña tu proceso sin presión", en: "Supports your journey without pressure" },
   ];
 
   return (
