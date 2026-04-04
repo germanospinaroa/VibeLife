@@ -1,0 +1,485 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - link "VibeLife" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img "VibeLife logo" [ref=e8]
+      - button "Abrir menú de navegación" [ref=e10]:
+        - img [ref=e11]
+  - main [ref=e12]:
+    - generic [ref=e18]:
+      - generic [ref=e19]:
+        - heading "Esto no es otro plan. Es volver a sentirte tú." [level=1] [ref=e20]
+        - paragraph [ref=e21]: Un espacio creado para mujeres que están cansadas de intentar, empezar y no sostener… y que solo quieren volver a sentirse bien sin complicarse más la vida.
+        - paragraph [ref=e22]: No tienes que hacerlo sola.
+        - generic [ref=e23]:
+          - link "Hablar por WhatsApp →" [ref=e24] [cursor=pointer]:
+            - /url: https://wa.me/50762882188?text=Hola%2C%20quiero%20hablar%20contigo%20sobre%20VibeLife.
+            - img [ref=e25]
+            - text: Hablar por WhatsApp →
+          - link "Ver cómo empezar" [ref=e27] [cursor=pointer]:
+            - /url: /#products
+            - text: Ver cómo empezar
+            - img [ref=e28]
+      - img "Valentina - VibeLife" [ref=e33]
+    - generic [ref=e36]:
+      - heading "¿Te suena familiar?" [level=2] [ref=e38]
+      - list [ref=e39]:
+        - listitem [ref=e41]:
+          - generic [ref=e42]: —
+          - generic [ref=e43]: Te levantas cansada aunque dormiste.
+        - listitem [ref=e45]:
+          - generic [ref=e46]: —
+          - generic [ref=e47]: Sabes lo que tienes que hacer — pero no puedes.
+        - listitem [ref=e49]:
+          - generic [ref=e50]: —
+          - generic [ref=e51]: Ya intentaste rutinas, dietas, suplementos. Nada te duró.
+        - listitem [ref=e53]:
+          - generic [ref=e54]: —
+          - generic [ref=e55]: Sientes que antes eras diferente y no sabes qué te pasó.
+        - listitem [ref=e57]:
+          - generic [ref=e58]: —
+          - generic [ref=e59]: El día se va entero y tú quedaste de última en la lista.
+      - paragraph [ref=e62]: No es falta de disciplina. No es excusa. Es que tu cuerpo y tu mente necesitan un apoyo real — no otro reto de 21 días.
+      - link "Cuéntame cómo te sientes →" [ref=e65] [cursor=pointer]:
+        - /url: https://wa.me/50762882188?text=Hola%2C%20quiero%20contarles%20c%C3%B3mo%20me%20siento%20y%20saber%20si%20VibeLife%20puede%20ayudarme.
+        - img [ref=e66]
+        - text: Cuéntame cómo te sientes →
+    - generic [ref=e69]:
+      - generic [ref=e71]:
+        - heading "No eres la única" [level=2] [ref=e72]
+        - paragraph [ref=e73]: Muchas mujeres están pasando por lo mismo que tú. Cansancio. Desorden. Intentar una y otra vez sin lograr sostenerlo. Aquí no empiezas desde cero. Aquí entras a un espacio donde otras ya están caminando contigo.
+      - generic [ref=e74]:
+        - generic [ref=e76]:
+          - img [ref=e78]
+          - heading "Espacio real" [level=3] [ref=e80]
+          - paragraph [ref=e81]: Un lugar donde puedes hablar, preguntar y compartir sin sentirte juzgada
+        - generic [ref=e83]:
+          - img [ref=e85]
+          - heading "Acompañamiento" [level=3] [ref=e90]
+          - paragraph [ref=e91]: Personas que entienden exactamente cómo te sientes
+        - generic [ref=e93]:
+          - img [ref=e95]
+          - heading "Proceso compartido" [level=3] [ref=e98]
+          - paragraph [ref=e99]: No se trata de hacerlo perfecto, se trata de avanzar
+      - link "Unirme a la comunidad →" [ref=e102] [cursor=pointer]:
+        - /url: https://wa.me/50762882188?text=Hola%2C%20quiero%20unirme%20a%20la%20comunidad%20de%20VibeLife.
+        - img [ref=e103]
+        - text: Unirme a la comunidad →
+    - generic [ref=e107]:
+      - heading "No es falta de disciplina" [level=2] [ref=e109]
+      - paragraph [ref=e112]: No se trata de que no puedas. Se trata de que nadie te ha enseñado a hacerlo de forma realista, sostenible y alineada con tu vida. Aquí no buscamos cambios extremos. Buscamos que vuelvas a sentirte bien contigo misma.
+    - generic [ref=e114]:
+      - heading "Lo que pasa cuando tu cuerpo tiene lo que necesita" [level=2] [ref=e116]
+      - generic [ref=e117]:
+        - generic [ref=e119]:
+          - img [ref=e121]
+          - heading "Energía real" [level=3] [ref=e124]
+          - paragraph [ref=e125]: No solo para empezar el día, sino para sostenerlo
+        - generic [ref=e127]:
+          - img [ref=e129]
+          - heading "Hábitos sostenibles" [level=3] [ref=e132]
+          - paragraph [ref=e133]: Sin depender de motivación constante
+        - generic [ref=e135]:
+          - img [ref=e137]
+          - heading "Equilibrio interno" [level=3] [ref=e140]
+          - paragraph [ref=e141]: Tu cuerpo y tu mente dejan de ir en direcciones opuestas
+    - generic [ref=e143]:
+      - generic [ref=e144]:
+        - heading "¿Por dónde empezar si ya intentaste de todo?" [level=2] [ref=e145]
+        - paragraph [ref=e146]: No tienes que hacerlo perfecto. Solo tienes que empezar con lo correcto.
+      - generic [ref=e147]:
+        - generic [ref=e149]:
+          - generic [ref=e150]: "1"
+          - heading "Te escuchamos" [level=3] [ref=e151]
+          - paragraph [ref=e152]: Entendemos cómo te sientes y qué necesitas
+        - generic [ref=e154]:
+          - generic [ref=e155]: "2"
+          - heading "Te guiamos" [level=3] [ref=e156]
+          - paragraph [ref=e157]: Te mostramos opciones simples y realistas
+        - generic [ref=e159]:
+          - generic [ref=e160]: "3"
+          - heading "Te acompañamos" [level=3] [ref=e161]
+          - paragraph [ref=e162]: No estás sola en el proceso
+    - generic [ref=e164]:
+      - generic [ref=e165]:
+        - heading "Opciones para acompañarte" [level=2] [ref=e166]
+        - paragraph [ref=e167]: No mostramos un catálogo. Te mostramos opciones que se adaptan a lo que realmente necesitas.
+      - generic [ref=e168]:
+        - paragraph [ref=e170]: Trabajamos con productos seleccionados para bienestar real. No milagros. No promesas vacías. Productos que complementan lo que ya estás intentando hacer — y le dan más fuerza.
+        - paragraph [ref=e172]: ¿No sabes por cuál empezar? Cuéntanos cómo te sientes en un mensaje y te decimos cuál tiene más sentido para ti. Sin presión, sin catálogo.
+      - generic [ref=e173]:
+        - generic [ref=e175]:
+          - paragraph [ref=e176]: Para la que necesita encenderse en las mañanas
+          - img "Rise" [ref=e178]
+          - heading "Rise" [level=3] [ref=e179]
+          - paragraph [ref=e180]: Café funcional con amalaki
+          - paragraph [ref=e181]: Una opción para acompañar tus mañanas cuando necesitas más energía y enfoque.
+          - generic [ref=e182]:
+            - link "Ver producto" [ref=e183] [cursor=pointer]:
+              - /url: /products/rise
+              - text: Ver producto
+              - img [ref=e184]
+            - link "Conocer más" [ref=e186] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hola%2C%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20Rise.
+              - img [ref=e187]
+              - text: Conocer más
+        - generic [ref=e190]:
+          - paragraph [ref=e191]: Para la que quiere recuperar el equilibrio desde adentro
+          - img "Amalaki" [ref=e193]
+          - heading "Amalaki" [level=3] [ref=e194]
+          - paragraph [ref=e195]: Apoyo interno natural
+          - paragraph [ref=e196]: Una forma simple de cuidar tu bienestar desde adentro.
+          - generic [ref=e197]:
+            - link "Ver producto" [ref=e198] [cursor=pointer]:
+              - /url: /products/amalaki
+              - text: Ver producto
+              - img [ref=e199]
+            - link "Conocer más" [ref=e201] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hola%2C%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20Amalaki.
+              - img [ref=e202]
+              - text: Conocer más
+        - generic [ref=e205]:
+          - paragraph [ref=e206]: Para la que quiere volver a moverse sin agotarse
+          - img "Accell" [ref=e208]
+          - heading "Accell" [level=3] [ref=e209]
+          - paragraph [ref=e210]: Apoyo físico
+          - paragraph [ref=e211]: Pensado para quienes quieren sentirse mejor en su día a día.
+          - generic [ref=e212]:
+            - link "Ver producto" [ref=e213] [cursor=pointer]:
+              - /url: /products/accell
+              - text: Ver producto
+              - img [ref=e214]
+            - link "Conocer más" [ref=e216] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hola%2C%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20Accell.
+              - img [ref=e217]
+              - text: Conocer más
+        - generic [ref=e220]:
+          - paragraph [ref=e221]: Para la que quiere sentirse bien en su cuerpo, no perfecta
+          - img "B-Fit" [ref=e223]
+          - heading "B-Fit" [level=3] [ref=e224]
+          - paragraph [ref=e225]: Apoyo metabólico
+          - paragraph [ref=e226]: Una opción para acompañar hábitos más sostenibles.
+          - generic [ref=e227]:
+            - link "Ver producto" [ref=e228] [cursor=pointer]:
+              - /url: /products/b-fit
+              - text: Ver producto
+              - img [ref=e229]
+            - link "Conocer más" [ref=e231] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hola%2C%20me%20gustar%C3%ADa%20saber%20m%C3%A1s%20sobre%20B-Fit.
+              - img [ref=e232]
+              - text: Conocer más
+    - generic [ref=e235]:
+      - heading "Si te identificas con esto, este espacio es para ti" [level=2] [ref=e237]
+      - generic [ref=e238]:
+        - generic [ref=e243]:
+          - img [ref=e245]
+          - generic [ref=e248]:
+            - heading "La que se levanta cansada aunque durmió" [level=3] [ref=e249]
+            - paragraph [ref=e250]: Siente que su cuerpo no arranca. Lleva meses funcionando en modo supervivencia y ya olvidó cómo es tener energía de verdad.
+        - generic [ref=e255]:
+          - img [ref=e257]
+          - generic [ref=e260]:
+            - heading "La que empieza y no sostiene" [level=3] [ref=e261]
+            - paragraph [ref=e262]: Ha intentado rutinas, dietas, suplementos. Sabe lo que tiene que hacer. El problema es que nada le dura más de dos semanas.
+        - generic [ref=e267]:
+          - img [ref=e269]
+          - generic [ref=e271]:
+            - heading "La que pone a todos primero" [level=3] [ref=e272]
+            - paragraph [ref=e273]: Mamá, profesional, pareja, amiga. Siempre lista para los demás. Pero cuando llega su turno, ya no queda nada para ella.
+        - generic [ref=e278]:
+          - img [ref=e280]
+          - generic [ref=e284]:
+            - heading "La que quiere sentirse bien — sin drama" [level=3] [ref=e285]
+            - paragraph [ref=e286]: No busca transformación radical. Solo quiere tener energía, dormir bien y mirarse al espejo sin que le cueste. Algo real, sin heroísmo.
+      - paragraph [ref=e287]: VibeLife también acompaña a hombres y familias que quieren mejorar su bienestar de forma natural. Si ese es tu caso, escríbenos — tenemos opciones para ti también.
+    - generic [ref=e289]:
+      - generic [ref=e290]:
+        - heading "Ellas también pensaban que nada les funcionaba" [level=2] [ref=e291]
+        - paragraph [ref=e292]: Resultados reales de mujeres con vidas reales — sin transformaciones imposibles.
+      - generic [ref=e293]:
+        - generic [ref=e294]:
+          - generic [ref=e295]:
+            - generic [ref=e296]:
+              - img [ref=e297]
+              - paragraph [ref=e300]: “Llevaba 2 años sin poder sostener nada. Empecé con Rise y la primera semana ya noté diferencia en mis mañanas.”
+              - generic [ref=e301]:
+                - generic [ref=e302]: M
+                - generic [ref=e303]:
+                  - paragraph [ref=e304]: María C.
+                  - paragraph [ref=e305]: Bogotá
+            - generic [ref=e306]:
+              - img [ref=e307]
+              - paragraph [ref=e310]: “No creía en esto. Lo intenté porque una amiga me insistió. Tres semanas después le dije que me perdonara por no haberle hecho caso antes.”
+              - generic [ref=e311]:
+                - generic [ref=e312]: J
+                - generic [ref=e313]:
+                  - paragraph [ref=e314]: Juliana R.
+                  - paragraph [ref=e315]: Medellín
+            - generic [ref=e316]:
+              - img [ref=e317]
+              - paragraph [ref=e320]: “Lo que más me sorprendió fue que no fue difícil. Era lo que mi cuerpo necesitaba, no otro esfuerzo.”
+              - generic [ref=e321]:
+                - generic [ref=e322]: S
+                - generic [ref=e323]:
+                  - paragraph [ref=e324]: Sandra M.
+                  - paragraph [ref=e325]: Cali
+          - generic [ref=e326]:
+            - generic [ref=e327]:
+              - img [ref=e328]
+              - paragraph [ref=e331]: “Llevaba 2 años sin poder sostener nada. Empecé con Rise y la primera semana ya noté diferencia en mis mañanas.”
+              - generic [ref=e332]:
+                - generic [ref=e333]: M
+                - generic [ref=e334]:
+                  - paragraph [ref=e335]: María C.
+                  - paragraph [ref=e336]: Bogotá
+            - generic [ref=e337]:
+              - img [ref=e338]
+              - paragraph [ref=e341]: “No creía en esto. Lo intenté porque una amiga me insistió. Tres semanas después le dije que me perdonara por no haberle hecho caso antes.”
+              - generic [ref=e342]:
+                - generic [ref=e343]: J
+                - generic [ref=e344]:
+                  - paragraph [ref=e345]: Juliana R.
+                  - paragraph [ref=e346]: Medellín
+            - generic [ref=e347]:
+              - img [ref=e348]
+              - paragraph [ref=e351]: “Lo que más me sorprendió fue que no fue difícil. Era lo que mi cuerpo necesitaba, no otro esfuerzo.”
+              - generic [ref=e352]:
+                - generic [ref=e353]: S
+                - generic [ref=e354]:
+                  - paragraph [ref=e355]: Sandra M.
+                  - paragraph [ref=e356]: Cali
+          - generic [ref=e357]:
+            - generic [ref=e358]:
+              - img [ref=e359]
+              - paragraph [ref=e362]: “Llevaba 2 años sin poder sostener nada. Empecé con Rise y la primera semana ya noté diferencia en mis mañanas.”
+              - generic [ref=e363]:
+                - generic [ref=e364]: M
+                - generic [ref=e365]:
+                  - paragraph [ref=e366]: María C.
+                  - paragraph [ref=e367]: Bogotá
+            - generic [ref=e368]:
+              - img [ref=e369]
+              - paragraph [ref=e372]: “No creía en esto. Lo intenté porque una amiga me insistió. Tres semanas después le dije que me perdonara por no haberle hecho caso antes.”
+              - generic [ref=e373]:
+                - generic [ref=e374]: J
+                - generic [ref=e375]:
+                  - paragraph [ref=e376]: Juliana R.
+                  - paragraph [ref=e377]: Medellín
+            - generic [ref=e378]:
+              - img [ref=e379]
+              - paragraph [ref=e382]: “Lo que más me sorprendió fue que no fue difícil. Era lo que mi cuerpo necesitaba, no otro esfuerzo.”
+              - generic [ref=e383]:
+                - generic [ref=e384]: S
+                - generic [ref=e385]:
+                  - paragraph [ref=e386]: Sandra M.
+                  - paragraph [ref=e387]: Cali
+        - generic [ref=e388]:
+          - generic [ref=e389]:
+            - generic [ref=e390]:
+              - img [ref=e391]
+              - paragraph [ref=e394]: “Pensé que era otro suplemento más. Pero el acompañamiento marcó la diferencia. Alguien real que me explicó y me siguió.”
+              - generic [ref=e395]:
+                - generic [ref=e396]: P
+                - generic [ref=e397]:
+                  - paragraph [ref=e398]: Patricia V.
+                  - paragraph [ref=e399]: Barranquilla
+            - generic [ref=e400]:
+              - img [ref=e401]
+              - paragraph [ref=e404]: “A los 10 días de usar Amalaki sentí que mi digestión cambió. Llevaba meses con malestar y no lo relacionaba con nada.”
+              - generic [ref=e405]:
+                - generic [ref=e406]: C
+                - generic [ref=e407]:
+                  - paragraph [ref=e408]: Carolina G.
+                  - paragraph [ref=e409]: Bucaramanga
+            - generic [ref=e410]:
+              - img [ref=e411]
+              - paragraph [ref=e414]: “Me costaba levantarme. Ahora no espero el café para funcionar. Rise fue el cambio más pequeño con el impacto más grande.”
+              - generic [ref=e415]:
+                - generic [ref=e416]: L
+                - generic [ref=e417]:
+                  - paragraph [ref=e418]: Lorena T.
+                  - paragraph [ref=e419]: Manizales
+          - generic [ref=e420]:
+            - generic [ref=e421]:
+              - img [ref=e422]
+              - paragraph [ref=e425]: “Pensé que era otro suplemento más. Pero el acompañamiento marcó la diferencia. Alguien real que me explicó y me siguió.”
+              - generic [ref=e426]:
+                - generic [ref=e427]: P
+                - generic [ref=e428]:
+                  - paragraph [ref=e429]: Patricia V.
+                  - paragraph [ref=e430]: Barranquilla
+            - generic [ref=e431]:
+              - img [ref=e432]
+              - paragraph [ref=e435]: “A los 10 días de usar Amalaki sentí que mi digestión cambió. Llevaba meses con malestar y no lo relacionaba con nada.”
+              - generic [ref=e436]:
+                - generic [ref=e437]: C
+                - generic [ref=e438]:
+                  - paragraph [ref=e439]: Carolina G.
+                  - paragraph [ref=e440]: Bucaramanga
+            - generic [ref=e441]:
+              - img [ref=e442]
+              - paragraph [ref=e445]: “Me costaba levantarme. Ahora no espero el café para funcionar. Rise fue el cambio más pequeño con el impacto más grande.”
+              - generic [ref=e446]:
+                - generic [ref=e447]: L
+                - generic [ref=e448]:
+                  - paragraph [ref=e449]: Lorena T.
+                  - paragraph [ref=e450]: Manizales
+          - generic [ref=e451]:
+            - generic [ref=e452]:
+              - img [ref=e453]
+              - paragraph [ref=e456]: “Pensé que era otro suplemento más. Pero el acompañamiento marcó la diferencia. Alguien real que me explicó y me siguió.”
+              - generic [ref=e457]:
+                - generic [ref=e458]: P
+                - generic [ref=e459]:
+                  - paragraph [ref=e460]: Patricia V.
+                  - paragraph [ref=e461]: Barranquilla
+            - generic [ref=e462]:
+              - img [ref=e463]
+              - paragraph [ref=e466]: “A los 10 días de usar Amalaki sentí que mi digestión cambió. Llevaba meses con malestar y no lo relacionaba con nada.”
+              - generic [ref=e467]:
+                - generic [ref=e468]: C
+                - generic [ref=e469]:
+                  - paragraph [ref=e470]: Carolina G.
+                  - paragraph [ref=e471]: Bucaramanga
+            - generic [ref=e472]:
+              - img [ref=e473]
+              - paragraph [ref=e476]: “Me costaba levantarme. Ahora no espero el café para funcionar. Rise fue el cambio más pequeño con el impacto más grande.”
+              - generic [ref=e477]:
+                - generic [ref=e478]: L
+                - generic [ref=e479]:
+                  - paragraph [ref=e480]: Lorena T.
+                  - paragraph [ref=e481]: Manizales
+    - generic [ref=e484]:
+      - generic [ref=e485]:
+        - generic [ref=e486]:
+          - heading "No compras un producto y quedas sola" [level=2] [ref=e487]
+          - paragraph [ref=e488]: En VibeLife hay una persona real al otro lado. Alguien que te orienta, responde tus dudas y te acompaña en el proceso — no un chatbot, no un catálogo. Porque el producto ayuda. Pero lo que sostiene el proceso es saber que no estás sola.
+        - link "Ver comunidad" [ref=e489] [cursor=pointer]:
+          - /url: /community
+          - text: Ver comunidad
+          - img [ref=e490]
+      - generic [ref=e493]:
+        - generic [ref=e494]:
+          - img [ref=e496]
+          - heading "Una persona real, no un catálogo" [level=3] [ref=e501]
+          - paragraph [ref=e502]: Te acompañamos desde el primer mensaje hasta que el proceso se sostiene solo.
+        - generic [ref=e503]:
+          - generic [ref=e505]:
+            - img [ref=e507]
+            - generic [ref=e509]: Orientación personalizada — te decimos cuál producto tiene más sentido para ti
+          - generic [ref=e511]:
+            - img [ref=e513]
+            - generic [ref=e515]: Seguimiento real — resolvemos tus dudas mientras usas el producto, no solo al comprarlo
+          - generic [ref=e517]:
+            - img [ref=e519]
+            - generic [ref=e521]: Comunidad de mujeres — un espacio donde otras están en el mismo camino
+    - generic [ref=e523]:
+      - heading "Sobre mí" [level=2] [ref=e526]
+      - generic [ref=e527]:
+        - img "Adelvis - VibeLife" [ref=e530]
+        - generic [ref=e532]:
+          - heading "No tienes que seguir sintiéndote cansada, desconectada o en piloto automático." [level=3] [ref=e533]
+          - generic [ref=e534]:
+            - paragraph [ref=e535]: Durante mucho tiempo, como muchas mujeres, viví en el ritmo de cumplir, resolver y seguir… sin detenerme a escuchar lo que mi cuerpo y mi vida realmente necesitaban.
+            - paragraph [ref=e536]: "Y entendí algo importante: no se trata de hacer más, sino de empezar a cuidarte mejor."
+            - paragraph [ref=e537]: Hoy acompaño a mujeres que están listas para volver a sentirse bien, recuperar su energía y construir una vida más consciente, paso a paso, sin presión y sin fórmulas imposibles.
+          - generic [ref=e538]:
+            - paragraph [ref=e539]: "Si sientes que:"
+            - list [ref=e540]:
+              - listitem [ref=e541]: • te falta energía constantemente
+              - listitem [ref=e542]: • te cuesta mantener hábitos
+              - listitem [ref=e543]: • sientes que te has dejado en último lugar
+            - paragraph [ref=e544]: no estás sola… y no tienes que hacerlo sola.
+          - generic [ref=e545]:
+            - paragraph [ref=e546]: Este puede ser el momento en el que decides empezar diferente.
+            - paragraph [ref=e547]: No perfecto. No radical. Pero sí consciente.
+          - generic [ref=e548]:
+            - link "Quiero empezar" [ref=e549] [cursor=pointer]:
+              - /url: /adelvis
+              - text: Quiero empezar
+              - img [ref=e550]
+            - link "Hablar por WhatsApp" [ref=e552] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hola%20Adelvis%2C%20quiero%20conocer%20m%C3%A1s%20sobre%20c%C3%B3mo%20puedo%20empezar%20a%20sentirme%20mejor.
+              - img [ref=e553]
+              - text: Hablar por WhatsApp
+    - generic [ref=e556]:
+      - generic [ref=e557]:
+        - heading "Preguntas frecuentes" [level=2] [ref=e558]
+        - paragraph [ref=e559]: Queremos que llegues a la conversación por WhatsApp con más claridad, menos dudas y mejores decisiones.
+      - generic [ref=e561]:
+        - generic [ref=e562]:
+          - button "¿Qué es VibeLife?" [ref=e563]:
+            - generic [ref=e564]: ¿Qué es VibeLife?
+            - img [ref=e565]
+          - generic [ref=e568]: VibeLife es un espacio de bienestar natural donde encontrarás productos seleccionados y acompañamiento personalizado para ayudarte a tener más energía, mejores hábitos y sentirte mejor en tu día a día. No somos una farmacia ni un programa de dieta — somos una guía y un punto de partida real.
+        - button "¿Qué tipo de productos manejan?" [ref=e570]:
+          - generic [ref=e571]: ¿Qué tipo de productos manejan?
+          - img [ref=e572]
+        - button "¿Cómo sé cuál producto es para mí?" [ref=e575]:
+          - generic [ref=e576]: ¿Cómo sé cuál producto es para mí?
+          - img [ref=e577]
+        - button "¿Los productos sustituyen tratamientos médicos?" [ref=e580]:
+          - generic [ref=e581]: ¿Los productos sustituyen tratamientos médicos?
+          - img [ref=e582]
+        - button "¿Necesito cambiar mi rutina completamente?" [ref=e585]:
+          - generic [ref=e586]: ¿Necesito cambiar mi rutina completamente?
+          - img [ref=e587]
+        - button "¿Qué pasa si no me funciona?" [ref=e590]:
+          - generic [ref=e591]: ¿Qué pasa si no me funciona?
+          - img [ref=e592]
+    - generic [ref=e597]:
+      - img
+      - generic [ref=e598]:
+        - heading "No necesitas hacerlo perfecto Solo necesitas empezar" [level=2] [ref=e599]
+        - paragraph [ref=e600]: El momento perfecto no llega. Pero el primer paso sí puede ser hoy.
+        - generic [ref=e601]:
+          - link "Hablar por WhatsApp →" [ref=e602] [cursor=pointer]:
+            - /url: https://wa.me/50762882188?text=Hola%2C%20quiero%20saber%20qu%C3%A9%20producto%20de%20VibeLife%20es%20para%20m%C3%AD.%20Cu%C3%A9ntame%20por%20d%C3%B3nde%20empezar.
+            - img [ref=e603]
+            - text: Hablar por WhatsApp →
+          - link "Ver opciones" [ref=e605] [cursor=pointer]:
+            - /url: /#products
+            - text: Ver opciones
+            - img [ref=e606]
+  - contentinfo [ref=e609]:
+    - generic [ref=e611]:
+      - generic [ref=e612]:
+        - generic [ref=e613]:
+          - img "VibeLife logo" [ref=e614]
+          - paragraph [ref=e615]: VibeLife comparte opciones orientadas a bienestar natural, hábitos saludables y conversaciones directas por WhatsApp.
+          - link "Hablar por WhatsApp" [ref=e616] [cursor=pointer]:
+            - /url: https://wa.me/50762882188?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20VibeLife%20y%20las%20opciones%20disponibles.
+            - text: Hablar por WhatsApp
+            - img [ref=e617]
+        - generic [ref=e620]:
+          - heading "Navegación" [level=3] [ref=e621]
+          - generic [ref=e622]:
+            - link "Inicio" [ref=e623] [cursor=pointer]:
+              - /url: /
+            - link "Productos" [ref=e624] [cursor=pointer]:
+              - /url: /#products
+            - link "Comunidad" [ref=e625] [cursor=pointer]:
+              - /url: /community
+            - link "Nosotros" [ref=e626] [cursor=pointer]:
+              - /url: /about
+            - link "Contacto" [ref=e627] [cursor=pointer]:
+              - /url: /contact
+        - generic [ref=e628]:
+          - heading "Productos" [level=3] [ref=e629]
+          - generic [ref=e630]:
+            - link "Rise" [ref=e631] [cursor=pointer]:
+              - /url: /products/rise
+            - link "Amalaki" [ref=e632] [cursor=pointer]:
+              - /url: /products/amalaki
+            - link "Accell" [ref=e633] [cursor=pointer]:
+              - /url: /products/accell
+            - link "B-Fit" [ref=e634] [cursor=pointer]:
+              - /url: /products/b-fit
+      - generic [ref=e635]:
+        - generic [ref=e636]: VibeLife
+        - generic [ref=e637]: Bienestar Natural y Crecimiento Personal
+        - generic [ref=e638]: +507 6288-2188
+  - link "Hablar por WhatsApp" [ref=e640] [cursor=pointer]:
+    - /url: https://wa.me/50762882188?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20VibeLife%20y%20las%20opciones%20disponibles.
+    - img [ref=e642]

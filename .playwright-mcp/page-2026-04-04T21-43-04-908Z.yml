@@ -1,0 +1,348 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "VibeLife" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "VibeLife logo" [ref=e8]
+        - navigation [ref=e9]:
+          - link "Home" [ref=e10] [cursor=pointer]:
+            - /url: /
+          - link "Products" [ref=e11] [cursor=pointer]:
+            - /url: /#products
+          - link "Community" [ref=e12] [cursor=pointer]:
+            - /url: /community
+          - link "About" [ref=e13] [cursor=pointer]:
+            - /url: /about
+          - link "Contact" [ref=e14] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e15]:
+          - group "Language selector" [ref=e16]:
+            - button "ES" [ref=e17]
+            - button "EN" [ref=e18]
+          - link "Chat on WhatsApp" [ref=e19] [cursor=pointer]:
+            - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+            - img [ref=e20]
+            - text: Chat on WhatsApp
+    - main [ref=e22]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - heading "You don't need more coffee…" [level=1] [ref=e28]
+            - heading "you need to feel truly good" [level=2] [ref=e29]
+          - paragraph [ref=e30]: If you depend on coffee to function, but still feel tired, anxious, or overwhelmed… the problem isn't your energy. It's how you're creating it.
+          - generic [ref=e31]:
+            - link "I want to try RISE" [ref=e32] [cursor=pointer]:
+              - /url: "#contact"
+              - text: I want to try RISE
+              - img [ref=e33]
+            - link "Chat on WhatsApp" [ref=e35] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hi%2C%20I%20want%20to%20know%20more%20about%20RISE.
+              - img [ref=e36]
+              - text: Chat on WhatsApp
+        - img "RISE - VibeLife" [ref=e40]
+      - generic [ref=e43]:
+        - heading "It's not lack of energy… it's how you're managing it" [level=2] [ref=e46]
+        - generic [ref=e47]:
+          - paragraph [ref=e48]: You wake up… and the first thing you do is reach for coffee.
+          - generic [ref=e49]:
+            - generic [ref=e50]:
+              - paragraph [ref=e51]: "By mid-morning:"
+              - generic [ref=e52]:
+                - generic [ref=e53]:
+                  - generic [ref=e54]: •
+                  - paragraph [ref=e55]: you're tired again
+                - generic [ref=e56]:
+                  - generic [ref=e57]: •
+                  - paragraph [ref=e58]: you need another boost
+                - generic [ref=e59]:
+                  - generic [ref=e60]: •
+                  - paragraph [ref=e61]: your mind is overwhelmed
+            - generic [ref=e62]:
+              - paragraph [ref=e63]: "And in the afternoon:"
+              - generic [ref=e64]:
+                - generic [ref=e65]:
+                  - generic [ref=e66]: •
+                  - paragraph [ref=e67]: the crash hits
+                - generic [ref=e68]:
+                  - generic [ref=e69]: •
+                  - paragraph [ref=e70]: anxiety appears
+                - generic [ref=e71]:
+                  - generic [ref=e72]: •
+                  - paragraph [ref=e73]: you lose focus
+          - generic [ref=e74]:
+            - paragraph [ref=e75]: 👉 It's not lack of discipline
+            - paragraph [ref=e76]: 👉 It's a system that isn't working well
+      - generic [ref=e79]:
+        - heading "The problem isn't coffee… it's depending on it" [level=2] [ref=e82]
+        - generic [ref=e83]:
+          - paragraph [ref=e84]: "Traditional coffee:"
+          - generic [ref=e85]:
+            - generic [ref=e86]:
+              - generic [ref=e87]: •
+              - paragraph [ref=e88]: gives you quick energy
+            - generic [ref=e89]:
+              - generic [ref=e90]: •
+              - paragraph [ref=e91]: but also creates spikes and crashes
+            - generic [ref=e92]:
+              - generic [ref=e93]: •
+              - paragraph [ref=e94]: can increase anxiety
+            - generic [ref=e95]:
+              - generic [ref=e96]: •
+              - paragraph [ref=e97]: affects your stability throughout the day
+          - generic [ref=e98]:
+            - paragraph [ref=e99]: 👉 It's not helping you long-term
+            - paragraph [ref=e100]: 👉 it's just keeping you functioning
+      - generic [ref=e103]:
+        - heading "Here's where RISE makes the difference" [level=2] [ref=e106]
+        - generic [ref=e107]:
+          - paragraph [ref=e108]: "RISE is a functional coffee blend with ingredients designed to:"
+          - generic [ref=e109]:
+            - generic [ref=e110]:
+              - generic [ref=e111]: •
+              - paragraph [ref=e112]: improve your mental clarity
+            - generic [ref=e113]:
+              - generic [ref=e114]: •
+              - paragraph [ref=e115]: give you sustained energy
+            - generic [ref=e116]:
+              - generic [ref=e117]: •
+              - paragraph [ref=e118]: reduce the impact of stress
+            - generic [ref=e119]:
+              - generic [ref=e120]: •
+              - paragraph [ref=e121]: support your wellbeing from within
+          - paragraph [ref=e123]: 👉 It's not a momentary 'boost'. It's a different experience.
+      - generic [ref=e126]:
+        - heading "This is what really changes" [level=2] [ref=e129]
+        - generic [ref=e130]:
+          - paragraph [ref=e131]: "With consistent use, you can start to notice:"
+          - generic [ref=e132]:
+            - generic [ref=e133]:
+              - generic [ref=e134]: •
+              - paragraph [ref=e135]: You wake up without feeling heavy
+            - generic [ref=e136]:
+              - generic [ref=e137]: •
+              - paragraph [ref=e138]: You don't need 'another coffee' to keep going
+            - generic [ref=e139]:
+              - generic [ref=e140]: •
+              - paragraph [ref=e141]: Your mind is clearer
+            - generic [ref=e142]:
+              - generic [ref=e143]: •
+              - paragraph [ref=e144]: You concentrate better
+            - generic [ref=e145]:
+              - generic [ref=e146]: •
+              - paragraph [ref=e147]: You don't feel that constant emptiness or anxiety
+          - paragraph [ref=e149]: 👉 It's not a spike… it's a sustained feeling
+      - generic [ref=e152]:
+        - heading "More than coffee… it's how your day starts" [level=2] [ref=e155]
+        - generic [ref=e156]:
+          - paragraph [ref=e157]: "RISE combines:"
+          - generic [ref=e158]:
+            - generic [ref=e159]:
+              - generic [ref=e160]: ☕
+              - paragraph [ref=e161]: Colombian arabica coffee
+            - generic [ref=e162]:
+              - generic [ref=e163]: 🌿
+              - paragraph [ref=e164]: amalaki (one of the world's most potent antioxidants)
+          - paragraph [ref=e165]: 👉 creating a drink that not only wakes your body… but also supports your system.
+      - generic [ref=e168]:
+        - heading "It's not about more energy… it's about better energy" [level=2] [ref=e171]
+        - generic [ref=e172]:
+          - paragraph [ref=e173]: Your body doesn't need more stimulation.
+          - paragraph [ref=e174]: "It needs:"
+          - generic [ref=e175]:
+            - generic [ref=e176]:
+              - generic [ref=e177]: •
+              - paragraph [ref=e178]: less inflammation
+            - generic [ref=e179]:
+              - generic [ref=e180]: •
+              - paragraph [ref=e181]: more balance
+            - generic [ref=e182]:
+              - generic [ref=e183]: •
+              - paragraph [ref=e184]: better regulation
+          - paragraph [ref=e185]: RISE helps create that environment.
+          - paragraph [ref=e187]: 👉 That's why it feels different
+      - generic [ref=e190]:
+        - heading "Why it's not just coffee?" [level=2] [ref=e193]
+        - generic [ref=e194]:
+          - paragraph [ref=e195]: The difference of RISE is in amalaki.
+          - paragraph [ref=e196]: "An ingredient used for centuries in traditional medicine for its ability to:"
+          - generic [ref=e197]:
+            - generic [ref=e198]:
+              - generic [ref=e199]: •
+              - paragraph [ref=e200]: fight oxidative stress
+            - generic [ref=e201]:
+              - generic [ref=e202]: •
+              - paragraph [ref=e203]: support the immune system
+            - generic [ref=e204]:
+              - generic [ref=e205]: •
+              - paragraph [ref=e206]: improve natural energy
+          - paragraph [ref=e208]: 👉 This completely changes the coffee experience
+      - generic [ref=e211]:
+        - heading "The difference you can actually feel" [level=2] [ref=e214]
+        - table [ref=e217]:
+          - rowgroup [ref=e218]:
+            - row "Traditional Coffee RISE" [ref=e219]:
+              - columnheader "Traditional Coffee" [ref=e220]
+              - columnheader "RISE" [ref=e221]
+          - rowgroup [ref=e222]:
+            - row "Quick energy Stable energy" [ref=e223]:
+              - cell "Quick energy" [ref=e224]
+              - cell "Stable energy" [ref=e225]
+            - row "Anxiety / nervousness Active calm feeling" [ref=e226]:
+              - cell "Anxiety / nervousness" [ref=e227]
+              - cell "Active calm feeling" [ref=e228]
+            - row "Energy crash Constant flow" [ref=e229]:
+              - cell "Energy crash" [ref=e230]
+              - cell "Constant flow" [ref=e231]
+            - row "Dependency Sustainable wellbeing" [ref=e232]:
+              - cell "Dependency" [ref=e233]
+              - cell "Sustainable wellbeing" [ref=e234]
+        - generic [ref=e235]:
+          - paragraph [ref=e236]: 👉 It's not about giving up coffee
+          - paragraph [ref=e237]: 👉 It's about evolving it
+      - generic [ref=e240]:
+        - heading "Energy isn't just coffee… it's biology" [level=2] [ref=e243]
+        - generic [ref=e244]:
+          - paragraph [ref=e245]: "Your energy depends on:"
+          - generic [ref=e246]:
+            - generic [ref=e247]:
+              - generic [ref=e248]: •
+              - paragraph [ref=e249]: inflammation
+            - generic [ref=e250]:
+              - generic [ref=e251]: •
+              - paragraph [ref=e252]: metabolism
+            - generic [ref=e253]:
+              - generic [ref=e254]: •
+              - paragraph [ref=e255]: nervous system
+            - generic [ref=e256]:
+              - generic [ref=e257]: •
+              - paragraph [ref=e258]: nutrition
+          - paragraph [ref=e259]: When you just drink coffee… you're stimulating. When you use RISE… you're supporting your system.
+          - paragraph [ref=e261]: 👉 That's the difference
+      - generic [ref=e264]:
+        - heading "If you identify with this… it's for you" [level=2] [ref=e267]
+        - generic [ref=e268]:
+          - generic [ref=e270]:
+            - generic [ref=e271]: ✓
+            - paragraph [ref=e272]: You feel tired even though you sleep
+          - generic [ref=e274]:
+            - generic [ref=e275]: ✓
+            - paragraph [ref=e276]: You depend on coffee to function
+          - generic [ref=e278]:
+            - generic [ref=e279]: ✓
+            - paragraph [ref=e280]: You struggle to concentrate
+          - generic [ref=e282]:
+            - generic [ref=e283]: ✓
+            - paragraph [ref=e284]: You feel anxiety or mental overwhelm
+          - generic [ref=e286]:
+            - generic [ref=e287]: ✓
+            - paragraph [ref=e288]: You want to take care of yourself… without overcomplicating it
+        - generic [ref=e289]:
+          - paragraph [ref=e290]: 👉 RISE is designed for real women
+          - paragraph [ref=e291]: not for perfect routines
+      - generic [ref=e294]:
+        - heading "You don't need to change your life" [level=2] [ref=e297]
+        - generic [ref=e298]:
+          - paragraph [ref=e299]: Just change how you start your day.
+          - generic [ref=e300]:
+            - generic [ref=e301]:
+              - generic [ref=e302]: •
+              - paragraph [ref=e303]: Take it in the morning
+            - generic [ref=e304]:
+              - generic [ref=e305]: •
+              - paragraph [ref=e306]: Replace your regular coffee
+            - generic [ref=e307]:
+              - generic [ref=e308]: •
+              - paragraph [ref=e309]: Enjoy it as a ritual
+          - paragraph [ref=e311]: 👉 Small change… big impact
+      - generic [ref=e314]:
+        - heading "You're not doing this alone" [level=2] [ref=e317]
+        - generic [ref=e319]:
+          - paragraph [ref=e320]: This isn't just a product.
+          - paragraph [ref=e321]: "It's a community of women who:"
+          - generic [ref=e322]:
+            - generic [ref=e323]:
+              - generic [ref=e324]: •
+              - paragraph [ref=e325]: are prioritizing themselves
+            - generic [ref=e326]:
+              - generic [ref=e327]: •
+              - paragraph [ref=e328]: are reclaiming their energy
+            - generic [ref=e329]:
+              - generic [ref=e330]: •
+              - paragraph [ref=e331]: are changing how they live
+          - generic [ref=e332]:
+            - paragraph [ref=e333]: 👉 Here it's not about perfection
+            - paragraph [ref=e334]: it's about process
+      - generic [ref=e337]:
+        - heading "You're going to notice" [level=2] [ref=e340]
+        - generic [ref=e341]:
+          - paragraph [ref=e342]: "In just a few days you can start feeling:"
+          - generic [ref=e343]:
+            - generic [ref=e344]:
+              - generic [ref=e345]: •
+              - paragraph [ref=e346]: more clarity
+            - generic [ref=e347]:
+              - generic [ref=e348]: •
+              - paragraph [ref=e349]: less anxiety
+            - generic [ref=e350]:
+              - generic [ref=e351]: •
+              - paragraph [ref=e352]: more stable energy
+          - paragraph [ref=e353]: 👉 And over time… a version of you that's more present, lighter, more you
+      - generic [ref=e357]:
+        - img
+        - generic [ref=e358]:
+          - heading "You don't need to do more you need to feel better" [level=2] [ref=e359]
+          - paragraph [ref=e360]: RISE isn't a magic solution. But it is a better way to start your day. And sometimes… that changes everything.
+          - generic [ref=e361]:
+            - link "I want to try RISE" [ref=e362] [cursor=pointer]:
+              - /url: "#contact"
+              - text: I want to try RISE
+              - img [ref=e363]
+            - link "Chat on WhatsApp →" [ref=e365] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hi%2C%20I%20want%20to%20try%20RISE.%20How%20do%20I%20start%3F
+              - img [ref=e366]
+              - text: Chat on WhatsApp →
+      - paragraph [ref=e373]: This product does not substitute medical recommendations. Results may vary from person to person.
+    - contentinfo [ref=e375]:
+      - generic [ref=e377]:
+        - generic [ref=e378]:
+          - generic [ref=e379]:
+            - img "VibeLife logo" [ref=e380]
+            - paragraph [ref=e381]: VibeLife shares options focused on natural wellness, healthy habits and direct conversations through WhatsApp.
+            - link "Contact on WhatsApp" [ref=e382] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+              - text: Contact on WhatsApp
+              - img [ref=e383]
+          - generic [ref=e386]:
+            - heading "Navigate" [level=3] [ref=e387]
+            - generic [ref=e388]:
+              - link "Home" [ref=e389] [cursor=pointer]:
+                - /url: /
+              - link "Products" [ref=e390] [cursor=pointer]:
+                - /url: /#products
+              - link "Community" [ref=e391] [cursor=pointer]:
+                - /url: /community
+              - link "About" [ref=e392] [cursor=pointer]:
+                - /url: /about
+              - link "Contact" [ref=e393] [cursor=pointer]:
+                - /url: /contact
+          - generic [ref=e394]:
+            - heading "Products" [level=3] [ref=e395]
+            - generic [ref=e396]:
+              - link "Rise" [ref=e397] [cursor=pointer]:
+                - /url: /products/rise
+              - link "Amalaki" [ref=e398] [cursor=pointer]:
+                - /url: /products/amalaki
+              - link "Accell" [ref=e399] [cursor=pointer]:
+                - /url: /products/accell
+              - link "B-Fit" [ref=e400] [cursor=pointer]:
+                - /url: /products/b-fit
+        - generic [ref=e401]:
+          - generic [ref=e402]: VibeLife
+          - generic [ref=e403]: Natural Wellness & Personal Growth
+          - generic [ref=e404]: +507 6288-2188
+    - link "Chat on WhatsApp" [ref=e406] [cursor=pointer]:
+      - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+      - img [ref=e408]
+      - generic [ref=e410]: WhatsApp
+  - alert [ref=e411]

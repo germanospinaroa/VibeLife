@@ -1,0 +1,344 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "VibeLife" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "VibeLife logo" [ref=e8]
+        - navigation [ref=e9]:
+          - link "Inicio" [ref=e10] [cursor=pointer]:
+            - /url: /
+          - link "Productos" [ref=e11] [cursor=pointer]:
+            - /url: /#products
+          - link "Comunidad" [ref=e12] [cursor=pointer]:
+            - /url: /community
+          - link "Nosotros" [ref=e13] [cursor=pointer]:
+            - /url: /about
+          - link "Contacto" [ref=e14] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e15]:
+          - group "Language selector" [ref=e16]:
+            - button "ES" [ref=e17]
+            - button "EN" [ref=e18]
+          - link "Hablar por WhatsApp" [ref=e19] [cursor=pointer]:
+            - /url: https://wa.me/50762882188?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20VibeLife%20y%20las%20opciones%20disponibles.
+            - img [ref=e20]
+            - text: Hablar por WhatsApp
+    - main [ref=e22]:
+      - generic [ref=e28]:
+        - generic [ref=e29]:
+          - generic [ref=e30]: Bienestar natural y crecimiento personal
+          - heading "Bienestar natural para verte bien, sentirte mejor y vivir con más energía cada día" [level=1] [ref=e31]
+          - paragraph [ref=e32]: Descubre productos diseñados para acompañar tu bienestar, ayudarte a construir hábitos saludables y mejorar tu estilo de vida de forma natural.
+          - paragraph [ref=e33]: Productos seleccionados y acompañamiento para mejorar tu bienestar
+          - generic [ref=e34]:
+            - link "Ver productos" [ref=e35] [cursor=pointer]:
+              - /url: /#products
+              - text: Ver productos
+              - img [ref=e36]
+            - link "Hablar por WhatsApp" [ref=e38] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hola%2C%20quiero%20recibir%20orientaci%C3%B3n%20sobre%20cu%C3%A1l%20opci%C3%B3n%20puede%20ayudarme%20mejor.
+              - img [ref=e39]
+              - text: Hablar por WhatsApp
+          - paragraph [ref=e41]: Opciones disponibles para energía, equilibrio y bienestar diario
+          - generic [ref=e42]:
+            - generic [ref=e43]:
+              - img [ref=e44]
+              - generic [ref=e47]: Más energía en tu día
+            - generic [ref=e48]:
+              - img [ref=e49]
+              - generic [ref=e52]: Mejores hábitos
+            - generic [ref=e53]:
+              - img [ref=e54]
+              - generic [ref=e57]: Bienestar más consciente
+        - generic [ref=e61]:
+          - img "VibeLife logo" [ref=e69]
+          - generic [ref=e70]:
+            - generic [ref=e72]:
+              - img [ref=e74]
+              - generic [ref=e77]:
+                - heading "Opciones para tu bienestar diario" [level=3] [ref=e78]
+                - paragraph [ref=e79]: Descubre opciones diseñadas para tu rutina.
+            - generic [ref=e81]:
+              - img [ref=e83]
+              - generic [ref=e85]:
+                - heading "Atención directa por WhatsApp" [level=3] [ref=e86]
+                - paragraph [ref=e87]: Resolvemos tus dudas de forma rápida.
+            - generic [ref=e89]:
+              - img [ref=e91]
+              - generic [ref=e93]:
+                - heading "Empieza fácilmente" [level=3] [ref=e94]
+                - paragraph [ref=e95]: Te guiamos paso a paso.
+      - generic [ref=e98]:
+        - generic [ref=e99]:
+          - generic [ref=e100]:
+            - heading "Cuidar tu bienestar no es un lujo, es una necesidad" [level=2] [ref=e101]
+            - paragraph [ref=e102]: El ritmo de vida actual, el estrés, la alimentación y los hábitos diarios impactan directamente en cómo te sientes, cómo rindes y cómo vives.
+          - paragraph [ref=e103]: Muchas veces normalizamos el cansancio, la falta de energía o el desbalance, sin darnos cuenta de que pequeños cambios pueden marcar una gran diferencia.
+        - generic [ref=e104]:
+          - generic [ref=e107]:
+            - img [ref=e109]
+            - generic [ref=e112]:
+              - heading "Energía diaria" [level=3] [ref=e113]
+              - paragraph [ref=e114]: Sentirte con energía no debería ser algo ocasional.
+          - generic [ref=e117]:
+            - img [ref=e119]
+            - generic [ref=e122]:
+              - heading "Hábitos sostenibles" [level=3] [ref=e123]
+              - paragraph [ref=e124]: Tu bienestar depende de lo que haces todos los días.
+          - generic [ref=e127]:
+            - img [ref=e129]
+            - generic [ref=e131]:
+              - heading "Equilibrio físico y mental" [level=3] [ref=e132]
+              - paragraph [ref=e133]: Cuerpo y mente trabajan juntos.
+      - generic [ref=e135]:
+        - generic [ref=e136]:
+          - heading "¿Cómo puedes mejorar tu bienestar?" [level=2] [ref=e137]
+          - paragraph [ref=e138]: Existen diferentes formas de apoyar tu bienestar, desde hábitos diarios hasta el uso de productos adecuados que complementen tu rutina.
+        - paragraph [ref=e139]: No se trata de hacerlo todo a la vez, sino de entender qué cambios pueden ayudarte hoy y sostenerlos con más claridad.
+        - generic [ref=e140]:
+          - generic [ref=e142]:
+            - img [ref=e144]
+            - heading "Mejorar tu energía diaria" [level=3] [ref=e147]
+            - paragraph [ref=e148]: Una rutina bien acompañada puede ayudarte a sostener enfoque, constancia y mejor rendimiento durante el día.
+          - generic [ref=e150]:
+            - img [ref=e152]
+            - heading "Construir hábitos saludables" [level=3] [ref=e154]
+            - paragraph [ref=e155]: Los cambios pequeños y repetidos suelen tener más impacto que los esfuerzos aislados o difíciles de sostener.
+          - generic [ref=e157]:
+            - img [ref=e159]
+            - heading "Cuidar tu bienestar de forma natural" [level=3] [ref=e162]
+            - paragraph [ref=e163]: El descanso, el movimiento, la alimentación y los productos adecuados pueden complementar una rutina más equilibrada.
+      - generic [ref=e165]:
+        - generic [ref=e166]:
+          - heading "Hábitos que marcan la diferencia" [level=2] [ref=e167]
+          - paragraph [ref=e168]: El bienestar no suele depender de una sola decisión, sino de hábitos que se repiten y se sostienen en el tiempo.
+        - paragraph [ref=e169]: Cuando mejoras tu descanso, tu alimentación, tu movimiento y el apoyo que eliges para tu rutina, también mejora la forma en la que te sientes cada día.
+        - generic [ref=e170]:
+          - generic [ref=e172]:
+            - img [ref=e174]
+            - heading "Dormir mejor" [level=3] [ref=e176]
+            - paragraph [ref=e177]: El descanso impacta todo tu sistema.
+          - generic [ref=e179]:
+            - img [ref=e181]
+            - heading "Alimentarte mejor" [level=3] [ref=e184]
+            - paragraph [ref=e185]: Lo que consumes influye directamente en tu energía.
+          - generic [ref=e187]:
+            - img [ref=e189]
+            - heading "Mantenerte activo" [level=3] [ref=e191]
+            - paragraph [ref=e192]: El movimiento es clave para el bienestar.
+          - generic [ref=e194]:
+            - img [ref=e196]
+            - heading "Apoyarte en soluciones adecuadas" [level=3] [ref=e198]
+            - paragraph [ref=e199]: Algunos productos pueden complementar tu proceso.
+      - generic [ref=e201]:
+        - generic [ref=e202]:
+          - heading "Opciones para tu bienestar" [level=2] [ref=e203]
+          - paragraph [ref=e204]: Productos que puedes integrar fácilmente a tu rutina diaria.
+        - generic [ref=e205]:
+          - paragraph [ref=e207]: En VibeLife trabajamos con productos Zilis que pueden complementar tu estilo de vida y ayudarte a mantener una rutina más equilibrada.
+          - paragraph [ref=e209]: Si no sabes cuál opción puede ajustarse mejor a ti, te orientamos por WhatsApp para que tomes una mejor decisión.
+        - generic [ref=e210]:
+          - generic [ref=e212]:
+            - generic [ref=e215]:
+              - generic [ref=e218]: Energía y enfoque diario
+              - generic [ref=e219]:
+                - generic [ref=e220]: Ver beneficios
+                - generic [ref=e221]: Cómo usarlo
+            - generic [ref=e222]:
+              - heading "Rise" [level=3] [ref=e223]
+              - paragraph [ref=e224]: Producto de Zilis
+              - paragraph [ref=e225]: Ideal para mejorar tu energía y mantenerte activo durante el día.
+              - generic [ref=e226]:
+                - link "Ver producto" [ref=e227] [cursor=pointer]:
+                  - /url: /products/rise
+                  - text: Ver producto
+                  - img [ref=e228]
+                - link "Cómo usarlo" [ref=e230] [cursor=pointer]:
+                  - /url: https://wa.me/50762882188?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Rise.
+                  - img [ref=e231]
+                  - text: Cómo usarlo
+          - generic [ref=e234]:
+            - generic [ref=e237]:
+              - generic [ref=e240]: Equilibrio y nutrición
+              - generic [ref=e241]:
+                - generic [ref=e242]: Ver beneficios
+                - generic [ref=e243]: Cómo usarlo
+            - generic [ref=e244]:
+              - heading "Amalaki" [level=3] [ref=e245]
+              - paragraph [ref=e246]: Producto de Zilis
+              - paragraph [ref=e247]: Apoya tu bienestar y equilibrio desde una rutina más natural.
+              - generic [ref=e248]:
+                - link "Ver producto" [ref=e249] [cursor=pointer]:
+                  - /url: /products/amalaki
+                  - text: Ver producto
+                  - img [ref=e250]
+                - link "Cómo usarlo" [ref=e252] [cursor=pointer]:
+                  - /url: https://wa.me/50762882188?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Amalaki.
+                  - img [ref=e253]
+                  - text: Cómo usarlo
+          - generic [ref=e256]:
+            - generic [ref=e259]:
+              - generic [ref=e262]: Ritmo activo
+              - generic [ref=e263]:
+                - generic [ref=e264]: Ver beneficios
+                - generic [ref=e265]: Cómo usarlo
+            - generic [ref=e266]:
+              - heading "Accell" [level=3] [ref=e267]
+              - paragraph [ref=e268]: Producto de Zilis
+              - paragraph [ref=e269]: Perfecto para personas con un estilo de vida activo y enfocado.
+              - generic [ref=e270]:
+                - link "Ver producto" [ref=e271] [cursor=pointer]:
+                  - /url: /products/accell
+                  - text: Ver producto
+                  - img [ref=e272]
+                - link "Cómo usarlo" [ref=e274] [cursor=pointer]:
+                  - /url: https://wa.me/50762882188?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20Accell.
+                  - img [ref=e275]
+                  - text: Cómo usarlo
+          - generic [ref=e278]:
+            - generic [ref=e281]:
+              - generic [ref=e284]: Bienestar físico
+              - generic [ref=e285]:
+                - generic [ref=e286]: Ver beneficios
+                - generic [ref=e287]: Cómo usarlo
+            - generic [ref=e288]:
+              - heading "B-Fit" [level=3] [ref=e289]
+              - paragraph [ref=e290]: Producto de Zilis
+              - paragraph [ref=e291]: Acompaña hábitos que contribuyen a tu bienestar físico.
+              - generic [ref=e292]:
+                - link "Ver producto" [ref=e293] [cursor=pointer]:
+                  - /url: /products/b-fit
+                  - text: Ver producto
+                  - img [ref=e294]
+                - link "Cómo usarlo" [ref=e296] [cursor=pointer]:
+                  - /url: https://wa.me/50762882188?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20B-Fit.
+                  - img [ref=e297]
+                  - text: Cómo usarlo
+      - generic [ref=e300]:
+        - generic [ref=e301]:
+          - heading "¿Para quién es VibeLife?" [level=2] [ref=e302]
+          - paragraph [ref=e303]: Si estás buscando sentirte mejor, mejorar tu rutina y contar con una guía más clara, aquí puedes encontrar opciones que acompañen ese proceso.
+        - generic [ref=e304]:
+          - generic [ref=e307]:
+            - img [ref=e309]
+            - generic [ref=e312]:
+              - heading "Personas que quieren mejorar su energía" [level=3] [ref=e313]
+              - paragraph [ref=e314]: Buscan sostener mejor su ritmo diario y sentirse más activas.
+          - generic [ref=e317]:
+            - img [ref=e319]
+            - generic [ref=e322]:
+              - heading "Personas que buscan hábitos más saludables" [level=3] [ref=e323]
+              - paragraph [ref=e324]: Quieren tomar decisiones más conscientes y sostenibles en su rutina.
+          - generic [ref=e327]:
+            - img [ref=e329]
+            - generic [ref=e331]:
+              - heading "Personas que quieren sentirse mejor día a día" [level=3] [ref=e332]
+              - paragraph [ref=e333]: Les importa cómo se sienten, cómo rinden y cómo viven cada semana.
+          - generic [ref=e336]:
+            - img [ref=e338]
+            - generic [ref=e342]:
+              - heading "Personas que buscan equilibrio" [level=3] [ref=e343]
+              - paragraph [ref=e344]: Quieren una rutina que les ayude a mantenerse mejor física y mentalmente.
+      - generic [ref=e347]:
+        - generic [ref=e348]:
+          - generic [ref=e349]:
+            - heading "Acompañamiento para mejorar tu estilo de vida" [level=2] [ref=e350]
+            - paragraph [ref=e351]: No solo encuentras productos, también guía, contenido y acompañamiento para ayudarte a construir hábitos más saludables.
+          - link "Ver comunidad" [ref=e352] [cursor=pointer]:
+            - /url: /community
+            - text: Ver comunidad
+            - img [ref=e353]
+        - generic [ref=e356]:
+          - generic [ref=e357]:
+            - img [ref=e359]
+            - heading "Acompañamiento para sostener mejores hábitos" [level=3] [ref=e364]
+            - paragraph [ref=e365]: Un espacio para seguir aprendiendo, resolver dudas y mantener hábitos con más constancia.
+          - generic [ref=e366]:
+            - generic [ref=e368]:
+              - img [ref=e370]
+              - generic [ref=e372]: Guía para mejorar tus hábitos
+            - generic [ref=e374]:
+              - img [ref=e376]
+              - generic [ref=e378]: Consejos aplicables en tu día a día
+            - generic [ref=e380]:
+              - img [ref=e382]
+              - generic [ref=e384]: Acompañamiento en tu proceso
+      - generic [ref=e386]:
+        - generic [ref=e387]:
+          - heading "Preguntas frecuentes" [level=2] [ref=e388]
+          - paragraph [ref=e389]: Queremos que llegues a la conversación por WhatsApp con más claridad, menos dudas y mejores decisiones.
+        - generic [ref=e391]:
+          - generic [ref=e392]:
+            - button "¿Qué es VibeLife?" [ref=e393]:
+              - generic [ref=e394]: ¿Qué es VibeLife?
+              - img [ref=e395]
+            - generic [ref=e398]: Es una marca enfocada en bienestar, hábitos saludables y acompañamiento.
+          - button "¿Qué tipo de productos manejan?" [ref=e400]:
+            - generic [ref=e401]: ¿Qué tipo de productos manejan?
+            - img [ref=e402]
+          - button "¿Cómo sé cuál producto es para mí?" [ref=e405]:
+            - generic [ref=e406]: ¿Cómo sé cuál producto es para mí?
+            - img [ref=e407]
+          - button "¿Los productos sustituyen tratamientos médicos?" [ref=e410]:
+            - generic [ref=e411]: ¿Los productos sustituyen tratamientos médicos?
+            - img [ref=e412]
+          - button "¿Necesito cambiar mi rutina?" [ref=e415]:
+            - generic [ref=e416]: ¿Necesito cambiar mi rutina?
+            - img [ref=e417]
+      - generic [ref=e422]:
+        - heading "Empieza hoy a sentirte mejor" [level=2] [ref=e423]
+        - paragraph [ref=e424]: No necesitas cambiar todo de golpe. A veces, el primer paso es simplemente elegir mejor.
+        - generic [ref=e425]:
+          - link "Ver productos" [ref=e426] [cursor=pointer]:
+            - /url: /#products
+            - text: Ver productos
+            - img [ref=e427]
+          - link "Hablar por WhatsApp" [ref=e429] [cursor=pointer]:
+            - /url: https://wa.me/50762882188?text=Hola%2C%20quiero%20empezar%20hoy%20y%20me%20gustar%C3%ADa%20saber%20qu%C3%A9%20opci%C3%B3n%20puede%20ser%20mejor%20para%20m%C3%AD.
+            - img [ref=e430]
+            - text: Hablar por WhatsApp
+    - contentinfo [ref=e433]:
+      - generic [ref=e435]:
+        - generic [ref=e436]:
+          - generic [ref=e437]:
+            - img "VibeLife logo" [ref=e438]
+            - paragraph [ref=e439]: VibeLife comparte opciones orientadas a bienestar natural, hábitos saludables y conversaciones directas por WhatsApp.
+            - link "Hablar por WhatsApp" [ref=e440] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20VibeLife%20y%20las%20opciones%20disponibles.
+              - text: Hablar por WhatsApp
+              - img [ref=e441]
+          - generic [ref=e444]:
+            - heading "Navegación" [level=3] [ref=e445]
+            - generic [ref=e446]:
+              - link "Inicio" [ref=e447] [cursor=pointer]:
+                - /url: /
+              - link "Productos" [ref=e448] [cursor=pointer]:
+                - /url: /#products
+              - link "Comunidad" [ref=e449] [cursor=pointer]:
+                - /url: /community
+              - link "Nosotros" [ref=e450] [cursor=pointer]:
+                - /url: /about
+              - link "Contacto" [ref=e451] [cursor=pointer]:
+                - /url: /contact
+          - generic [ref=e452]:
+            - heading "Productos" [level=3] [ref=e453]
+            - generic [ref=e454]:
+              - link "Rise" [ref=e455] [cursor=pointer]:
+                - /url: /products/rise
+              - link "Amalaki" [ref=e456] [cursor=pointer]:
+                - /url: /products/amalaki
+              - link "Accell" [ref=e457] [cursor=pointer]:
+                - /url: /products/accell
+              - link "B-Fit" [ref=e458] [cursor=pointer]:
+                - /url: /products/b-fit
+        - generic [ref=e459]:
+          - generic [ref=e460]: VibeLife
+          - generic [ref=e461]: Bienestar Natural y Crecimiento Personal
+          - generic [ref=e462]: +507 6288-2188
+    - link "Hablar por WhatsApp" [ref=e463] [cursor=pointer]:
+      - /url: https://wa.me/50762882188?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20VibeLife%20y%20las%20opciones%20disponibles.
+      - img [ref=e465]
+      - generic [ref=e467]: WhatsApp
+  - button "Open Next.js Dev Tools" [ref=e473] [cursor=pointer]:
+    - img [ref=e474]

@@ -1,0 +1,204 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "VibeLife" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "VibeLife logo" [ref=e8]
+        - navigation [ref=e9]:
+          - link "Home" [ref=e10] [cursor=pointer]:
+            - /url: /
+          - link "Products" [ref=e11] [cursor=pointer]:
+            - /url: /#products
+          - link "Community" [ref=e12] [cursor=pointer]:
+            - /url: /community
+          - link "About" [ref=e13] [cursor=pointer]:
+            - /url: /about
+          - link "Contact" [ref=e14] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e15]:
+          - group "Language selector" [ref=e16]:
+            - button "ES" [ref=e17]
+            - button "EN" [ref=e18]
+          - link "Chat on WhatsApp" [ref=e19] [cursor=pointer]:
+            - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+            - img [ref=e20]
+            - text: Chat on WhatsApp
+    - main [ref=e22]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - heading "Feeling better in your body doesn't have to be a constant struggle" [level=1] [ref=e27]
+          - paragraph [ref=e28]: B-Fit is a simple way to support your metabolism, help you recover balance and feel lighter, with more control and energy in your daily life.
+          - list [ref=e29]:
+            - listitem [ref=e30]:
+              - generic [ref=e31]: •
+              - generic [ref=e32]: Supports your metabolism naturally
+            - listitem [ref=e33]:
+              - generic [ref=e34]: •
+              - generic [ref=e35]: Helps you feel lighter
+            - listitem [ref=e36]:
+              - generic [ref=e37]: •
+              - generic [ref=e38]: Complements sustainable habits
+            - listitem [ref=e39]:
+              - generic [ref=e40]: •
+              - generic [ref=e41]: Easy to integrate into your routine
+          - generic [ref=e42]:
+            - link "I want to start" [ref=e43] [cursor=pointer]:
+              - /url: "#contact"
+              - text: I want to start
+              - img [ref=e44]
+            - link "Chat on WhatsApp" [ref=e46] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hi%2C%20I%20want%20to%20know%20more%20about%20B-Fit%20and%20how%20it%20can%20help%20me.
+              - img [ref=e47]
+              - text: Chat on WhatsApp
+        - img "B-Fit - VibeLife" [ref=e51]
+      - generic [ref=e54]:
+        - heading "If you feel like your body isn't responding the way it used to…" [level=2] [ref=e57]
+        - generic [ref=e58]:
+          - paragraph [ref=e59]: Maybe you've tried several things. Diets, routines, changes… and you keep coming back to the same place.
+          - generic [ref=e60]:
+            - paragraph [ref=e61]: Fatigue.
+            - paragraph [ref=e62]: Inflammation.
+            - paragraph [ref=e63]: Lack of consistency.
+          - paragraph [ref=e64]: And that feeling that you're making an effort, but you don't see results.
+          - paragraph [ref=e65]: It's not a lack of discipline. It's that you need a different approach.
+      - generic [ref=e68]:
+        - heading "It's not about doing more… it's about doing it better" [level=2] [ref=e71]
+        - generic [ref=e72]:
+          - paragraph [ref=e73]: "When your body receives the right support, everything starts to feel different:"
+          - generic [ref=e74]:
+            - generic [ref=e75]:
+              - generic [ref=e76]: →
+              - paragraph [ref=e77]: more energy
+            - generic [ref=e78]:
+              - generic [ref=e79]: →
+              - paragraph [ref=e80]: more clarity
+            - generic [ref=e81]:
+              - generic [ref=e82]: →
+              - paragraph [ref=e83]: more control
+          - paragraph [ref=e84]: And from there, maintaining habits stops being a struggle.
+      - generic [ref=e87]:
+        - heading "What is B-Fit?" [level=2] [ref=e90]
+        - generic [ref=e91]:
+          - paragraph [ref=e92]: B-Fit is a supplement designed to support your metabolism and help you create a more favorable environment to feel better in your body.
+          - generic [ref=e93]:
+            - paragraph [ref=e94]: It's not a magic solution.
+            - paragraph [ref=e95]: It's a tool that, combined with small changes, can make a big difference.
+      - generic [ref=e98]:
+        - heading "How can it help you?" [level=2] [ref=e101]
+        - generic [ref=e102]:
+          - generic [ref=e104]:
+            - img [ref=e106]
+            - paragraph [ref=e108]: Supports metabolism
+          - generic [ref=e110]:
+            - img [ref=e112]
+            - paragraph [ref=e114]: Contributes to body balance
+          - generic [ref=e116]:
+            - img [ref=e118]
+            - paragraph [ref=e120]: Helps you feel lighter
+          - generic [ref=e122]:
+            - img [ref=e124]
+            - paragraph [ref=e126]: Facilitates habit consistency
+          - generic [ref=e128]:
+            - img [ref=e130]
+            - paragraph [ref=e132]: Complements your lifestyle
+      - generic [ref=e135]:
+        - heading "How to integrate it into your day?" [level=2] [ref=e138]
+        - generic [ref=e139]:
+          - paragraph [ref=e140]: B-Fit is designed to be easy.
+          - generic [ref=e141]:
+            - paragraph [ref=e142]: You don't need to change your whole life.
+            - paragraph [ref=e143]: Just start with small steps.
+          - paragraph [ref=e144]: You can incorporate it into your daily routine as part of your wellness process.
+      - generic [ref=e147]:
+        - heading "This is for you if…" [level=2] [ref=e150]
+        - generic [ref=e151]:
+          - generic [ref=e153]:
+            - generic [ref=e154]: ✓
+            - paragraph [ref=e155]: You're tired of starting and not sticking with it
+          - generic [ref=e157]:
+            - generic [ref=e158]: ✓
+            - paragraph [ref=e159]: You feel your body is out of balance
+          - generic [ref=e161]:
+            - generic [ref=e162]: ✓
+            - paragraph [ref=e163]: You want something you can maintain over time
+          - generic [ref=e165]:
+            - generic [ref=e166]: ✓
+            - paragraph [ref=e167]: You're ready to prioritize yourself
+      - generic [ref=e170]:
+        - heading "This is not for you if…" [level=2] [ref=e173]
+        - generic [ref=e174]:
+          - generic [ref=e176]:
+            - generic [ref=e177]: ✕
+            - paragraph [ref=e178]: You're looking for quick fixes
+          - generic [ref=e180]:
+            - generic [ref=e181]: ✕
+            - paragraph [ref=e182]: You're not willing to change anything
+          - generic [ref=e184]:
+            - generic [ref=e185]: ✕
+            - paragraph [ref=e186]: You expect results without effort
+      - generic [ref=e189]:
+        - heading "You're not alone in this process" [level=2] [ref=e192]
+        - generic [ref=e194]:
+          - paragraph [ref=e195]: It's not just about the product.
+          - paragraph [ref=e196]: We support you step by step to help you integrate this into your life in a real, sustainable and conscious way.
+      - generic [ref=e199]:
+        - heading "What other women are achieving" [level=2] [ref=e202]
+        - paragraph [ref=e205]: (Real testimonials from women who are already seeing changes will be added here)
+      - generic [ref=e209]:
+        - img
+        - generic [ref=e210]:
+          - heading "You can stay the same… or start differently today" [level=2] [ref=e211]
+          - paragraph [ref=e212]: You don't need to do it perfectly. Just start.
+          - generic [ref=e213]:
+            - link "I want to start" [ref=e214] [cursor=pointer]:
+              - /url: "#contact"
+              - text: I want to start
+              - img [ref=e215]
+            - link "Chat on WhatsApp →" [ref=e217] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hi%2C%20I%20want%20to%20start%20with%20B-Fit.%20Where%20do%20I%20begin%3F
+              - img [ref=e218]
+              - text: Chat on WhatsApp →
+    - contentinfo [ref=e221]:
+      - generic [ref=e223]:
+        - generic [ref=e224]:
+          - generic [ref=e225]:
+            - img "VibeLife logo" [ref=e226]
+            - paragraph [ref=e227]: VibeLife shares options focused on natural wellness, healthy habits and direct conversations through WhatsApp.
+            - link "Contact on WhatsApp" [ref=e228] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+              - text: Contact on WhatsApp
+              - img [ref=e229]
+          - generic [ref=e232]:
+            - heading "Navigate" [level=3] [ref=e233]
+            - generic [ref=e234]:
+              - link "Home" [ref=e235] [cursor=pointer]:
+                - /url: /
+              - link "Products" [ref=e236] [cursor=pointer]:
+                - /url: /#products
+              - link "Community" [ref=e237] [cursor=pointer]:
+                - /url: /community
+              - link "About" [ref=e238] [cursor=pointer]:
+                - /url: /about
+              - link "Contact" [ref=e239] [cursor=pointer]:
+                - /url: /contact
+          - generic [ref=e240]:
+            - heading "Products" [level=3] [ref=e241]
+            - generic [ref=e242]:
+              - link "Rise" [ref=e243] [cursor=pointer]:
+                - /url: /products/rise
+              - link "Amalaki" [ref=e244] [cursor=pointer]:
+                - /url: /products/amalaki
+              - link "Accell" [ref=e245] [cursor=pointer]:
+                - /url: /products/accell
+              - link "B-Fit" [ref=e246] [cursor=pointer]:
+                - /url: /products/b-fit
+        - generic [ref=e247]:
+          - generic [ref=e248]: VibeLife
+          - generic [ref=e249]: Natural Wellness & Personal Growth
+          - generic [ref=e250]: +507 6288-2188
+    - link "Chat on WhatsApp" [ref=e252] [cursor=pointer]:
+      - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+      - img [ref=e254]
+      - generic [ref=e256]: WhatsApp
+  - alert [ref=e257]

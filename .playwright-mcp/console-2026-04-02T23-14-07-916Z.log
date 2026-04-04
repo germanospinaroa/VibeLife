@@ -1,0 +1,130 @@
+[     955ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[    1272ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[    1607ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[    1875ms] [LOG] [Fast Refresh] done in 489ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[    2137ms] [WARNING] Image with src "/images/brand/vibelife-logo-transparent.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6087206ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6090840ms] ReferenceError: supportPoints is not defined
+    at HeroSection (http://localhost:3000/_next/static/chunks/VibeLife_src_0ftu2b_._.js?id=%255Bproject%255D%252FVibeLife%252Fsrc%252Fcomponents%252Fhome%252Fhero-section.tsx+%255Bapp-client%255D+%2528ecmascript%2529:187:51)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:15037:24)
+    at renderWithHooks (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:4620:24)
+    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:6081:21)
+    at beginWork (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:6691:24)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:965:74)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:9555:97)
+    at workLoopSync (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:9449:40)
+    at renderRootSync (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:9433:13)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:9098:47)
+    at performSyncWorkOnRoot (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:10179:316)
+    at flushSyncWork$1 (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:9230:86)
+    at Object.scheduleRefresh (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:299:13)
+    at http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_0ldw6s3._.js:391:33
+    at Set.forEach (<anonymous>)
+    at Object.performReactRefresh (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_0ldw6s3._.js:384:38)
+    at applyUpdate (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_0ldw6s3._.js:878:31)
+    at http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_0ldw6s3._.js:886:13
+[ 6090836ms] [LOG] [Fast Refresh] done in 3182ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6091397ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6091628ms] [LOG] [Fast Refresh] done in 332ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6094624ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6095398ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6095713ms] ReferenceError: supportPoints is not defined
+    at HeroSection (http://localhost:3000/_next/static/chunks/VibeLife_src_0ftu2b_._.js?id=%255Bproject%255D%252FVibeLife%252Fsrc%252Fcomponents%252Fhome%252Fhero-section.tsx+%255Bapp-client%255D+%2528ecmascript%2529:183:51)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:15037:24)
+    at renderWithHooks (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:4620:24)
+    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:6081:21)
+    at beginWork (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:6665:639)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:965:74)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:9555:97)
+    at workLoopSync (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:9449:40)
+    at renderRootSync (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:9433:13)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:9098:47)
+    at performSyncWorkOnRoot (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:10263:9)
+    at flushSyncWorkAcrossRoots_impl (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:10179:316)
+    at flushSyncWork$1 (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:9230:86)
+    at Object.scheduleRefresh (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:299:13)
+    at http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_0ldw6s3._.js:391:33
+    at Set.forEach (<anonymous>)
+    at Object.performReactRefresh (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_0ldw6s3._.js:384:38)
+    at applyUpdate (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_0ldw6s3._.js:878:31)
+    at http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_0ldw6s3._.js:886:13
+[ 6095551ms] [LOG] [Fast Refresh] done in 867ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6096217ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6096630ms] [LOG] [Fast Refresh] done in 514ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6097315ms] [ERROR] Failed to load resource: the server responded with a status of 500 (Internal Server Error) @ http://localhost:3000/:0
+[ 6098608ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6098898ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6099164ms] ReferenceError: supportPoints is not defined
+    at HeroSection (http://localhost:3000/_next/static/chunks/VibeLife_src_0ftu2b_._.js:1397:51)
+    at Object.react_stack_bottom_frame (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:15037:24)
+    at renderWithHooks (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:4620:24)
+    at updateFunctionComponent (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:6081:21)
+    at beginWork (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:6665:639)
+    at runWithFiberInDEV (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:965:74)
+    at performUnitOfWork (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:9555:97)
+    at workLoopSync (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:9449:40)
+    at renderRootSync (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:9433:13)
+    at performWorkOnRoot (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:9098:47)
+    at performWorkOnRootViaSchedulerTask (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_react-dom_0npnjd2._.js:10255:9)
+    at MessagePort.performWorkUntilDeadline (http://localhost:3000/_next/static/chunks/12_g_next_dist_compiled_0ldw6s3._.js:2647:64)
+[ 6137239ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6137242ms] [WARNING] [Fast Refresh] performing full reload because your application had an unrecoverable error @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6137249ms] [LOG] [Fast Refresh] done in 95ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6137790ms] [INFO] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6137886ms] [LOG] [HMR] connected @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6138513ms] [WARNING] Image with src "/images/brand/vibelife-logo-transparent.png" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: "auto"' or 'height: "auto"' to maintain the aspect ratio. @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6166147ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6166977ms] [LOG] [Fast Refresh] done in 902ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6182833ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6182879ms] [LOG] [Fast Refresh] done in 128ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6192614ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6192642ms] [LOG] [Fast Refresh] done in 93ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6212026ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6212064ms] [LOG] [Fast Refresh] done in 115ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6224051ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6224082ms] [LOG] [Fast Refresh] done in 62ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6249497ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6249533ms] [LOG] [Fast Refresh] done in 95ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6258162ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6258201ms] [LOG] [Fast Refresh] done in 113ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6265501ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6265537ms] [LOG] [Fast Refresh] done in 86ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6272075ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6272100ms] [LOG] [Fast Refresh] done in 60ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6278017ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6278042ms] [LOG] [Fast Refresh] done in 75ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6306279ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6306307ms] [LOG] [Fast Refresh] done in 96ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6312961ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6313041ms] [LOG] [Fast Refresh] done in 156ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6326390ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6326416ms] [LOG] [Fast Refresh] done in 68ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6349944ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6349972ms] [LOG] [Fast Refresh] done in 65ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6359834ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6359910ms] [LOG] [Fast Refresh] done in 148ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6374234ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6374285ms] [LOG] [Fast Refresh] done in 130ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6382990ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6383025ms] [LOG] [Fast Refresh] done in 120ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6390588ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6390613ms] [LOG] [Fast Refresh] done in 99ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6417268ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6417298ms] [LOG] [Fast Refresh] done in 69ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6440199ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6440227ms] [LOG] [Fast Refresh] done in 71ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6460874ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6461868ms] [LOG] [Fast Refresh] done in 1068ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6484124ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6484253ms] [LOG] [Fast Refresh] done in 138ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6497757ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6497827ms] [LOG] [Fast Refresh] done in 123ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6503403ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6503472ms] [LOG] [Fast Refresh] done in 61ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6516353ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6517437ms] [LOG] [Fast Refresh] done in 692ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6517620ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6517782ms] [LOG] [Fast Refresh] done in 263ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6518054ms] [LOG] [Fast Refresh] rebuilding @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431
+[ 6518085ms] [LOG] [Fast Refresh] done in 132ms @ http://localhost:3000/_next/static/chunks/12_g_next_dist_0o9z08f._.js:2431

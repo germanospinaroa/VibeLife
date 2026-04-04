@@ -1,0 +1,256 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "VibeLife" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "VibeLife logo" [ref=e8]
+        - navigation [ref=e9]:
+          - link "Home" [ref=e10] [cursor=pointer]:
+            - /url: /
+          - link "Products" [ref=e11] [cursor=pointer]:
+            - /url: /#products
+          - link "Community" [ref=e12] [cursor=pointer]:
+            - /url: /community
+          - link "About" [ref=e13] [cursor=pointer]:
+            - /url: /about
+          - link "Contact" [ref=e14] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e15]:
+          - group "Language selector" [ref=e16]:
+            - button "ES" [ref=e17]
+            - button "EN" [ref=e18]
+          - link "Chat on WhatsApp" [ref=e19] [cursor=pointer]:
+            - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+            - img [ref=e20]
+            - text: Chat on WhatsApp
+    - main [ref=e22]:
+      - link "Not sure where to start?" [ref=e24] [cursor=pointer]:
+        - /url: https://wa.me/50762882188?text=Hi%2C%20I'm%20not%20sure%20where%20to%20start%20with%20B-Fit.%20Can%20you%20help%20me%3F
+        - img [ref=e25]
+        - text: Not sure where to start?
+      - generic [ref=e29]:
+        - generic [ref=e30]:
+          - heading "Feeling good in your body shouldn't be a constant struggle" [level=1] [ref=e31]
+          - paragraph [ref=e32]: If it's hard to lose weight, maintain habits or feel energized… it's not a lack of discipline. It's that your body isn't functioning in balance. And when that happens, everything becomes harder.
+          - list [ref=e33]:
+            - listitem [ref=e34]:
+              - generic [ref=e35]: •
+              - generic [ref=e36]: Supports your metabolism naturally
+            - listitem [ref=e37]:
+              - generic [ref=e38]: •
+              - generic [ref=e39]: Helps you feel lighter
+            - listitem [ref=e40]:
+              - generic [ref=e41]: •
+              - generic [ref=e42]: Complements sustainable habits
+            - listitem [ref=e43]:
+              - generic [ref=e44]: •
+              - generic [ref=e45]: Easy to integrate into your routine
+          - generic [ref=e46]:
+            - link "I want to start" [ref=e47] [cursor=pointer]:
+              - /url: "#contact"
+              - text: I want to start
+              - img [ref=e48]
+            - link "Chat on WhatsApp" [ref=e50] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hi%2C%20I%20want%20to%20know%20more%20about%20B-Fit%20and%20how%20it%20can%20help%20me.
+              - img [ref=e51]
+              - text: Chat on WhatsApp
+        - img "B-Fit - VibeLife" [ref=e55]
+      - generic [ref=e58]:
+        - heading "Why do you feel like you're trying… but not seeing results?" [level=2] [ref=e61]
+        - generic [ref=e62]:
+          - paragraph [ref=e63]: "Many women live in a constant state of:"
+          - generic [ref=e64]:
+            - generic [ref=e65]:
+              - generic [ref=e66]: •
+              - paragraph [ref=e67]: slow metabolism
+            - generic [ref=e68]:
+              - generic [ref=e69]: •
+              - paragraph [ref=e70]: inflammation
+            - generic [ref=e71]:
+              - generic [ref=e72]: •
+              - paragraph [ref=e73]: low energy
+            - generic [ref=e74]:
+              - generic [ref=e75]: •
+              - paragraph [ref=e76]: internal imbalance
+          - paragraph [ref=e77]: "And that creates something very frustrating:"
+          - paragraph [ref=e79]: You make changes… but your body doesn't respond the same way
+          - paragraph [ref=e80]: Not because you're doing something wrong. But because your body isn't in optimal conditions to change.
+      - generic [ref=e83]:
+        - heading "Your body doesn't need more pressure… it needs support" [level=2] [ref=e86]
+        - generic [ref=e87]:
+          - paragraph [ref=e88]: "When your metabolism is slow and your energy is low:"
+          - generic [ref=e89]:
+            - generic [ref=e90]:
+              - generic [ref=e91]: •
+              - paragraph [ref=e92]: it's harder to burn fat
+            - generic [ref=e93]:
+              - generic [ref=e94]: •
+              - paragraph [ref=e95]: you feel constantly tired
+            - generic [ref=e96]:
+              - generic [ref=e97]: •
+              - paragraph [ref=e98]: you lose motivation quickly
+            - generic [ref=e99]:
+              - generic [ref=e100]: •
+              - paragraph [ref=e101]: you quit before seeing results
+          - paragraph [ref=e102]: "And that creates a cycle:"
+          - paragraph [ref=e104]: you try → you get frustrated → you quit → you start again
+          - paragraph [ref=e105]: Without internal support, each attempt becomes harder than the last.
+      - generic [ref=e108]:
+        - heading "It's not your fault" [level=2] [ref=e111]
+        - generic [ref=e112]:
+          - generic [ref=e113]:
+            - paragraph [ref=e114]: For a long time you were told it was about discipline.
+            - paragraph [ref=e115]: That it was about willpower.
+            - paragraph [ref=e116]: That it was about "doing more".
+          - paragraph [ref=e117]: "But the reality is different:"
+          - generic [ref=e118]:
+            - paragraph [ref=e119]: Your body needs support, not pressure.
+            - paragraph [ref=e120]: And when it doesn't have it… everything becomes harder.
+      - generic [ref=e123]:
+        - heading "Here's where B-Fit really helps" [level=2] [ref=e126]
+        - generic [ref=e127]:
+          - paragraph [ref=e128]: B-Fit is a supplement designed to support your body from within.
+          - paragraph [ref=e129]: It doesn't replace habits.
+          - paragraph [ref=e130]: "But it helps your body:"
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - generic [ref=e133]: ✓
+              - paragraph [ref=e134]: process nutrients better
+            - generic [ref=e135]:
+              - generic [ref=e136]: ✓
+              - paragraph [ref=e137]: activate its metabolism
+            - generic [ref=e138]:
+              - generic [ref=e139]: ✓
+              - paragraph [ref=e140]: have more available energy
+            - generic [ref=e141]:
+              - generic [ref=e142]: ✓
+              - paragraph [ref=e143]: reduce the feeling of being stuck
+          - generic [ref=e144]:
+            - paragraph [ref=e145]: "In short:"
+            - paragraph [ref=e146]: It makes the effort you're making… actually start to make sense.
+      - generic [ref=e149]:
+        - heading "What you can start to feel" [level=2] [ref=e152]
+        - paragraph [ref=e154]: "With consistent use and simple habits, you can start to notice:"
+        - generic [ref=e155]:
+          - generic [ref=e157]:
+            - img [ref=e159]
+            - paragraph [ref=e161]: Supports your metabolism from within
+          - generic [ref=e163]:
+            - img [ref=e165]
+            - paragraph [ref=e167]: Helps you feel lighter and more energetic
+          - generic [ref=e169]:
+            - img [ref=e171]
+            - paragraph [ref=e173]: Reduces the feeling of being stuck
+          - generic [ref=e175]:
+            - img [ref=e177]
+            - paragraph [ref=e179]: Makes it easier to stick to habits
+          - generic [ref=e181]:
+            - img [ref=e183]
+            - paragraph [ref=e185]: Supports your journey without pressure
+        - generic [ref=e186]:
+          - paragraph [ref=e187]: It's not magic.
+          - paragraph [ref=e188]: It's giving your body what it needs to function better.
+      - generic [ref=e191]:
+        - heading "Why isn't it just 'another product'?" [level=2] [ref=e194]
+        - generic [ref=e195]:
+          - paragraph [ref=e196]: Because it doesn't try to force you to change.
+          - paragraph [ref=e197]: It helps make change easier.
+          - paragraph [ref=e198]: "Most solutions fail because:"
+          - generic [ref=e199]:
+            - generic [ref=e200]:
+              - generic [ref=e201]: ×
+              - paragraph [ref=e202]: they demand too much
+            - generic [ref=e203]:
+              - generic [ref=e204]: ×
+              - paragraph [ref=e205]: they don't consider where you are now
+            - generic [ref=e206]:
+              - generic [ref=e207]: ×
+              - paragraph [ref=e208]: they don't work from the inside out
+          - generic [ref=e209]:
+            - paragraph [ref=e210]: B-Fit changes that approach.
+            - paragraph [ref=e211]: It works by supporting your body exactly where you need it.
+      - generic [ref=e214]:
+        - heading "How to integrate it into your day?" [level=2] [ref=e217]
+        - generic [ref=e218]:
+          - paragraph [ref=e219]: You don't need to change your whole life.
+          - paragraph [ref=e220]: Just start differently.
+          - paragraph [ref=e221]: B-Fit is designed to integrate easily into your day, without complications.
+      - generic [ref=e224]:
+        - heading "This is for you if you're tired of starting… and starting again" [level=2] [ref=e227]
+        - generic [ref=e228]:
+          - generic [ref=e230]:
+            - generic [ref=e231]: ✓
+            - paragraph [ref=e232]: You're tired of starting and not sticking with it
+          - generic [ref=e234]:
+            - generic [ref=e235]: ✓
+            - paragraph [ref=e236]: You feel your body is out of balance
+          - generic [ref=e238]:
+            - generic [ref=e239]: ✓
+            - paragraph [ref=e240]: You want something you can maintain over time
+          - generic [ref=e242]:
+            - generic [ref=e243]: ✓
+            - paragraph [ref=e244]: You're ready to prioritize yourself
+      - generic [ref=e247]:
+        - heading "You're not alone in this process" [level=2] [ref=e250]
+        - generic [ref=e252]:
+          - paragraph [ref=e253]: It's not just about the product.
+          - paragraph [ref=e254]: It's about supporting you.
+          - paragraph [ref=e255]: Because doing it alone is hard… But with guidance, clarity and structure, everything changes.
+      - generic [ref=e259]:
+        - img
+        - generic [ref=e260]:
+          - heading "You can keep trying the same way… Or start doing it differently today" [level=2] [ref=e261]
+          - paragraph [ref=e262]: You don't need to do it perfectly. You just need to start.
+          - generic [ref=e263]:
+            - link "I want to start" [ref=e264] [cursor=pointer]:
+              - /url: "#contact"
+              - text: I want to start
+              - img [ref=e265]
+            - link "Chat on WhatsApp →" [ref=e267] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hi%2C%20I%20want%20to%20start%20with%20B-Fit.%20Where%20do%20I%20begin%3F
+              - img [ref=e268]
+              - text: Chat on WhatsApp →
+    - contentinfo [ref=e271]:
+      - generic [ref=e273]:
+        - generic [ref=e274]:
+          - generic [ref=e275]:
+            - img "VibeLife logo" [ref=e276]
+            - paragraph [ref=e277]: VibeLife shares options focused on natural wellness, healthy habits and direct conversations through WhatsApp.
+            - link "Contact on WhatsApp" [ref=e278] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+              - text: Contact on WhatsApp
+              - img [ref=e279]
+          - generic [ref=e282]:
+            - heading "Navigate" [level=3] [ref=e283]
+            - generic [ref=e284]:
+              - link "Home" [ref=e285] [cursor=pointer]:
+                - /url: /
+              - link "Products" [ref=e286] [cursor=pointer]:
+                - /url: /#products
+              - link "Community" [ref=e287] [cursor=pointer]:
+                - /url: /community
+              - link "About" [ref=e288] [cursor=pointer]:
+                - /url: /about
+              - link "Contact" [ref=e289] [cursor=pointer]:
+                - /url: /contact
+          - generic [ref=e290]:
+            - heading "Products" [level=3] [ref=e291]
+            - generic [ref=e292]:
+              - link "Rise" [ref=e293] [cursor=pointer]:
+                - /url: /products/rise
+              - link "Amalaki" [ref=e294] [cursor=pointer]:
+                - /url: /products/amalaki
+              - link "Accell" [ref=e295] [cursor=pointer]:
+                - /url: /products/accell
+              - link "B-Fit" [ref=e296] [cursor=pointer]:
+                - /url: /products/b-fit
+        - generic [ref=e297]:
+          - generic [ref=e298]: VibeLife
+          - generic [ref=e299]: Natural Wellness & Personal Growth
+          - generic [ref=e300]: +507 6288-2188
+    - link "Chat on WhatsApp" [ref=e302] [cursor=pointer]:
+      - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+      - img [ref=e304]
+      - generic [ref=e306]: WhatsApp
+  - alert [ref=e307]

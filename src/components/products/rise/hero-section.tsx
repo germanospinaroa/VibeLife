@@ -75,10 +75,10 @@ export function RiseHeroSection() {
 
         {/* Right: Product Image */}
         <Reveal delay={0.2} preset="scale" className="flex justify-center">
-          <div className="relative overflow-hidden rounded-2xl shadow-[0_8px_32px_rgba(155,197,106,0.15)]">
+          <div className="relative overflow-hidden rounded-2xl shadow-[0_8px_32px_rgba(155,197,106,0.15)] bg-gradient-to-br from-[#f0f9e8]/50 to-[#e8f4d8]/50 p-4">
             <Image
               alt="RISE - VibeLife"
-              className="h-full w-full object-contain"
+              className="h-full w-full object-cover rounded-lg"
               height={600}
               priority
               src="/images/products/rise-portrait.png"
