@@ -52,8 +52,8 @@ export function WhoIsVibeLifeForSection() {
         align="center"
         title={localize(
           {
-            es: "Si te identificas con alguna de estas, este es tu lugar",
-            en: "If you recognize yourself in any of these, this is your place",
+            es: "Si te identificas con esto, este espacio es para ti",
+            en: "If you identify with this, this space is for you",
           },
           language,
         )}

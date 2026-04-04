@@ -8,20 +8,24 @@ import { HowVibeLifeHelpsSection } from "@/components/home/how-vibelife-helps-se
 import { ProductsShowcaseSection } from "@/components/home/products-showcase-section";
 import { TestimonialsSection } from "@/components/home/testimonials-section";
 import { WhoIsVibeLifeForSection } from "@/components/home/who-is-vibelife-for-section";
-import { WhyWellnessMattersSection } from "@/components/home/why-wellness-matters-section";
+import { NoEresSolaSection } from "@/components/home/no-eres-sola-section";
+import { PerspectiveSection } from "@/components/home/perspective-section";
+import { AboutAdelvisSection } from "@/components/home/about-adelvis-section";
 
 export default function HomePage() {
   return (
     <>
       <HeroSection />
       <EmotionalMirrorSection />
-      <WhyWellnessMattersSection />
-      <HowVibeLifeHelpsSection />
+      <NoEresSolaSection />
+      <PerspectiveSection />
       <HabitsThatMakeDifferenceSection />
+      <HowVibeLifeHelpsSection />
       <ProductsShowcaseSection />
       <WhoIsVibeLifeForSection />
       <TestimonialsSection />
       <CommunityHighlightSection />
+      <AboutAdelvisSection />
       <FaqSection />
       <FinalCtaSection />
     </>

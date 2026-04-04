@@ -1,6 +1,6 @@
 "use client";
 
-import { Activity, Apple, Moon, PlusCircle } from "lucide-react";
+import { Leaf } from "lucide-react";
 import { StaggerGroup, StaggerItem } from "@/components/motion/stagger";
 import { useLanguage } from "@/components/providers/language-provider";
 import { SectionShell } from "@/components/shared/section-shell";
@@ -8,50 +8,36 @@ import { Card } from "@/components/ui/card";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { localize } from "@/lib/i18n";
 
-const habits = [
+const benefits = [
   {
     title: {
-      es: "Dormir mejor",
-      en: "Sleep better",
+      es: "Energía real",
+      en: "Real energy",
     },
     description: {
-      es: "El cansancio que no se va con dormir tiene nombre. Cuando el descanso mejora de verdad, el día cambia desde el principio.",
-      en: "The tiredness that does not go away with sleep has a name. When rest truly improves, the day changes from the very beginning.",
+      es: "No solo para empezar el día, sino para sostenerlo",
+      en: "Not just to start the day, but to sustain it",
     },
-    icon: Moon,
   },
   {
     title: {
-      es: "Alimentarte mejor",
-      en: "Eat better",
+      es: "Hábitos sostenibles",
+      en: "Sustainable habits",
     },
     description: {
-      es: "No se trata de dieta perfecta. Se trata de que lo que comes te dé energía, no te la quite.",
-      en: "It is not about a perfect diet. It is about what you eat giving you energy, not taking it away.",
+      es: "Sin depender de motivación constante",
+      en: "Without depending on constant motivation",
     },
-    icon: Apple,
   },
   {
     title: {
-      es: "Mantenerte activa",
-      en: "Stay active",
+      es: "Equilibrio interno",
+      en: "Inner balance",
     },
     description: {
-      es: "No hace falta una hora en el gimnasio. El movimiento diario, aunque sea poco, cambia cómo te sientes por dentro.",
-      en: "You do not need an hour at the gym. Daily movement, even a little, changes how you feel on the inside.",
+      es: "Tu cuerpo y tu mente dejan de ir en direcciones opuestas",
+      en: "Your body and mind stop going in opposite directions",
     },
-    icon: Activity,
-  },
-  {
-    title: {
-      es: "Apoyarte en soluciones adecuadas",
-      en: "Support yourself with the right solutions",
-    },
-    description: {
-      es: "El apoyo correcto no reemplaza tus hábitos — los hace sostenibles cuando la vida está caótica.",
-      en: "The right support does not replace your habits — it makes them sustainable when life is chaotic.",
-    },
-    icon: PlusCircle,
   },
 ];
 
@@ -64,35 +50,26 @@ export function HabitsThatMakeDifferenceSection() {
         align="center"
         title={localize(
           {
-            es: "No necesitas cambiar todo. Necesitas cambiar lo correcto.",
-            en: "You do not need to change everything. You need to change the right things.",
-          },
-          language,
-        )}
-        description={localize(
-          {
-            es: "Cuando mejoras el descanso, la alimentación, el movimiento y el apoyo que le das a tu cuerpo, todo lo demás empieza a caer en su lugar. No de golpe — pero sí de forma real.",
-            en: "When you improve rest, nutrition, movement and the support you give your body, everything else starts to fall into place. Not all at once — but genuinely.",
+            es: "Lo que pasa cuando tu cuerpo tiene lo que necesita",
+            en: "What happens when your body has what it needs",
           },
           language,
         )}
       />
 
-      <StaggerGroup className="mt-12 grid gap-5 md:grid-cols-2 xl:grid-cols-4">
-        {habits.map((habit) => {
-          const Icon = habit.icon;
-
+      <StaggerGroup className="mt-12 grid gap-5 md:grid-cols-3">
+        {benefits.map((benefit) => {
           return (
-            <StaggerItem key={habit.title.es}>
+            <StaggerItem key={benefit.title.es}>
               <Card className="h-full bg-white/84 p-6">
-                <span className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-[#eef4f1] text-[#456F78]">
-                  <Icon className="h-5 w-5" />
+                <span className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-[#eef7e6] text-[#6f9d49]">
+                  <Leaf className="h-5 w-5" />
                 </span>
                 <h3 className="mt-5 text-2xl font-semibold">
-                  {localize(habit.title, language)}
+                  {localize(benefit.title, language)}
                 </h3>
                 <p className="mt-4 text-sm leading-7 text-muted sm:text-base">
-                  {localize(habit.description, language)}
+                  {localize(benefit.description, language)}
                 </p>
               </Card>
             </StaggerItem>

@@ -20,13 +20,13 @@ export function ProductsShowcaseSection() {
     <SectionShell className="bg-white/30" id="products" tone="teal">
       <SectionHeading
         title={localize(
-          { es: "¿Cuál es para ti?", en: "Which one is for you?" },
+          { es: "Opciones para acompañarte", en: "Options to support you" },
           language,
         )}
         description={localize(
           {
-            es: "Cada producto tiene un perfil. Si no sabes cuál es el tuyo, escríbenos — te orientamos en 5 minutos.",
-            en: "Each product has a profile. If you are not sure which is yours, write to us — we will guide you in 5 minutes.",
+            es: "No mostramos un catálogo. Te mostramos opciones que se adaptan a lo que realmente necesitas.",
+            en: "We do not show a catalog. We show you options that fit what you really need.",
           },
           language,
         )}

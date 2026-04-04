@@ -1,6 +1,5 @@
 "use client";
 
-import { Bolt, HeartHandshake, Leaf } from "lucide-react";
 import { StaggerGroup, StaggerItem } from "@/components/motion/stagger";
 import { useLanguage } from "@/components/providers/language-provider";
 import { SectionShell } from "@/components/shared/section-shell";
@@ -8,39 +7,39 @@ import { Card } from "@/components/ui/card";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { localize } from "@/lib/i18n";
 
-const blocks = [
+const steps = [
   {
+    number: "1",
     title: {
-      es: "Mejorar tu energía diaria",
-      en: "Improve your daily energy",
+      es: "Te escuchamos",
+      en: "We listen to you",
     },
     description: {
-      es: "Empieza por recuperar el combustible. Sin energía, todo lo demás es fuerza de voluntad pura — y eso se agota.",
-      en: "Start by recovering your fuel. Without energy, everything else is pure willpower — and that runs out.",
+      es: "Entendemos cómo te sientes y qué necesitas",
+      en: "We understand how you feel and what you need",
     },
-    icon: Bolt,
   },
   {
+    number: "2",
     title: {
-      es: "Construir hábitos saludables",
-      en: "Build healthier habits",
+      es: "Te guiamos",
+      en: "We guide you",
     },
     description: {
-      es: "No necesitas disciplina perfecta. Necesitas hábitos que se adapten a una vida real, ocupada y a veces caótica.",
-      en: "You don't need perfect discipline. You need habits that adapt to a real, busy, sometimes chaotic life.",
+      es: "Te mostramos opciones simples y realistas",
+      en: "We show you simple and realistic options",
     },
-    icon: HeartHandshake,
   },
   {
+    number: "3",
     title: {
-      es: "Cuidar tu bienestar de forma natural",
-      en: "Take care of your wellness naturally",
+      es: "Te acompañamos",
+      en: "We support you",
     },
     description: {
-      es: "Apoyo natural para lo que ya quieres hacer. No para reemplazar tu esfuerzo — para que ese esfuerzo rinda más.",
-      en: "Natural support for what you already want to do. Not to replace your effort — to make that effort go further.",
+      es: "No estás sola en el proceso",
+      en: "You are not alone in the process",
     },
-    icon: Leaf,
   },
 ];
 
@@ -60,37 +59,26 @@ export function HowVibeLifeHelpsSection() {
         )}
         description={localize(
           {
-            es: "No con otro plan enorme. Con el primer paso correcto para ti.",
-            en: "Not with another huge plan. With the right first step for you.",
+            es: "No tienes que hacerlo perfecto.\nSolo tienes que empezar con lo correcto.",
+            en: "You do not have to do it perfectly.\nYou just have to start with what is right.",
           },
           language,
         )}
       />
-      <p className="mx-auto mt-6 max-w-3xl text-center text-sm leading-7 text-[#5c746d] sm:text-base">
-        {localize(
-          {
-            es: "Cada persona llega a VibeLife desde un lugar diferente. Algunas con mucho cansancio. Otras con poco enfoque. Otras sin saber exactamente qué les pasa. Por eso no mandamos lo mismo a todas. Primero entendemos cómo estás — y desde ahí orientamos.",
-            en: "Everyone comes to VibeLife from a different place. Some exhausted. Others unfocused. Others not quite sure what is wrong. That is why we do not send everyone the same thing. First we understand where you are — and from there we guide you.",
-          },
-          language,
-        )}
-      </p>
 
       <StaggerGroup className="mt-12 grid gap-5 lg:grid-cols-3">
-        {blocks.map((block) => {
-          const Icon = block.icon;
-
+        {steps.map((step) => {
           return (
-            <StaggerItem key={block.title.es}>
+            <StaggerItem key={step.number}>
               <Card className="h-full bg-white/84 p-6">
-                <span className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-[#eef7e6] text-[#6f9d49]">
-                  <Icon className="h-5 w-5" />
+                <span className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-[#eef7e6] text-[#6f9d49] text-xl font-bold">
+                  {step.number}
                 </span>
                 <h3 className="mt-5 text-2xl font-semibold">
-                  {localize(block.title, language)}
+                  {localize(step.title, language)}
                 </h3>
                 <p className="mt-4 text-sm leading-7 text-muted sm:text-base">
-                  {localize(block.description, language)}
+                  {localize(step.description, language)}
                 </p>
               </Card>
             </StaggerItem>

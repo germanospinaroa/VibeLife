@@ -33,23 +33,20 @@ export function FinalCtaSection() {
           />
 
           <div className="relative z-10">
-            <p className="inline-block rounded-full bg-white/12 px-4 py-1.5 text-xs font-semibold uppercase tracking-widest text-white/80">
-              {localize({ es: "Empieza hoy", en: "Start today" }, language)}
-            </p>
-            <h2 className="mt-5 max-w-3xl text-balance text-4xl font-semibold text-white sm:text-5xl">
+            <h2 className="max-w-3xl text-balance text-4xl font-semibold text-white sm:text-5xl">
               {localize(
                 {
-                  es: "El momento perfecto no llega. Pero el primer paso sí puede ser hoy.",
-                  en: "The perfect moment never comes. But the first step can be today.",
+                  es: "No necesitas hacerlo perfecto\nSolo necesitas empezar",
+                  en: "You don't need to do it perfectly\nYou just need to start",
                 },
                 language,
               )}
             </h2>
-            <p className="mt-5 max-w-2xl text-pretty text-base leading-8 text-white/82 sm:text-lg">
+            <p className="mt-6 max-w-2xl text-pretty text-base leading-8 text-white/82 sm:text-lg">
               {localize(
                 {
-                  es: "No necesitas tener todo claro. No necesitas estar lista. Solo necesitas escribirnos y contarnos cómo estás. Desde ahí, lo construimos juntas.",
-                  en: "You don't need to have it all figured out. You don't need to be ready. You just need to write to us and tell us how you are. From there, we build it together.",
+                  es: "El momento perfecto no llega.\n\nPero el primer paso sí puede ser hoy.",
+                  en: "The perfect moment never comes.\n\nBut the first step can be today.",
                 },
                 language,
               )}
@@ -70,7 +67,7 @@ export function FinalCtaSection() {
                 className={buttonVariants({ className: "border border-white/20 bg-white/12 text-white hover:bg-white/20" })}
                 href="/#products"
               >
-                {localize({ es: "Ver productos", en: "View products" }, language)}
+                {localize({ es: "Ver opciones", en: "View options" }, language)}
                 <ArrowRight className="h-4 w-4" />
               </Link>
             </div>
