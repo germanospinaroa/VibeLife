@@ -3,6 +3,7 @@ import type { LocalizedString } from "@/lib/i18n";
 export type Product = {
   slug: "rise" | "amalaki" | "accell" | "b-fit";
   name: string;
+  image: string;
   kicker: LocalizedString;
   shortDescription: LocalizedString;
   heroDescription: LocalizedString;
@@ -18,6 +19,7 @@ export const products: Product[] = [
   {
     slug: "rise",
     name: "Rise",
+    image: "/images/products/rise.png",
     kicker: {
       es: "Para la que necesita encenderse en las mañanas",
       en: "For the one who needs to wake up and ignite",
@@ -81,6 +83,7 @@ export const products: Product[] = [
   {
     slug: "amalaki",
     name: "Amalaki",
+    image: "/images/products/amalaki.png",
     kicker: {
       es: "Para la que quiere recuperar el equilibrio desde adentro",
       en: "For the one who wants to restore balance from within",
@@ -144,6 +147,7 @@ export const products: Product[] = [
   {
     slug: "accell",
     name: "Accell",
+    image: "/images/products/accell.png",
     kicker: {
       es: "Para la que quiere volver a moverse sin agotarse",
       en: "For the one who wants to move again without exhausting herself",
@@ -207,6 +211,7 @@ export const products: Product[] = [
   {
     slug: "b-fit",
     name: "B-Fit",
+    image: "/images/products/b-fit.png",
     kicker: {
       es: "Para la que quiere sentirse bien en su cuerpo, no perfecta",
       en: "For the one who wants to feel good in her body, not perfect",
