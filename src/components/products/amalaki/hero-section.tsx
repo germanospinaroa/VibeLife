@@ -81,7 +81,7 @@ export function AmalakiHeroSection() {
               className="h-full w-full object-cover rounded-lg"
               height={600}
               priority
-              src="/images/products/amalaki-portrait.png"
+              src="/images/products/amalaki.png"
               width={400}
             />
           </div>
