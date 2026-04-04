@@ -12,11 +12,11 @@ export function BFitBenefitsSection() {
   const { language } = useLanguage();
 
   const benefits = [
-    { es: "Apoya tu metabolismo desde adentro", en: "Supports your metabolism from within" },
-    { es: "Te ayuda a sentirte más ligera y con más energía", en: "Helps you feel lighter and more energetic" },
-    { es: "Reduce la sensación de estancamiento", en: "Reduces the feeling of being stuck" },
-    { es: "Facilita que sostengas hábitos", en: "Makes it easier to stick to habits" },
-    { es: "Acompaña tu proceso sin presión", en: "Supports your journey without pressure" },
+    { es: "Más energía durante el día sin depender de estimulantes", en: "More energy throughout the day without relying on stimulants" },
+    { es: "Menor sensación de inflamación o pesadez", en: "Less feeling of bloating or heaviness" },
+    { es: "Mejor respuesta del cuerpo a cambios en alimentación", en: "Better body response to dietary changes" },
+    { es: "Mayor facilidad para sostener hábitos", en: "Easier to maintain habits" },
+    { es: "Sensación de control sobre tu proceso", en: "Feeling of control over your progress" },
   ];
 
   return (
@@ -27,8 +27,8 @@ export function BFitBenefitsSection() {
             align="center"
             title={localize(
               {
-                es: "Lo que puedes empezar a sentir",
-                en: "What you can start to feel",
+                es: "Lo que puedes empezar a notar con el tiempo",
+                en: "What you can start to notice over time",
               },
               language,
             )}
@@ -39,8 +39,8 @@ export function BFitBenefitsSection() {
           <p>
             {localize(
               {
-                es: "Con el uso constante y acompañado de hábitos simples, puedes notar:",
-                en: "With consistent use and simple habits, you can start to notice:",
+                es: "Al integrar B-Fit dentro de una rutina básica, muchas personas experimentan:",
+                en: "When integrating B-Fit into a basic routine, many people experience:",
               },
               language,
             )}
@@ -62,25 +62,27 @@ export function BFitBenefitsSection() {
           ))}
         </StaggerGroup>
 
-        <Reveal delay={0.4} className="mt-12 text-center space-y-3">
-          <p className="text-lg font-semibold text-[#2f4541]">
-            {localize(
-              {
-                es: "No es magia.",
-                en: "It's not magic.",
-              },
-              language,
-            )}
-          </p>
-          <p className="text-[#5c746d]">
-            {localize(
-              {
-                es: "Es darle a tu cuerpo lo que necesita para funcionar mejor.",
-                en: "It's giving your body what it needs to function better.",
-              },
-              language,
-            )}
-          </p>
+        <Reveal delay={0.4} className="mt-12 space-y-6">
+          <div className="rounded-xl bg-[#fff5f0] p-8 border-l-4 border-[#d97706]">
+            <p className="font-semibold text-[#2f4541] mb-4">
+              {localize(
+                {
+                  es: "Importante:",
+                  en: "Important:",
+                },
+                language,
+              )}
+            </p>
+            <p className="text-[#5c746d]">
+              {localize(
+                {
+                  es: "Esto no es inmediato ni mágico.\n\nEs progresivo, acumulativo y depende de la constancia.",
+                  en: "This isn't immediate or magical.\n\nIt's progressive, cumulative and depends on consistency.",
+                },
+                language,
+              )}
+            </p>
+          </div>
         </Reveal>
       </div>
     </SectionShell>

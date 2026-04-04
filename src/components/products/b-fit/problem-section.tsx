@@ -17,8 +17,8 @@ export function BFitProblemSection() {
             align="center"
             title={localize(
               {
-                es: "Tu cuerpo no necesita más exigencia… necesita apoyo",
-                en: "Your body doesn't need more pressure… it needs support",
+                es: "Tu cuerpo no necesita más exigencia… necesita equilibrio",
+                en: "Your body doesn't need more pressure… it needs balance",
               },
               language,
             )}
@@ -29,19 +29,19 @@ export function BFitProblemSection() {
           <p>
             {localize(
               {
-                es: "Cuando tu metabolismo está lento y tu energía baja:",
-                en: "When your metabolism is slow and your energy is low:",
+                es: "Cuando tu metabolismo no está funcionando correctamente:",
+                en: "When your metabolism isn't functioning properly:",
               },
               language,
             )}
           </p>
 
-          <div className="rounded-xl bg-white/60 p-8 space-y-3">
+          <div className="rounded-xl bg-white/70 p-8 space-y-3">
             <div className="flex gap-3">
               <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
               <p>
                 {localize(
-                  { es: "te cuesta más quemar grasa", en: "it's harder to burn fat" },
+                  { es: "tu cuerpo no procesa bien los nutrientes", en: "your body doesn't process nutrients well" },
                   language,
                 )}
               </p>
@@ -50,7 +50,7 @@ export function BFitProblemSection() {
               <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
               <p>
                 {localize(
-                  { es: "te sientes cansada constantemente", en: "you feel constantly tired" },
+                  { es: "la energía que produces no es suficiente", en: "the energy you produce isn't enough" },
                   language,
                 )}
               </p>
@@ -59,7 +59,7 @@ export function BFitProblemSection() {
               <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
               <p>
                 {localize(
-                  { es: "pierdes motivación rápido", en: "you lose motivation quickly" },
+                  { es: "acumulas más fácilmente grasa", en: "you accumulate fat more easily" },
                   language,
                 )}
               </p>
@@ -68,40 +68,50 @@ export function BFitProblemSection() {
               <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
               <p>
                 {localize(
-                  { es: "abandonas antes de ver resultados", en: "you quit before seeing results" },
+                  { es: "te cuesta mantener constancia", en: "it's harder to stay consistent" },
                   language,
                 )}
               </p>
             </div>
           </div>
 
-          <p className="font-semibold text-[#2f4541]">
+          <p className="text-lg font-semibold text-[#2f4541]">
             {localize(
               {
-                es: "Y eso crea un ciclo:",
-                en: "And that creates a cycle:",
+                es: "Esto genera un ciclo muy común:",
+                en: "This creates a very common cycle:",
               },
               language,
             )}
           </p>
 
-          <div className="rounded-2xl bg-[#fff5f0] p-8 border-l-4 border-[#d97706]">
+          <div className="rounded-2xl bg-[#f0f9e8] p-8 border-l-4 border-[#6f9d49]">
             <p className="text-lg font-semibold text-[#2f4541]">
               {localize(
                 {
-                  es: "intentas → te frustras → abandonas → vuelves a empezar",
-                  en: "you try → you get frustrated → you quit → you start again",
+                  es: "Intentas cambiar → te cansas → no ves resultados → abandonas → vuelves a empezar",
+                  en: "You try to change → you get tired → you see no results → you quit → you start again",
                 },
                 language,
               )}
             </p>
           </div>
 
-          <p className="italic text-[#5c746d]">
+          <p className="text-lg font-semibold text-[#2f4541]">
             {localize(
               {
-                es: "Sin apoyo interno, cada intento es más difícil que el anterior.",
-                en: "Without internal support, each attempt becomes harder than the last.",
+                es: "Y no es falta de disciplina.",
+                en: "And it's not a lack of discipline.",
+              },
+              language,
+            )}
+          </p>
+
+          <p className="text-lg font-semibold text-[#2f4541]">
+            {localize(
+              {
+                es: "Es falta de soporte interno.",
+                en: "It's a lack of internal support.",
               },
               language,
             )}

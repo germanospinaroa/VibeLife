@@ -18,8 +18,8 @@ export function BFitSupportSection() {
             align="center"
             title={localize(
               {
-                es: "No estás sola en este proceso",
-                en: "You're not alone in this process",
+                es: "No se trata solo de un producto",
+                en: "It's not just about a product",
               },
               language,
             )}
@@ -35,25 +35,66 @@ export function BFitSupportSection() {
             borderWidth={1}
           />
           <div className="relative z-10 space-y-6 text-base leading-8 text-[#5c746d] sm:text-lg">
-            <p className="font-semibold text-[#2f4541]">
-              {localize(
-                { es: "No se trata solo del producto.", en: "It's not just about the product." },
-                language,
-              )}
-            </p>
-
-            <p className="font-semibold text-[#2f4541]">
-              {localize(
-                { es: "Se trata de acompañarte.", en: "It's about supporting you." },
-                language,
-              )}
-            </p>
-
             <p>
               {localize(
                 {
-                  es: "Porque hacerlo sola es difícil…\nPero con guía, claridad y estructura, todo cambia.",
-                  en: "Because doing it alone is hard…\nBut with guidance, clarity and structure, everything changes.",
+                  es: "Aquí no estás comprando algo y ya.",
+                  en: "Here, you're not just buying something.",
+                },
+                language,
+              )}
+            </p>
+
+            <p className="font-semibold text-[#2f4541]">
+              {localize(
+                {
+                  es: "Estás entrando a un proceso donde:",
+                  en: "You're entering a process where:",
+                },
+                language,
+              )}
+            </p>
+
+            <div className="space-y-3 my-4">
+              <div className="flex gap-3">
+                <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
+                <p>{localize({ es: "tienes acompañamiento", en: "you have support" }, language)}</p>
+              </div>
+              <div className="flex gap-3">
+                <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
+                <p>{localize({ es: "puedes resolver dudas", en: "you can get answers to questions" }, language)}</p>
+              </div>
+              <div className="flex gap-3">
+                <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
+                <p>{localize({ es: "recibes orientación", en: "you receive guidance" }, language)}</p>
+              </div>
+              <div className="flex gap-3">
+                <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
+                <p>
+                  {localize(
+                    { es: "no tienes que hacerlo sola", en: "you don't have to do it alone" },
+                    language,
+                  )}
+                </p>
+              </div>
+            </div>
+
+            <p className="font-semibold text-[#2f4541] mt-6">
+              {localize(
+                {
+                  es: "Porque la diferencia no es solo lo que tomas.",
+                  en: "Because the difference isn't just what you take.",
+                },
+                language,
+              )}
+            </p>
+
+            <p className="font-semibold text-[#2f4541]">
+              👉{" "}
+              {localize(
+                {
+                  es: "Es el entorno que te ayuda a sostenerlo.",
+                  en: "It's the environment that helps you sustain it.",
                 },
                 language,
               )}

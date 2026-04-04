@@ -17,8 +17,8 @@ export function BFitIntroductionSection() {
             align="center"
             title={localize(
               {
-                es: "Aquí es donde B-Fit realmente ayuda",
-                en: "Here's where B-Fit really helps",
+                es: "¿Qué es B-Fit y qué hace realmente?",
+                en: "What is B-Fit and what does it really do?",
               },
               language,
             )}
@@ -29,18 +29,18 @@ export function BFitIntroductionSection() {
           <p>
             {localize(
               {
-                es: "B-Fit es un suplemento diseñado para apoyar tu cuerpo desde adentro.",
-                en: "B-Fit is a supplement designed to support your body from within.",
+                es: "B-Fit es un suplemento diseñado para apoyar tu metabolismo y tu equilibrio interno desde adentro.",
+                en: "B-Fit is a supplement designed to support your metabolism and internal balance from within.",
               },
               language,
             )}
           </p>
 
-          <p className="font-semibold text-[#2f4541]">
+          <p className="text-lg font-semibold text-[#2f4541]">
             {localize(
               {
-                es: "No reemplaza hábitos.",
-                en: "It doesn't replace habits.",
+                es: "No es un reemplazo de hábitos.",
+                en: "It's not a replacement for habits.",
               },
               language,
             )}
@@ -49,58 +49,63 @@ export function BFitIntroductionSection() {
           <p>
             {localize(
               {
-                es: "Pero ayuda a que tu cuerpo:",
-                en: "But it helps your body:",
+                es: "Es una herramienta que ayuda a que tu cuerpo funcione mejor mientras haces cambios en tu estilo de vida.",
+                en: "It's a tool that helps your body function better while you make lifestyle changes.",
               },
               language,
             )}
           </p>
 
-          <div className="rounded-xl bg-white/70 p-8 space-y-4">
+          <p className="font-semibold text-[#2f4541]">
+            {localize(
+              {
+                es: "Su función principal es:",
+                en: "Its main function is to:",
+              },
+              language,
+            )}
+          </p>
+
+          <div className="rounded-xl bg-white/70 p-8 space-y-3">
             <div className="flex gap-3">
-              <span className="shrink-0 text-[#6f9d49] font-bold">✓</span>
-              <p className="font-medium text-[#2f4541]">
+              <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
+              <p>{localize({ es: "apoyar el metabolismo", en: "support your metabolism" }, language)}</p>
+            </div>
+            <div className="flex gap-3">
+              <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
+              <p>
                 {localize(
-                  { es: "procese mejor los nutrientes", en: "process nutrients better" },
+                  { es: "mejorar la forma en que tu cuerpo utiliza la energía", en: "improve how your body uses energy" },
                   language,
                 )}
               </p>
             </div>
             <div className="flex gap-3">
-              <span className="shrink-0 text-[#6f9d49] font-bold">✓</span>
-              <p className="font-medium text-[#2f4541]">
+              <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
+              <p>
                 {localize(
-                  { es: "active su metabolismo", en: "activate its metabolism" },
+                  { es: "ayudar a reducir la sensación de estancamiento", en: "help reduce the feeling of being stuck" },
                   language,
                 )}
               </p>
             </div>
             <div className="flex gap-3">
-              <span className="shrink-0 text-[#6f9d49] font-bold">✓</span>
-              <p className="font-medium text-[#2f4541]">
+              <span className="shrink-0 text-[#6f9d49] font-bold">•</span>
+              <p>
                 {localize(
-                  { es: "tenga más energía disponible", en: "have more available energy" },
-                  language,
-                )}
-              </p>
-            </div>
-            <div className="flex gap-3">
-              <span className="shrink-0 text-[#6f9d49] font-bold">✓</span>
-              <p className="font-medium text-[#2f4541]">
-                {localize(
-                  { es: "reduzca la sensación de estancamiento", en: "reduce the feeling of being stuck" },
+                  { es: "facilitar que tu cuerpo responda mejor a tus hábitos", en: "help your body respond better to your habits" },
                   language,
                 )}
               </p>
             </div>
           </div>
 
-          <div className="rounded-2xl bg-[#f0f9e8] p-8">
-            <p className="font-semibold text-[#2f4541] text-lg mb-3">
+          <div className="rounded-2xl bg-[#f0f9e8] p-8 border-l-4 border-[#6f9d49]">
+            <p className="font-semibold text-[#2f4541] mb-4">
               {localize(
                 {
-                  es: "En pocas palabras:",
-                  en: "In short:",
+                  es: "👉 En pocas palabras:",
+                  en: "👉 In short:",
                 },
                 language,
               )}
@@ -108,8 +113,8 @@ export function BFitIntroductionSection() {
             <p className="text-lg font-semibold text-[#2f4541]">
               {localize(
                 {
-                  es: "Hace que el esfuerzo que haces… empiece a tener sentido.",
-                  en: "It makes the effort you're making… actually start to make sense.",
+                  es: "No hace el trabajo por ti, pero hace que tu cuerpo deje de resistirse al cambio.",
+                  en: "It doesn't do the work for you, but it makes your body stop resisting change.",
                 },
                 language,
               )}

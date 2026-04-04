@@ -36,18 +36,18 @@ export function BFitFinalCtaSection() {
             <h2 className="max-w-3xl text-balance text-4xl font-semibold text-white sm:text-5xl">
               {localize(
                 {
-                  es: "Puedes seguir intentándolo igual…\nO empezar a hacerlo diferente hoy",
-                  en: "You can keep trying the same way…\nOr start doing it differently today",
+                  es: "Puedes seguir intentando igual…\no empezar a hacerlo desde un mejor punto",
+                  en: "You can keep trying the same way…\nor start doing it from a better place",
                 },
                 language,
               )}
             </h2>
 
-            <p className="mt-6 max-w-2xl text-pretty text-base leading-8 text-white/82 sm:text-lg">
+            <p className="mt-6 max-w-2xl text-pretty text-base leading-8 text-white/82 sm:text-lg space-y-4">
               {localize(
                 {
-                  es: "No necesitas hacerlo perfecto.\nSolo necesitas empezar.",
-                  en: "You don't need to do it perfectly.\nYou just need to start.",
+                  es: "No necesitas hacerlo perfecto.\n\nNo necesitas cambiar toda tu vida hoy.\n\nSolo necesitas dejar de luchar contra tu cuerpo\ny empezar a trabajar con él.",
+                  en: "You don't need to do it perfectly.\n\nYou don't need to change your whole life today.\n\nYou just need to stop fighting your body\nand start working with it.",
                 },
                 language,
               )}
