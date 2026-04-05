@@ -15,7 +15,7 @@ import { AmalakiFinalSection } from "@/components/products/amalaki/final-section
 import { AmalakiDisclaimerSection } from "@/components/products/amalaki/disclaimer-section";
 
 export const metadata: Metadata = {
-  title: "Amalaki | VibeLife",
+  title: "Amalaki",
   description:
     "Tu cuerpo no está fallando, está sobrecargado. Amalaki es el punto donde todo empieza a corregirse: menos inflamación, más energía, mejor digestión.",
 };

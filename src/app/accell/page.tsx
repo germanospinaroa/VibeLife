@@ -16,7 +16,7 @@ import { AccellFinalSection } from "@/components/products/accell/final-section";
 import { AccellDisclaimerSection } from "@/components/products/accell/disclaimer-section";
 
 export const metadata: Metadata = {
-  title: "Accell | VibeLife",
+  title: "Accell",
   description:
     "Accell — Nutrición para un estilo de vida activo. Bebida funcional con cafeína natural, vitaminas B y minerales esenciales. Energía real, enfoque sostenido, sin picos ni colapsos.",
 };

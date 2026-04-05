@@ -17,7 +17,7 @@ import { RiseFinalSection } from "@/components/products/rise/final-section";
 import { RiseDisclaimerSection } from "@/components/products/rise/disclaimer-section";
 
 export const metadata: Metadata = {
-  title: "RISE | VibeLife",
+  title: "RISE",
   description:
     "RISE es más que café. Es claridad mental, energía estable y una nueva forma de empezar tu día con amalaki y café arábica colombiano.",
 };

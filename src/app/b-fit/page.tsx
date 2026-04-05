@@ -23,7 +23,7 @@ import { BFitDisclaimerSection } from "@/components/products/b-fit/disclaimer-se
 import { FloatingHelpButton } from "@/components/products/b-fit/floating-help-button";
 
 export const metadata: Metadata = {
-  title: "B-Fit | VibeLife",
+  title: "B-Fit",
   description:
     "B-Fit es una forma simple de acompañar tu metabolismo, ayudarte a recuperar equilibrio y sentirte más ligera, con más control y energía en tu día a día.",
 };
