@@ -1,0 +1,237 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "VibeLife" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "VibeLife logo" [ref=e8]
+        - navigation [ref=e9]:
+          - link "Home" [ref=e10] [cursor=pointer]:
+            - /url: /
+          - link "Products" [ref=e11] [cursor=pointer]:
+            - /url: /#products
+          - link "Community" [ref=e12] [cursor=pointer]:
+            - /url: /community
+          - link "About" [ref=e13] [cursor=pointer]:
+            - /url: /about
+          - link "Contact" [ref=e14] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e15]:
+          - group "Language selector" [ref=e16]:
+            - button "ES" [ref=e17]
+            - button "EN" [ref=e18]
+          - link "Chat on WhatsApp" [ref=e19] [cursor=pointer]:
+            - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+            - img [ref=e20]
+            - text: Chat on WhatsApp
+    - main [ref=e22]:
+      - generic [ref=e23]:
+        - img "Caminata VibeLife comunidad" [ref=e25]
+        - generic [ref=e28]:
+          - heading "You don't have to do it alone" [level=1] [ref=e29]
+          - paragraph [ref=e30]: At VibeLife we believe wellness isn't an individual journey… it's something built together.
+          - paragraph [ref=e31]: Every Sunday, a group of people choose to give themselves something simple… walk, breathe, share, and reconnect with themselves.
+          - generic [ref=e32]:
+            - link "I want to join" [ref=e33] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hi%2C%20I%20want%20to%20join%20VibeLife's%20walks%20and%20find%20out%20how%20to%20participate.
+              - img [ref=e34]
+              - text: I want to join
+            - link "See upcoming walks" [ref=e36] [cursor=pointer]:
+              - /url: "#caminatas"
+              - text: See upcoming walks
+              - img [ref=e37]
+      - generic [ref=e41]:
+        - heading "This is more than just a walk" [level=2] [ref=e44]
+        - generic [ref=e45]:
+          - paragraph [ref=e46]: "This is a space where:"
+          - list [ref=e47]:
+            - listitem [ref=e48]:
+              - generic [ref=e49]: •
+              - generic [ref=e50]: you slow down
+            - listitem [ref=e51]:
+              - generic [ref=e52]: •
+              - generic [ref=e53]: you disconnect from the noise
+            - listitem [ref=e54]:
+              - generic [ref=e55]: •
+              - generic [ref=e56]: you reconnect with yourself
+            - listitem [ref=e57]:
+              - generic [ref=e58]: •
+              - generic [ref=e59]: you share with people who are also looking to feel better
+          - generic [ref=e60]:
+            - paragraph [ref=e61]: Your fitness level doesn't matter
+            - paragraph [ref=e62]: It doesn't matter if you've never done anything like this
+            - paragraph [ref=e63]: All that matters is that you want to start.
+      - generic [ref=e65]:
+        - heading "This is what a Sunday with VibeLife feels like" [level=2] [ref=e68]
+        - generic [ref=e69]:
+          - generic [ref=e71]:
+            - img "Naturaleza abierta - VibeLife comunidad" [ref=e73]
+            - generic [ref=e74]:
+              - paragraph [ref=e75]: Breathe deep…
+              - paragraph [ref=e76]: and remember you also need space for yourself
+          - generic [ref=e78]:
+            - img "Grupo con productos - VibeLife comunidad" [ref=e80]
+            - generic [ref=e81]:
+              - paragraph [ref=e82]: Real people
+              - paragraph [ref=e83]: real stories
+              - paragraph [ref=e84]: real energy
+          - generic [ref=e86]:
+            - img "Padre e hijo caminando - VibeLife comunidad" [ref=e88]
+            - generic [ref=e89]:
+              - paragraph [ref=e90]: Because this is also about
+              - paragraph [ref=e91]: sharing with those you love
+          - generic [ref=e93]:
+            - img "Familia caminando - VibeLife comunidad" [ref=e95]
+            - generic [ref=e96]:
+              - paragraph [ref=e97]: It's not about getting there fast
+              - paragraph [ref=e98]: it's about walking better
+          - generic [ref=e100]:
+            - img "Niño en la caminata - VibeLife comunidad" [ref=e102]
+            - generic [ref=e103]:
+              - paragraph [ref=e104]: No pressure here
+              - paragraph [ref=e105]: just presence
+      - generic [ref=e108]:
+        - heading "What starts as a walk… becomes something more" [level=2] [ref=e111]
+        - generic [ref=e112]:
+          - paragraph [ref=e113]: Many people arrive thinking it's just a walk.
+          - paragraph [ref=e114]: "But over time they discover that:"
+          - list [ref=e115]:
+            - listitem [ref=e116]:
+              - generic [ref=e117]: •
+              - generic [ref=e118]: they feel more energized
+            - listitem [ref=e119]:
+              - generic [ref=e120]: •
+              - generic [ref=e121]: their stress decreases
+            - listitem [ref=e122]:
+              - generic [ref=e123]: •
+              - generic [ref=e124]: they become more consistent
+            - listitem [ref=e125]:
+              - generic [ref=e126]: •
+              - generic [ref=e127]: they connect with other people
+            - listitem [ref=e128]:
+              - generic [ref=e129]: •
+              - generic [ref=e130]: they start prioritizing themselves without guilt
+          - paragraph [ref=e132]: And that changes more than they ever imagined.
+      - generic [ref=e135]:
+        - heading "This space is for you if…" [level=2] [ref=e138]
+        - generic [ref=e139]:
+          - generic [ref=e140]:
+            - generic [ref=e141]: •
+            - paragraph [ref=e142]: you feel you need a change, but don't know where to start
+          - generic [ref=e143]:
+            - generic [ref=e144]: •
+            - paragraph [ref=e145]: it's hard to stay consistent on your own
+          - generic [ref=e146]:
+            - generic [ref=e147]: •
+            - paragraph [ref=e148]: you want to feel better without extreme pressure
+          - generic [ref=e149]:
+            - generic [ref=e150]: •
+            - paragraph [ref=e151]: you need a break from the routine
+          - generic [ref=e152]:
+            - generic [ref=e153]: •
+            - paragraph [ref=e154]: you want to be around people with a different kind of energy
+      - generic [ref=e157]:
+        - heading "Here we don't just talk about wellness… we live it" [level=2] [ref=e160]
+        - generic [ref=e161]:
+          - paragraph [ref=e162]: "During the walks we also share tools that can support your journey:"
+          - list [ref=e163]:
+            - listitem [ref=e164]:
+              - generic [ref=e165]: •
+              - generic [ref=e166]: products that support your energy
+            - listitem [ref=e167]:
+              - generic [ref=e168]: •
+              - generic [ref=e169]: options that improve your focus
+            - listitem [ref=e170]:
+              - generic [ref=e171]: •
+              - generic [ref=e172]: practical solutions for your everyday life
+          - paragraph [ref=e173]: "But most importantly:"
+          - generic [ref=e174]:
+            - paragraph [ref=e175]: nobody pressures you
+            - paragraph [ref=e176]: nobody sells to you
+            - paragraph [ref=e177]: you decide your own process
+      - generic [ref=e180]:
+        - heading "We meet every Sunday" [level=2] [ref=e183]
+        - generic [ref=e184]:
+          - paragraph [ref=e185]: Each week we explore different locations in Panama City.
+          - list [ref=e186]:
+            - listitem [ref=e187]:
+              - generic [ref=e188]: •
+              - generic [ref=e189]: nature
+            - listitem [ref=e190]:
+              - generic [ref=e191]: •
+              - generic [ref=e192]: open air
+            - listitem [ref=e193]:
+              - generic [ref=e194]: •
+              - generic [ref=e195]: open spaces
+            - listitem [ref=e196]:
+              - generic [ref=e197]: •
+              - generic [ref=e198]: accessible routes for everyone
+          - paragraph [ref=e200]: "Always with the same goal: feel better."
+      - generic [ref=e203]:
+        - heading "Maybe you don't need more information… you need to start" [level=2] [ref=e206]
+        - generic [ref=e207]:
+          - paragraph [ref=e208]: Sometimes it's not lack of motivation.
+          - paragraph [ref=e209]: It's lack of the right space.
+          - paragraph [ref=e210]: "A place where:"
+          - list [ref=e211]:
+            - listitem [ref=e212]:
+              - generic [ref=e213]: •
+              - generic [ref=e214]: nobody judges you
+            - listitem [ref=e215]:
+              - generic [ref=e216]: •
+              - generic [ref=e217]: nobody demands anything from you
+            - listitem [ref=e218]:
+              - generic [ref=e219]: •
+              - generic [ref=e220]: nobody compares you to anyone
+          - paragraph [ref=e222]: Just walk alongside you.
+      - generic [ref=e226]:
+        - generic [ref=e227]:
+          - paragraph [ref=e228]: This isn't just wellness… it's belonging
+          - heading "We'll be waiting for you this Sunday" [level=2] [ref=e229]
+        - link "I want to join the walk" [ref=e231] [cursor=pointer]:
+          - /url: https://wa.me/50762882188?text=Hi%2C%20I%20want%20to%20join%20VibeLife's%20walks%20and%20find%20out%20how%20to%20participate.
+          - img [ref=e232]
+          - text: I want to join the walk
+    - contentinfo [ref=e235]:
+      - generic [ref=e237]:
+        - generic [ref=e238]:
+          - generic [ref=e239]:
+            - img "VibeLife logo" [ref=e240]
+            - paragraph [ref=e241]: VibeLife shares options focused on natural wellness, healthy habits and direct conversations through WhatsApp.
+            - link "Contact on WhatsApp" [ref=e242] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+              - text: Contact on WhatsApp
+              - img [ref=e243]
+          - generic [ref=e246]:
+            - heading "Navigate" [level=3] [ref=e247]
+            - generic [ref=e248]:
+              - link "Home" [ref=e249] [cursor=pointer]:
+                - /url: /
+              - link "Products" [ref=e250] [cursor=pointer]:
+                - /url: /#products
+              - link "Community" [ref=e251] [cursor=pointer]:
+                - /url: /community
+              - link "About" [ref=e252] [cursor=pointer]:
+                - /url: /about
+              - link "Contact" [ref=e253] [cursor=pointer]:
+                - /url: /contact
+          - generic [ref=e254]:
+            - heading "Products" [level=3] [ref=e255]
+            - generic [ref=e256]:
+              - link "Rise" [ref=e257] [cursor=pointer]:
+                - /url: /products/rise
+              - link "Amalaki" [ref=e258] [cursor=pointer]:
+                - /url: /products/amalaki
+              - link "Accell" [ref=e259] [cursor=pointer]:
+                - /url: /products/accell
+              - link "B-Fit" [ref=e260] [cursor=pointer]:
+                - /url: /products/b-fit
+        - generic [ref=e261]:
+          - generic [ref=e262]: VibeLife
+          - generic [ref=e263]: Natural Wellness & Personal Growth
+          - generic [ref=e264]: +507 6288-2188
+    - link "Chat on WhatsApp" [ref=e266] [cursor=pointer]:
+      - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+      - img [ref=e268]
+      - generic [ref=e270]: WhatsApp
+  - alert [ref=e271]

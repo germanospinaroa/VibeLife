@@ -129,7 +129,7 @@ export function ProductsShowcaseSection() {
               <div className="mt-6 space-y-2">
                 <Link
                   className={buttonVariants({ className: "w-full justify-center text-sm", variant: "ghost" })}
-                  href={`/products/${product.slug}`}
+                  href={`/${product.slug}`}
                 >
                   {localize({ es: "Ver producto", en: "View product" }, language)}
                   <ArrowRight className="h-4 w-4" />
