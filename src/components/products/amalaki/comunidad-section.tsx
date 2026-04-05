@@ -26,59 +26,29 @@ export function AmalakiComunidadSection() {
         </Reveal>
 
         <Reveal delay={0.1} className="mt-8 space-y-8 text-base leading-8 text-[#5c746d] sm:text-lg">
-          <p className="text-lg font-semibold text-[#2f4541]">
-            {localize(
-              {
-                es: "Es parte de un proceso.",
-                en: "It's part of a process.",
-              },
-              language,
-            )}
+          <p className="text-[#5c746d]">
+            {localize({ es: "Es parte de un proceso donde:", en: "It's part of a process where:" }, language)}
           </p>
 
-          <p className="text-lg font-semibold text-[#2f4541]">
-            {localize(
-              {
-                es: "De mujeres que:",
-                en: "Of women who:",
-              },
-              language,
-            )}
-          </p>
+          <ul className="space-y-2 pl-1">
+            {[
+              { es: "aprendes a entender tu cuerpo", en: "you learn to understand your body" },
+              { es: "tienes acompañamiento", en: "you have guidance" },
+              { es: "puedes avanzar con claridad", en: "you can move forward with clarity" },
+            ].map((item, i) => (
+              <li key={i} className="flex gap-3">
+                <span className="shrink-0 text-[#9BC56A] font-bold">•</span>
+                <span className="font-medium text-[#2f4541]">{localize(item, language)}</span>
+              </li>
+            ))}
+          </ul>
 
-          <div className="rounded-xl bg-white/70 p-8 space-y-3">
-            <div className="flex gap-3">
-              <span className="shrink-0 text-[#9BC56A] font-bold">•</span>
-              <p className="font-medium text-[#2f4541]">{localize({ es: "están priorizando su bienestar", en: "are prioritizing their well-being" }, language)}</p>
-            </div>
-            <div className="flex gap-3">
-              <span className="shrink-0 text-[#9BC56A] font-bold">•</span>
-              <p className="font-medium text-[#2f4541]">{localize({ es: "están entendiendo su cuerpo", en: "are understanding their body" }, language)}</p>
-            </div>
-            <div className="flex gap-3">
-              <span className="shrink-0 text-[#9BC56A] font-bold">•</span>
-              <p className="font-medium text-[#2f4541]">{localize({ es: "están cambiando desde adentro", en: "are changing from within" }, language)}</p>
-            </div>
-          </div>
-
-          <div className="rounded-2xl bg-gradient-to-r from-[#9BC56A] to-[#6f9d49] p-8 text-white space-y-2">
-            <p className="text-lg font-semibold">
-              {localize(
-                {
-                  es: "👉 Aquí no se trata de rapidez",
-                  en: "👉 Here it's not about speed",
-                },
-                language,
-              )}
+          <div className="border-l-4 border-[#9BC56A] pl-6 py-2 space-y-2">
+            <p className="text-lg font-semibold text-[#2f4541]">
+              👉 {localize({ es: "Aquí no se trata de rapidez", en: "Here it's not about speed" }, language)}
             </p>
-            <p className="text-lg font-semibold">
-              {localize(
-                {
-                  es: "se trata de transformación real",
-                  en: "it's about real transformation",
-                },
-                language,
-              )}
+            <p className="text-lg font-semibold text-[#2f4541]">
+              👉 {localize({ es: "se trata de transformación real", en: "it's about real transformation" }, language)}
             </p>
           </div>
         </Reveal>

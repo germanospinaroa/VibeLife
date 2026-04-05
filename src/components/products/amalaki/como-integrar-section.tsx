@@ -10,7 +10,7 @@ export function AmalakiComoIntegrarSection() {
   const { language } = useLanguage();
 
   return (
-    <SectionShell tone="soft">
+    <SectionShell tone="leaf">
       <div className="mx-auto max-w-3xl">
         <Reveal>
           <SectionHeading
@@ -27,49 +27,28 @@ export function AmalakiComoIntegrarSection() {
 
         <Reveal delay={0.1} className="mt-8 space-y-8 text-base leading-8 text-[#5c746d] sm:text-lg">
           <p className="text-lg font-semibold text-[#2f4541]">
-            {localize(
-              {
-                es: "Amalaki funciona como base.",
-                en: "Amalaki works as a foundation.",
-              },
-              language,
-            )}
+            {localize({ es: "Puedes usar Amalaki:", en: "You can use Amalaki:" }, language)}
           </p>
 
-          <p className="text-lg font-semibold text-[#2f4541]">
-            {localize(
-              {
-                es: "Puedes:",
-                en: "You can:",
-              },
-              language,
-            )}
-          </p>
+          <ul className="space-y-2 pl-1">
+            {[
+              { es: "solo", en: "alone" },
+              { es: "junto a otros productos", en: "alongside other products" },
+              { es: "como parte de tu rutina diaria", en: "as part of your daily routine" },
+            ].map((item, i) => (
+              <li key={i} className="flex gap-3">
+                <span className="shrink-0 text-[#9BC56A] font-bold">•</span>
+                <span className="font-medium text-[#2f4541]">{localize(item, language)}</span>
+              </li>
+            ))}
+          </ul>
 
-          <div className="rounded-xl bg-white/70 p-8 space-y-3">
-            <div className="flex gap-3">
-              <span className="shrink-0 text-[#9BC56A] font-bold">•</span>
-              <p className="font-medium text-[#2f4541]">{localize({ es: "usarlo solo", en: "use it alone" }, language)}</p>
-            </div>
-            <div className="flex gap-3">
-              <span className="shrink-0 text-[#9BC56A] font-bold">•</span>
-              <p className="font-medium text-[#2f4541]">{localize({ es: "combinarlo con otros productos", en: "combine it with other products" }, language)}</p>
-            </div>
-            <div className="flex gap-3">
-              <span className="shrink-0 text-[#9BC56A] font-bold">•</span>
-              <p className="font-medium text-[#2f4541]">{localize({ es: "integrarlo en tu rutina diaria", en: "integrate it into your daily routine" }, language)}</p>
-            </div>
-          </div>
-
-          <div className="rounded-2xl bg-[#f0f9e8] p-8 border-l-4 border-[#9BC56A]">
+          <div className="border-l-4 border-[#9BC56A] pl-6 py-2 space-y-2">
             <p className="text-lg font-semibold text-[#2f4541]">
-              👉 {localize(
-                {
-                  es: "Es el punto de partida ideal",
-                  en: "It's the ideal starting point",
-                },
-                language,
-              )}
+              👉 {localize({ es: "No necesitas hacerlo perfecto", en: "You don't need to do it perfectly" }, language)}
+            </p>
+            <p className="text-lg font-semibold text-[#2f4541]">
+              👉 {localize({ es: "necesitas hacerlo constante", en: "you need to do it consistently" }, language)}
             </p>
           </div>
         </Reveal>

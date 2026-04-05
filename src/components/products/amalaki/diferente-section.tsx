@@ -10,67 +10,76 @@ export function AmalakiDiferenteSection() {
   const { language } = useLanguage();
 
   return (
-    <SectionShell tone="leaf">
+    <SectionShell tone="soft">
       <div className="mx-auto max-w-3xl">
         <Reveal>
           <SectionHeading
             align="center"
             title={localize(
               {
-                es: "No es un 'quick fix'… es una base",
-                en: "It's not a 'quick fix'… it's a foundation",
+                es: "Esto no es un 'quick fix'… es una base",
+                en: "This isn't a 'quick fix'… it's a foundation",
               },
               language,
             )}
           />
         </Reveal>
 
-        <Reveal delay={0.1} className="mt-8 space-y-8 text-base leading-8 text-[#5c746d] sm:text-lg">
-          <div>
-            <p className="text-lg font-semibold text-[#2f4541] mb-4">
-              {localize(
-                {
-                  es: "La mayoría de productos:",
-                  en: "Most products:",
-                },
-                language,
-              )}
+        <Reveal delay={0.1} className="mt-8 space-y-10 text-base leading-8 text-[#5c746d] sm:text-lg">
+          <div className="space-y-4">
+            <p className="text-lg font-semibold text-[#2f4541]">
+              {localize({ es: "La mayoría de productos:", en: "Most products:" }, language)}
             </p>
-            <div className="rounded-xl bg-white/70 p-8 space-y-2">
-              <p className="font-semibold text-[#2f4541]">👉 {localize({ es: "estimulan", en: "stimulate" }, language)}</p>
-              <p className="font-semibold text-[#2f4541]">👉 {localize({ es: "aceleran", en: "accelerate" }, language)}</p>
-              <p className="font-semibold text-[#2f4541]">👉 {localize({ es: "prometen resultados rápidos", en: "promise quick results" }, language)}</p>
-            </div>
+            <ul className="space-y-2 pl-1">
+              {[
+                { es: "estimulan", en: "stimulate" },
+                { es: "aceleran", en: "accelerate" },
+                { es: "prometen resultados rápidos", en: "promise quick results" },
+              ].map((item, i) => (
+                <li key={i} className="flex gap-3">
+                  <span className="shrink-0 text-[#d97706] font-bold">•</span>
+                  <span className="font-medium text-[#2f4541]">{localize(item, language)}</span>
+                </li>
+              ))}
+            </ul>
+            <p className="text-[#5c746d]">
+              {localize({ es: "Pero no corrigen el problema real.", en: "But they don't fix the real problem." }, language)}
+            </p>
           </div>
 
-          <div>
-            <p className="text-lg font-semibold text-[#2f4541] mb-4">
-              {localize(
-                {
-                  es: "Amalaki:",
-                  en: "Amalaki:",
-                },
-                language,
-              )}
+          <div className="space-y-4">
+            <p className="text-lg font-semibold text-[#2f4541]">
+              {localize({ es: "Amalaki:", en: "Amalaki:" }, language)}
             </p>
-            <div className="rounded-xl bg-white/70 p-8 space-y-2">
-              <p className="font-semibold text-[#2f4541]">👉 {localize({ es: "repara", en: "repairs" }, language)}</p>
-              <p className="font-semibold text-[#2f4541]">👉 {localize({ es: "equilibra", en: "balances" }, language)}</p>
-              <p className="font-semibold text-[#2f4541]">👉 {localize({ es: "fortalece", en: "strengthens" }, language)}</p>
-            </div>
+            <ul className="space-y-2 pl-1">
+              {[
+                { es: "no estimula", en: "doesn't stimulate" },
+                { es: "no fuerza", en: "doesn't force" },
+                { es: "no engaña", en: "doesn't deceive" },
+              ].map((item, i) => (
+                <li key={i} className="flex gap-3">
+                  <span className="shrink-0 text-[#9BC56A] font-bold">•</span>
+                  <span className="font-medium text-[#2f4541]">{localize(item, language)}</span>
+                </li>
+              ))}
+            </ul>
           </div>
 
-          <div className="rounded-2xl bg-gradient-to-r from-[#9BC56A] to-[#6f9d49] p-8 text-white">
-            <p className="text-lg font-semibold">
-              👉 {localize(
-                {
-                  es: "Por eso funciona diferente",
-                  en: "That's why it works differently",
-                },
-                language,
-              )}
+          <div className="border-l-4 border-[#9BC56A] pl-6 py-2 space-y-2">
+            <p className="text-lg font-semibold text-[#2f4541]">
+              👉 {localize({ es: "regula", en: "regulates" }, language)}
+            </p>
+            <p className="text-lg font-semibold text-[#2f4541]">
+              👉 {localize({ es: "equilibra", en: "balances" }, language)}
+            </p>
+            <p className="text-lg font-semibold text-[#2f4541]">
+              👉 {localize({ es: "fortalece", en: "strengthens" }, language)}
             </p>
           </div>
+
+          <p className="text-lg font-semibold text-[#2f4541]">
+            👉 {localize({ es: "Por eso los resultados se sostienen", en: "That's why the results last" }, language)}
+          </p>
         </Reveal>
       </div>
     </SectionShell>

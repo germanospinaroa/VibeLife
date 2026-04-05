@@ -22,8 +22,8 @@ export function AmalakiHeroSection() {
             <h1 className="text-balance text-4xl font-semibold leading-tight text-[#2f4541] sm:text-5xl">
               {localize(
                 {
-                  es: "No es un suplemento más…",
-                  en: "It's not just another supplement…",
+                  es: "No es que estés haciendo algo mal…",
+                  en: "It's not that you're doing something wrong…",
                 },
                 language,
               )}
@@ -31,23 +31,43 @@ export function AmalakiHeroSection() {
             <h2 className="text-3xl font-semibold leading-tight text-[#9BC56A] sm:text-4xl mt-2">
               {localize(
                 {
-                  es: "es uno de los secretos mejor guardados del bienestar natural",
-                  en: "it's one of nature's best-kept wellness secrets",
+                  es: "es que tu cuerpo está saturado",
+                  en: "your body is overwhelmed",
                 },
                 language,
               )}
             </h2>
           </div>
 
-          <p className="mt-8 text-base leading-8 text-[#5c746d] sm:text-lg space-y-4">
-            {localize(
-              {
-                es: "Amalaki es la base de todo lo que estás buscando: más energía, mejor digestión, menos inflamación y un cuerpo que realmente responde.",
-                en: "Amalaki is the foundation of everything you're looking for: more energy, better digestion, less inflammation, and a body that truly responds.",
-              },
-              language,
-            )}
-          </p>
+          <div className="mt-4 space-y-4 text-base leading-8 text-[#5c746d] sm:text-lg">
+            <p>
+              {localize(
+                {
+                  es: "Inflamación, cansancio, digestión lenta, falta de energía… No son problemas aislados.",
+                  en: "Inflammation, fatigue, slow digestion, lack of energy… These aren't isolated problems.",
+                },
+                language,
+              )}
+            </p>
+            <p className="font-semibold text-[#2f4541]">
+              {localize(
+                {
+                  es: "Son señales de que tu cuerpo no está en equilibrio.",
+                  en: "They're signals that your body is out of balance.",
+                },
+                language,
+              )}
+            </p>
+            <p>
+              {localize(
+                {
+                  es: "Amalaki es el punto donde todo empieza a corregirse.",
+                  en: "Amalaki is where everything starts to correct itself.",
+                },
+                language,
+              )}
+            </p>
+          </div>
 
           <div className="flex flex-col gap-3 pt-4 sm:flex-row sm:flex-wrap">
             <Link
@@ -60,8 +80,8 @@ export function AmalakiHeroSection() {
             <WhatsAppCta
               className="sm:flex-1"
               message={{
-                es: "Hola, quiero saber más sobre Amalaki.",
-                en: "Hi, I want to know more about Amalaki.",
+                es: "Hola, quiero empezar con Amalaki y entender cómo usarlo correctamente",
+                en: "Hi, I want to start with Amalaki and understand how to use it correctly.",
               }}
               size="lg"
             >

@@ -25,31 +25,22 @@ export function AmalakiParaQuienSection() {
           />
         </Reveal>
 
-        <Reveal delay={0.1} className="mt-8 space-y-8">
-          <div className="rounded-xl bg-white/70 p-8 space-y-3">
-            <div className="flex gap-3">
-              <span className="shrink-0 text-[#9BC56A] font-bold">•</span>
-              <p className="font-medium text-[#2f4541]">{localize({ es: "Te sientes inflamada", en: "You feel inflamed" }, language)}</p>
-            </div>
-            <div className="flex gap-3">
-              <span className="shrink-0 text-[#9BC56A] font-bold">•</span>
-              <p className="font-medium text-[#2f4541]">{localize({ es: "Estás cansada constantemente", en: "You're constantly tired" }, language)}</p>
-            </div>
-            <div className="flex gap-3">
-              <span className="shrink-0 text-[#9BC56A] font-bold">•</span>
-              <p className="font-medium text-[#2f4541]">{localize({ es: "Tu digestión no es la mejor", en: "Your digestion isn't the best" }, language)}</p>
-            </div>
-            <div className="flex gap-3">
-              <span className="shrink-0 text-[#9BC56A] font-bold">•</span>
-              <p className="font-medium text-[#2f4541]">{localize({ es: "Has probado cosas y no ves resultados", en: "You've tried things and see no results" }, language)}</p>
-            </div>
-            <div className="flex gap-3">
-              <span className="shrink-0 text-[#9BC56A] font-bold">•</span>
-              <p className="font-medium text-[#2f4541]">{localize({ es: "Quieres sentirte mejor desde adentro", en: "You want to feel better from within" }, language)}</p>
-            </div>
-          </div>
+        <Reveal delay={0.1} className="mt-8 space-y-8 text-base leading-8 text-[#5c746d] sm:text-lg">
+          <ul className="space-y-3 pl-1">
+            {[
+              { es: "has probado cosas y no te funcionan", en: "you've tried things and they don't work" },
+              { es: "te sientes cansada constantemente", en: "you feel constantly tired" },
+              { es: "sientes que tu cuerpo no reacciona", en: "you feel your body doesn't react" },
+              { es: "quieres volver a sentirte bien", en: "you want to feel good again" },
+            ].map((item, i) => (
+              <li key={i} className="flex gap-3">
+                <span className="shrink-0 text-[#9BC56A] font-bold">•</span>
+                <span className="font-medium text-[#2f4541]">{localize(item, language)}</span>
+              </li>
+            ))}
+          </ul>
 
-          <div className="rounded-2xl bg-[#f0f9e8] p-8 border-l-4 border-[#9BC56A] space-y-3">
+          <div className="border-l-4 border-[#9BC56A] pl-6 py-2 space-y-2">
             <p className="text-lg font-semibold text-[#2f4541]">
               👉 {localize({ es: "No necesitas más productos", en: "You don't need more products" }, language)}
             </p>

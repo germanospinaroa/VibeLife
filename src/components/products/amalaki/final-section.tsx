@@ -16,8 +16,8 @@ export function AmalakiFinalSection() {
     <SectionShell tone="leaf">
       <div className="mx-auto max-w-3xl">
         <Reveal className="space-y-8">
-          <div>
-            <h2 className="text-balance text-3xl font-semibold leading-tight text-[#2f4541] sm:text-4xl mb-6">
+          <div className="space-y-6">
+            <h2 className="text-balance text-3xl font-semibold leading-tight text-[#2f4541] sm:text-4xl">
               {localize(
                 {
                   es: "Si tu base no está bien… nada lo estará",
@@ -27,18 +27,29 @@ export function AmalakiFinalSection() {
               )}
             </h2>
 
-            <p className="text-base leading-8 text-[#5c746d] sm:text-lg space-y-4">
-              {localize(
-                {
-                  es: "Puedes intentar muchas cosas.\n\nPero si tu cuerpo no está equilibrado…\nnada se sostiene.\n\nAmalaki no es la solución completa.\n\n👉 Es el inicio correcto",
-                  en: "You can try many things.\n\nBut if your body isn't balanced…\nnothing holds.\n\nAmalaki isn't the complete solution.\n\n👉 It's the right beginning",
-                },
-                language,
-              )}
-            </p>
+            <div className="space-y-4 text-base leading-8 text-[#5c746d] sm:text-lg">
+              <p>
+                {localize(
+                  { es: "Puedes intentar muchas cosas.", en: "You can try many things." },
+                  language,
+                )}
+              </p>
+              <p className="font-semibold text-[#2f4541]">
+                {localize(
+                  { es: "Pero si tu cuerpo no está equilibrado… nada será suficiente.", en: "But if your body isn't balanced… nothing will be enough." },
+                  language,
+                )}
+              </p>
+              <p>
+                {localize(
+                  { es: "Amalaki es donde todo empieza a cambiar.", en: "Amalaki is where everything starts to change." },
+                  language,
+                )}
+              </p>
+            </div>
           </div>
 
-          <div className="flex flex-col gap-3 pt-4 sm:flex-row sm:flex-wrap">
+          <div className="flex flex-col gap-3 pt-2 sm:flex-row sm:flex-wrap">
             <Link
               className={buttonVariants({ size: "lg", className: "sm:flex-1" })}
               href="#contact"
@@ -49,17 +60,15 @@ export function AmalakiFinalSection() {
             <WhatsAppCta
               className="sm:flex-1"
               message={{
-                es: "Hola, quiero saber más sobre Amalaki.",
-                en: "Hi, I want to know more about Amalaki.",
+                es: "Hola, quiero empezar con Amalaki y entender cómo usarlo correctamente",
+                en: "Hi, I want to start with Amalaki and understand how to use it correctly.",
               }}
               size="lg"
             >
-              {
-                {
-                  es: "Hablar por WhatsApp",
-                  en: "Chat on WhatsApp",
-                }
-              }
+              {{
+                es: "Hablar por WhatsApp",
+                en: "Chat on WhatsApp",
+              }}
             </WhatsAppCta>
           </div>
         </Reveal>

@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { Reveal } from "@/components/motion/reveal";
 import { useLanguage } from "@/components/providers/language-provider";
 import { SectionShell } from "@/components/shared/section-shell";
@@ -10,56 +11,85 @@ export function AmalakiPosicionamientoSection() {
   const { language } = useLanguage();
 
   return (
-    <SectionShell tone="leaf">
-      <div className="mx-auto max-w-3xl">
-        <Reveal>
-          <SectionHeading
-            align="center"
-            title={localize(
-              {
-                es: "Por eso está presente en otros productos",
-                en: "That's why it's in other products",
-              },
-              language,
-            )}
-          />
+    <SectionShell tone="soft">
+      <div className="mx-auto max-w-4xl space-y-16">
+        {/* Product image mid-page */}
+        <Reveal className="flex justify-center">
+          <div className="relative overflow-hidden rounded-2xl shadow-[0_4px_24px_rgba(155,197,106,0.12)] bg-gradient-to-br from-[#f0f9e8]/60 to-[#e8f4d8]/60 p-6 max-w-xs">
+            <Image
+              alt="Amalaki - VibeLife"
+              className="h-full w-full object-cover rounded-lg"
+              height={480}
+              src="/images/products/amalaki.png"
+              width={320}
+            />
+          </div>
         </Reveal>
 
-        <Reveal delay={0.1} className="mt-8 space-y-8 text-base leading-8 text-[#5c746d] sm:text-lg">
-          <p className="text-lg font-semibold text-[#2f4541]">
-            {localize(
-              {
-                es: "Muchos productos lo incluyen…",
-                en: "Many products include it…",
-              },
-              language,
-            )}
-          </p>
-
-          <div className="rounded-xl bg-white/70 p-8 space-y-3">
-            <p className="font-semibold text-[#2f4541]">
-              👉 {localize({ es: "porque potencia resultados", en: "because it amplifies results" }, language)}
-            </p>
-            <p className="font-semibold text-[#2f4541]">
-              👉 {localize({ es: "porque mejora la absorción", en: "because it improves absorption" }, language)}
-            </p>
-            <p className="font-semibold text-[#2f4541]">
-              👉 {localize({ es: "porque optimiza el cuerpo", en: "because it optimizes the body" }, language)}
-            </p>
-          </div>
-
-          <div className="rounded-2xl bg-gradient-to-r from-[#9BC56A] to-[#6f9d49] p-8 text-white">
-            <p className="text-lg font-semibold">
-              👉 {localize(
+        <div className="mx-auto max-w-3xl">
+          <Reveal>
+            <SectionHeading
+              align="center"
+              title={localize(
                 {
-                  es: "Pero aquí lo tienes en su forma directa",
-                  en: "But here you have it in its direct form",
+                  es: "Esto no es el final… es el inicio",
+                  en: "This isn't the end… it's the beginning",
                 },
                 language,
               )}
-            </p>
-          </div>
-        </Reveal>
+            />
+          </Reveal>
+
+          <Reveal delay={0.1} className="mt-8 space-y-10 text-base leading-8 text-[#5c746d] sm:text-lg">
+            <div className="space-y-4">
+              <p className="text-lg font-semibold text-[#2f4541]">
+                {localize({ es: "Muchas personas intentan:", en: "Many people try to:" }, language)}
+              </p>
+              <ul className="space-y-2 pl-1">
+                {[
+                  { es: "mejorar energía", en: "improve energy" },
+                  { es: "bajar de peso", en: "lose weight" },
+                  { es: "cambiar hábitos", en: "change habits" },
+                ].map((item, i) => (
+                  <li key={i} className="flex gap-3">
+                    <span className="shrink-0 text-[#d97706] font-bold">•</span>
+                    <span className="font-medium text-[#2f4541]">{localize(item, language)}</span>
+                  </li>
+                ))}
+              </ul>
+              <p className="text-[#5c746d]">
+                {localize({ es: "Pero empiezan por el lugar equivocado.", en: "But they start in the wrong place." }, language)}
+              </p>
+            </div>
+
+            <div className="space-y-4">
+              <p className="text-lg font-semibold text-[#2f4541]">
+                {localize({ es: "Amalaki es la base que permite que:", en: "Amalaki is the foundation that allows:" }, language)}
+              </p>
+              <ul className="space-y-2 pl-1">
+                {[
+                  { es: "Rise funcione mejor", en: "Rise to work better" },
+                  { es: "B-Fit tenga mayor impacto", en: "B-Fit to have greater impact" },
+                  { es: "tu cuerpo responda realmente", en: "your body to truly respond" },
+                ].map((item, i) => (
+                  <li key={i} className="flex gap-3">
+                    <span className="shrink-0 text-[#9BC56A] font-bold">•</span>
+                    <span className="font-medium text-[#2f4541]">{localize(item, language)}</span>
+                  </li>
+                ))}
+              </ul>
+            </div>
+
+            <div className="border-l-4 border-[#9BC56A] pl-6 py-2 space-y-2">
+              <p className="text-lg font-semibold text-[#2f4541]">
+                👉 {localize({ es: "Sin base… nada se sostiene", en: "Without foundation… nothing holds" }, language)}
+              </p>
+              <p className="text-lg font-semibold text-[#2f4541]">
+                👉 {localize({ es: "Con base… todo mejora", en: "With foundation… everything improves" }, language)}
+              </p>
+            </div>
+          </Reveal>
+        </div>
       </div>
     </SectionShell>
   );
