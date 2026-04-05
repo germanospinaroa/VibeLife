@@ -10,46 +10,51 @@ export function AccellComunidadSection() {
   const { language } = useLanguage();
 
   return (
-    <SectionShell tone="leaf">
+    <SectionShell tone="soft">
       <div className="mx-auto max-w-3xl">
         <Reveal>
           <SectionHeading
             align="center"
             title={localize(
               {
-                es: "No estás sola en este proceso",
-                en: "You're not alone in this process",
+                es: "Energizado. Ágil. Enfocado. Seguro de ti mismo.",
+                en: "Energized. Agile. Focused. Confident.",
               },
               language,
             )}
           />
         </Reveal>
 
-        <Reveal delay={0.1} className="mt-8 space-y-8 text-base leading-8 text-[#5c746d] sm:text-lg">
-          <p className="text-[#5c746d]">
-            {localize({ es: "Aquí no solo tienes un producto.", en: "Here you don't just have a product." }, language)}
+        <Reveal delay={0.1} className="mt-8 space-y-6 text-base leading-8 text-[#5c746d] sm:text-lg">
+          <p>
+            {localize(
+              {
+                es: "Ese es el poder de Accell.",
+                en: "That's the power of Accell.",
+              },
+              language,
+            )}
           </p>
 
-          <p className="text-lg font-semibold text-[#2f4541]">
-            {localize({ es: "Tienes:", en: "You have:" }, language)}
+          <p>
+            {localize(
+              {
+                es: "Si buscas un producto práctico que complemente tu dieta, te provea energía y te ayude a mejorar tu desempeño, la respuesta es Accell — un impulso para tu cuerpo, mente y energía.",
+                en: "If you're looking for a practical product that complements your diet, provides energy, and helps you improve your performance, the answer is Accell — a boost for your body, mind, and energy.",
+              },
+              language,
+            )}
           </p>
-
-          <ul className="space-y-2 pl-1">
-            {[
-              { es: "guía", en: "guidance" },
-              { es: "acompañamiento", en: "support" },
-              { es: "claridad", en: "clarity" },
-            ].map((item, i) => (
-              <li key={i} className="flex gap-3">
-                <span className="shrink-0 text-[#9BC56A] font-bold">•</span>
-                <span className="font-medium text-[#2f4541]">{localize(item, language)}</span>
-              </li>
-            ))}
-          </ul>
 
           <div className="border-l-4 border-[#9BC56A] pl-6 py-2">
             <p className="text-lg font-semibold text-[#2f4541]">
-              👉 {localize({ es: "Porque el cambio real no se hace sola", en: "Because real change doesn't happen alone" }, language)}
+              {localize(
+                {
+                  es: "No estás solo en este proceso. Tenemos el soporte y la guía que necesitas para sacarle el máximo a Accell.",
+                  en: "You're not alone in this process. We have the support and guidance you need to get the most out of Accell.",
+                },
+                language,
+              )}
             </p>
           </div>
         </Reveal>

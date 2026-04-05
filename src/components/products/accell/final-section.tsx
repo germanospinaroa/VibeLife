@@ -20,8 +20,8 @@ export function AccellFinalSection() {
             <h2 className="text-balance text-3xl font-semibold leading-tight text-[#2f4541] sm:text-4xl">
               {localize(
                 {
-                  es: "Tu cuerpo puede cambiar… si trabajas con él, no contra él",
-                  en: "Your body can change… if you work with it, not against it",
+                  es: "Tu energía. Tu enfoque. Tu ritmo.",
+                  en: "Your energy. Your focus. Your pace.",
                 },
                 language,
               )}
@@ -30,19 +30,28 @@ export function AccellFinalSection() {
             <div className="space-y-4 text-base leading-8 text-[#5c746d] sm:text-lg">
               <p>
                 {localize(
-                  { es: "No necesitas hacer más.", en: "You don't need to do more." },
+                  {
+                    es: "No tienes que elegir entre vivir al máximo y cuidarte.",
+                    en: "You don't have to choose between living at full speed and taking care of yourself.",
+                  },
                   language,
                 )}
               </p>
               <p className="font-semibold text-[#2f4541]">
                 {localize(
-                  { es: "Necesitas que tu cuerpo funcione mejor.", en: "You need your body to work better." },
+                  {
+                    es: "Con Accell, puedes tener ambas cosas.",
+                    en: "With Accell, you can have both.",
+                  },
                   language,
                 )}
               </p>
               <p>
                 {localize(
-                  { es: "Y ese proceso… empieza aquí.", en: "And that process… starts here." },
+                  {
+                    es: "Energía natural. Mente clara. Cuerpo activo. Eso empieza aquí.",
+                    en: "Natural energy. Clear mind. Active body. That starts here.",
+                  },
                   language,
                 )}
               </p>

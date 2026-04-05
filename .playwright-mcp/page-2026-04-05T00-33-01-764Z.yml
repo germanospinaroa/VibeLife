@@ -1,0 +1,348 @@
+- generic [ref=e2]:
+  - banner [ref=e4]:
+    - generic [ref=e6]:
+      - link "VibeLife" [ref=e7] [cursor=pointer]:
+        - /url: /
+        - img "VibeLife logo" [ref=e8]
+      - navigation [ref=e9]:
+        - link "Inicio" [ref=e10] [cursor=pointer]:
+          - /url: /
+        - link "Productos" [ref=e11] [cursor=pointer]:
+          - /url: /#products
+        - link "Comunidad" [ref=e12] [cursor=pointer]:
+          - /url: /community
+        - link "Nosotros" [ref=e13] [cursor=pointer]:
+          - /url: /about
+        - link "Contacto" [ref=e14] [cursor=pointer]:
+          - /url: /contact
+      - generic [ref=e15]:
+        - group "Language selector" [ref=e16]:
+          - button "ES" [ref=e17]
+          - button "EN" [ref=e18]
+        - link "Hablar por WhatsApp" [ref=e19] [cursor=pointer]:
+          - /url: https://wa.me/50762882188?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20VibeLife%20y%20las%20opciones%20disponibles.
+          - img [ref=e20]
+          - text: Hablar por WhatsApp
+  - main [ref=e22]:
+    - generic [ref=e25]:
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - heading "No es un suplemento más…" [level=1] [ref=e28]
+          - heading "es uno de los secretos mejor guardados del bienestar natural" [level=2] [ref=e29]
+        - paragraph [ref=e30]: "Amalaki es la base de todo lo que estás buscando: más energía, mejor digestión, menos inflamación y un cuerpo que realmente responde."
+        - generic [ref=e31]:
+          - link "Quiero empezar con Amalaki" [ref=e32] [cursor=pointer]:
+            - /url: "#contact"
+            - text: Quiero empezar con Amalaki
+            - img [ref=e33]
+          - link "Hablar por WhatsApp" [ref=e35] [cursor=pointer]:
+            - /url: https://wa.me/50762882188?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20Amalaki.
+            - img [ref=e36]
+            - text: Hablar por WhatsApp
+      - img "Amalaki - VibeLife" [ref=e40]
+    - generic [ref=e43]:
+      - heading "Tu cuerpo no está fallando… está saturado" [level=2] [ref=e46]
+      - generic [ref=e47]:
+        - paragraph [ref=e48]: "Te sientes:"
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - generic [ref=e51]: •
+            - paragraph [ref=e52]: cansada sin razón
+          - generic [ref=e53]:
+            - generic [ref=e54]: •
+            - paragraph [ref=e55]: inflamada constantemente
+          - generic [ref=e56]:
+            - generic [ref=e57]: •
+            - paragraph [ref=e58]: con digestión pesada
+          - generic [ref=e59]:
+            - generic [ref=e60]: •
+            - paragraph [ref=e61]: sin energía real
+          - generic [ref=e62]:
+            - generic [ref=e63]: •
+            - paragraph [ref=e64]: desconectada de tu cuerpo
+        - generic [ref=e65]:
+          - paragraph [ref=e66]: 👉 Y crees que necesitas más cosas…
+          - paragraph [ref=e67]: "👉 Pero en realidad: tu cuerpo necesita funcionar mejor desde adentro"
+    - generic [ref=e70]:
+      - heading "Aquí es donde entra Amalaki" [level=2] [ref=e73]
+      - generic [ref=e74]:
+        - paragraph [ref=e75]: Amalaki no es una moda.
+        - paragraph [ref=e76]: "Es un ingrediente utilizado por siglos en medicina tradicional por su capacidad de:"
+        - generic [ref=e77]:
+          - generic [ref=e78]:
+            - generic [ref=e79]: •
+            - paragraph [ref=e80]: regenerar
+          - generic [ref=e81]:
+            - generic [ref=e82]: •
+            - paragraph [ref=e83]: equilibrar
+          - generic [ref=e84]:
+            - generic [ref=e85]: •
+            - paragraph [ref=e86]: proteger
+        - generic [ref=e87]:
+          - paragraph [ref=e88]: 👉 No estimula
+          - paragraph [ref=e89]: 👉 No fuerza
+          - paragraph [ref=e90]: 👉 No engaña al cuerpo
+          - paragraph [ref=e91]: 👉 Lo ayuda a funcionar como debería
+    - generic [ref=e94]:
+      - heading "Uno de los antioxidantes más potentes del mundo" [level=2] [ref=e97]
+      - generic [ref=e98]:
+        - paragraph [ref=e99]: "Amalaki (también conocido como Amla) es una fruta rica en:"
+        - generic [ref=e100]:
+          - generic [ref=e101]:
+            - generic [ref=e102]: •
+            - paragraph [ref=e103]: vitamina C natural altamente biodisponible
+          - generic [ref=e104]:
+            - generic [ref=e105]: •
+            - paragraph [ref=e106]: antioxidantes potentes
+          - generic [ref=e107]:
+            - generic [ref=e108]: •
+            - paragraph [ref=e109]: compuestos que protegen tus células
+        - generic [ref=e110]:
+          - paragraph [ref=e111]: 👉 No es vitamina C común
+          - paragraph [ref=e112]: 👉 Es soporte celular real
+    - generic [ref=e115]:
+      - heading "El problema no es la falta de energía… es el desgaste" [level=2] [ref=e118]
+      - generic [ref=e119]:
+        - paragraph [ref=e120]: "Tu cuerpo todos los días sufre:"
+        - generic [ref=e121]:
+          - generic [ref=e122]:
+            - generic [ref=e123]: •
+            - paragraph [ref=e124]: estrés
+          - generic [ref=e125]:
+            - generic [ref=e126]: •
+            - paragraph [ref=e127]: inflamación
+          - generic [ref=e128]:
+            - generic [ref=e129]: •
+            - paragraph [ref=e130]: daño celular
+          - generic [ref=e131]:
+            - generic [ref=e132]: •
+            - paragraph [ref=e133]: mala alimentación
+        - paragraph [ref=e134]: "👉 Eso genera:"
+        - generic [ref=e135]:
+          - generic [ref=e136]:
+            - generic [ref=e137]: •
+            - paragraph [ref=e138]: cansancio
+          - generic [ref=e139]:
+            - generic [ref=e140]: •
+            - paragraph [ref=e141]: envejecimiento
+          - generic [ref=e142]:
+            - generic [ref=e143]: •
+            - paragraph [ref=e144]: baja energía
+          - generic [ref=e145]:
+            - generic [ref=e146]: •
+            - paragraph [ref=e147]: mal funcionamiento
+        - generic [ref=e148]:
+          - paragraph [ref=e149]: Amalaki trabaja en ese nivel.
+          - paragraph [ref=e150]: 👉 No en el síntoma
+          - paragraph [ref=e151]: 👉 En la raíz
+    - generic [ref=e154]:
+      - heading "Lo que hace… y lo que vas a sentir" [level=2] [ref=e157]
+      - generic [ref=e158]:
+        - generic [ref=e159]:
+          - heading "🔹 Energía real" [level=3] [ref=e160]
+          - paragraph [ref=e161]: No energía estimulada. 👉 Energía que viene de un cuerpo funcionando mejor
+        - generic [ref=e162]:
+          - heading "🔹 Menos inflamación" [level=3] [ref=e163]
+          - paragraph [ref=e164]: 👉 Menos hinchazón 👉 Mejor digestión 👉 Sensación de ligereza
+        - generic [ref=e165]:
+          - heading "🔹 Mejora digestiva" [level=3] [ref=e166]
+          - paragraph [ref=e167]: 👉 Tu cuerpo absorbe mejor 👉 Procesa mejor 👉 Responde mejor
+        - generic [ref=e168]:
+          - heading "🔹 Sistema inmune más fuerte" [level=3] [ref=e169]
+          - paragraph [ref=e170]: 👉 Menos desgaste 👉 Más resistencia 👉 Mayor equilibrio interno
+        - generic [ref=e171]:
+          - heading "🔹 Antienvejecimiento natural" [level=3] [ref=e172]
+          - paragraph [ref=e173]: 👉 Protege tus células 👉 Reduce daño acumulado 👉 Mejora cómo te ves y te sientes
+    - generic [ref=e176]:
+      - heading "No es un 'quick fix'… es una base" [level=2] [ref=e179]
+      - generic [ref=e180]:
+        - generic [ref=e181]:
+          - paragraph [ref=e182]: "La mayoría de productos:"
+          - generic [ref=e183]:
+            - paragraph [ref=e184]: 👉 estimulan
+            - paragraph [ref=e185]: 👉 aceleran
+            - paragraph [ref=e186]: 👉 prometen resultados rápidos
+        - generic [ref=e187]:
+          - paragraph [ref=e188]: "Amalaki:"
+          - generic [ref=e189]:
+            - paragraph [ref=e190]: 👉 repara
+            - paragraph [ref=e191]: 👉 equilibra
+            - paragraph [ref=e192]: 👉 fortalece
+        - paragraph [ref=e194]: 👉 Por eso funciona diferente
+    - generic [ref=e197]:
+      - heading "Tu cuerpo no necesita más… necesita mejor" [level=2] [ref=e200]
+      - generic [ref=e201]:
+        - paragraph [ref=e202]: El problema no es que te falte energía.
+        - paragraph [ref=e203]: "Es que:"
+        - generic [ref=e204]:
+          - generic [ref=e205]:
+            - generic [ref=e206]: •
+            - paragraph [ref=e207]: tu sistema está inflamado
+          - generic [ref=e208]:
+            - generic [ref=e209]: •
+            - paragraph [ref=e210]: tu digestión no está optimizada
+          - generic [ref=e211]:
+            - generic [ref=e212]: •
+            - paragraph [ref=e213]: tu cuerpo no está absorbiendo bien
+        - paragraph [ref=e214]: 👉 Por eso todo lo demás falla
+        - generic [ref=e215]:
+          - paragraph [ref=e216]: Amalaki ayuda a corregir eso.
+          - paragraph [ref=e217]: 👉 Y cuando eso mejora… todo lo demás empieza a funcionar
+    - generic [ref=e220]:
+      - heading "Cuando tu cuerpo empieza a responder" [level=2] [ref=e223]
+      - table [ref=e226]:
+        - rowgroup [ref=e227]:
+          - row "Inflamación constante Sensación de ligereza" [ref=e228]:
+            - cell "Inflamación constante" [ref=e229]
+            - cell "Sensación de ligereza" [ref=e230]
+          - row "Cansancio diario Energía natural" [ref=e231]:
+            - cell "Cansancio diario" [ref=e232]
+            - cell "Energía natural" [ref=e233]
+          - row "Digestión pesada Digestión eficiente" [ref=e234]:
+            - cell "Digestión pesada" [ref=e235]
+            - cell "Digestión eficiente" [ref=e236]
+          - row "Poca respuesta a suplementos Mejor absorción" [ref=e237]:
+            - cell "Poca respuesta a suplementos" [ref=e238]
+            - cell "Mejor absorción" [ref=e239]
+          - row "Desgaste general Equilibrio interno" [ref=e240]:
+            - cell "Desgaste general" [ref=e241]
+            - cell "Equilibrio interno" [ref=e242]
+    - generic [ref=e245]:
+      - heading "No necesitas cambiar todo" [level=2] [ref=e248]
+      - generic [ref=e249]:
+        - paragraph [ref=e250]: Amalaki funciona como base.
+        - paragraph [ref=e251]: "Puedes:"
+        - generic [ref=e252]:
+          - generic [ref=e253]:
+            - generic [ref=e254]: •
+            - paragraph [ref=e255]: usarlo solo
+          - generic [ref=e256]:
+            - generic [ref=e257]: •
+            - paragraph [ref=e258]: combinarlo con otros productos
+          - generic [ref=e259]:
+            - generic [ref=e260]: •
+            - paragraph [ref=e261]: integrarlo en tu rutina diaria
+        - paragraph [ref=e263]: 👉 Es el punto de partida ideal
+    - generic [ref=e266]:
+      - heading "Por eso está presente en otros productos" [level=2] [ref=e269]
+      - generic [ref=e270]:
+        - paragraph [ref=e271]: Muchos productos lo incluyen…
+        - generic [ref=e272]:
+          - paragraph [ref=e273]: 👉 porque potencia resultados
+          - paragraph [ref=e274]: 👉 porque mejora la absorción
+          - paragraph [ref=e275]: 👉 porque optimiza el cuerpo
+        - paragraph [ref=e277]: 👉 Pero aquí lo tienes en su forma directa
+    - generic [ref=e280]:
+      - heading "Si sientes que tu cuerpo no responde… esto es para ti" [level=2] [ref=e283]
+      - generic [ref=e284]:
+        - generic [ref=e285]:
+          - generic [ref=e286]:
+            - generic [ref=e287]: •
+            - paragraph [ref=e288]: Te sientes inflamada
+          - generic [ref=e289]:
+            - generic [ref=e290]: •
+            - paragraph [ref=e291]: Estás cansada constantemente
+          - generic [ref=e292]:
+            - generic [ref=e293]: •
+            - paragraph [ref=e294]: Tu digestión no es la mejor
+          - generic [ref=e295]:
+            - generic [ref=e296]: •
+            - paragraph [ref=e297]: Has probado cosas y no ves resultados
+          - generic [ref=e298]:
+            - generic [ref=e299]: •
+            - paragraph [ref=e300]: Quieres sentirte mejor desde adentro
+        - generic [ref=e301]:
+          - paragraph [ref=e302]: 👉 No necesitas más productos
+          - paragraph [ref=e303]: 👉 necesitas una mejor base
+    - generic [ref=e306]:
+      - heading "Esto no es inmediato… es profundo" [level=2] [ref=e309]
+      - generic [ref=e310]:
+        - paragraph [ref=e311]: "Con el uso constante puedes notar:"
+        - generic [ref=e312]:
+          - generic [ref=e313]:
+            - generic [ref=e314]: •
+            - paragraph [ref=e315]: menos inflamación
+          - generic [ref=e316]:
+            - generic [ref=e317]: •
+            - paragraph [ref=e318]: mejor digestión
+          - generic [ref=e319]:
+            - generic [ref=e320]: •
+            - paragraph [ref=e321]: más energía
+          - generic [ref=e322]:
+            - generic [ref=e323]: •
+            - paragraph [ref=e324]: sensación general de bienestar
+        - paragraph [ref=e326]: "👉 Y lo más importante: tu cuerpo empieza a responder"
+    - generic [ref=e329]:
+      - heading "Esto no es solo un producto" [level=2] [ref=e332]
+      - generic [ref=e333]:
+        - paragraph [ref=e334]: Es parte de un proceso.
+        - paragraph [ref=e335]: "De mujeres que:"
+        - generic [ref=e336]:
+          - generic [ref=e337]:
+            - generic [ref=e338]: •
+            - paragraph [ref=e339]: están priorizando su bienestar
+          - generic [ref=e340]:
+            - generic [ref=e341]: •
+            - paragraph [ref=e342]: están entendiendo su cuerpo
+          - generic [ref=e343]:
+            - generic [ref=e344]: •
+            - paragraph [ref=e345]: están cambiando desde adentro
+        - generic [ref=e346]:
+          - paragraph [ref=e347]: 👉 Aquí no se trata de rapidez
+          - paragraph [ref=e348]: se trata de transformación real
+    - generic [ref=e352]:
+      - generic [ref=e353]:
+        - heading "Si tu base no está bien… nada lo estará" [level=2] [ref=e354]
+        - paragraph [ref=e355]: Puedes intentar muchas cosas. Pero si tu cuerpo no está equilibrado… nada se sostiene. Amalaki no es la solución completa. 👉 Es el inicio correcto
+      - generic [ref=e356]:
+        - link "Quiero empezar con Amalaki" [ref=e357] [cursor=pointer]:
+          - /url: "#contact"
+          - text: Quiero empezar con Amalaki
+          - img [ref=e358]
+        - link "Hablar por WhatsApp" [ref=e360] [cursor=pointer]:
+          - /url: https://wa.me/50762882188?text=Hola%2C%20quiero%20saber%20m%C3%A1s%20sobre%20Amalaki.
+          - img [ref=e361]
+          - text: Hablar por WhatsApp
+    - paragraph [ref=e367]: Este producto no sustituye recomendaciones médicas. Los resultados pueden variar según cada persona.
+  - contentinfo [ref=e369]:
+    - generic [ref=e371]:
+      - generic [ref=e372]:
+        - generic [ref=e373]:
+          - img "VibeLife logo" [ref=e374]
+          - paragraph [ref=e375]: VibeLife comparte opciones orientadas a bienestar natural, hábitos saludables y conversaciones directas por WhatsApp.
+          - link "Hablar por WhatsApp" [ref=e376] [cursor=pointer]:
+            - /url: https://wa.me/50762882188?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20VibeLife%20y%20las%20opciones%20disponibles.
+            - text: Hablar por WhatsApp
+            - img [ref=e377]
+        - generic [ref=e380]:
+          - heading "Navegación" [level=3] [ref=e381]
+          - generic [ref=e382]:
+            - link "Inicio" [ref=e383] [cursor=pointer]:
+              - /url: /
+            - link "Productos" [ref=e384] [cursor=pointer]:
+              - /url: /#products
+            - link "Comunidad" [ref=e385] [cursor=pointer]:
+              - /url: /community
+            - link "Nosotros" [ref=e386] [cursor=pointer]:
+              - /url: /about
+            - link "Contacto" [ref=e387] [cursor=pointer]:
+              - /url: /contact
+        - generic [ref=e388]:
+          - heading "Productos" [level=3] [ref=e389]
+          - generic [ref=e390]:
+            - link "Rise" [ref=e391] [cursor=pointer]:
+              - /url: /products/rise
+            - link "Amalaki" [ref=e392] [cursor=pointer]:
+              - /url: /products/amalaki
+            - link "Accell" [ref=e393] [cursor=pointer]:
+              - /url: /products/accell
+            - link "B-Fit" [ref=e394] [cursor=pointer]:
+              - /url: /products/b-fit
+      - generic [ref=e395]:
+        - generic [ref=e396]: VibeLife
+        - generic [ref=e397]: Bienestar Natural y Crecimiento Personal
+        - generic [ref=e398]: +507 6288-2188
+  - link "Hablar por WhatsApp" [ref=e400] [cursor=pointer]:
+    - /url: https://wa.me/50762882188?text=Hola%2C%20me%20gustar%C3%ADa%20recibir%20m%C3%A1s%20informaci%C3%B3n%20sobre%20VibeLife%20y%20las%20opciones%20disponibles.
+    - img [ref=e402]
+    - generic [ref=e404]: WhatsApp

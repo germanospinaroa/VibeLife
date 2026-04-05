@@ -9,6 +9,29 @@ import { localize } from "@/lib/i18n";
 export function AccellProblemaSection() {
   const { language } = useLanguage();
 
+  const symptoms = [
+    {
+      es: "Necesitas cafeína para funcionar, pero el café ya no alcanza",
+      en: "You need caffeine to function, but coffee isn't cutting it anymore",
+    },
+    {
+      es: "Sientes caídas de energía a media mañana o después del almuerzo",
+      en: "You feel energy crashes mid-morning or after lunch",
+    },
+    {
+      es: "Quieres entrenar, pero llegas sin energía",
+      en: "You want to work out, but you show up running on empty",
+    },
+    {
+      es: "Te cuesta concentrarte por más de una hora seguida",
+      en: "You struggle to focus for more than an hour at a time",
+    },
+    {
+      es: "Buscas algo que te ayude — sin exceso de azúcar, sin ingredientes raros",
+      en: "You're looking for something that helps — without excess sugar or strange ingredients",
+    },
+  ];
+
   return (
     <SectionShell tone="leaf">
       <div className="mx-auto max-w-3xl">
@@ -16,63 +39,33 @@ export function AccellProblemaSection() {
           <SectionHeading
             align="center"
             title={localize(
-              {
-                es: "No es que no puedas… es que tu cuerpo no responde",
-                en: "It's not that you can't… your body just isn't responding",
-              },
+              { es: "¿Te suena esto?", en: "Does this sound familiar?" },
               language,
             )}
           />
         </Reveal>
 
-        <Reveal delay={0.1} className="mt-8 space-y-10 text-base leading-8 text-[#5c746d] sm:text-lg">
-          <div className="space-y-4">
-            <p className="text-lg font-semibold text-[#2f4541]">
-              {localize({ es: "Muchas mujeres viven esto:", en: "Many women experience this:" }, language)}
-            </p>
-            <ul className="space-y-2 pl-1">
-              {[
-                { es: "hacen dieta y no ven cambios", en: "they diet and see no changes" },
-                { es: "hacen ejercicio y no sienten progreso", en: "they exercise and feel no progress" },
-                { es: "tienen antojos constantes", en: "they have constant cravings" },
-                { es: "sienten el metabolismo lento", en: "their metabolism feels slow" },
-                { es: "acumulan grasa fácilmente", en: "they accumulate fat easily" },
-              ].map((item, i) => (
-                <li key={i} className="flex gap-3">
-                  <span className="shrink-0 text-[#d97706] font-bold">•</span>
-                  <span className="font-medium text-[#2f4541]">{localize(item, language)}</span>
-                </li>
-              ))}
-            </ul>
-            <p className="text-lg font-semibold text-[#2f4541] pt-2">
-              👉 {localize({ es: "Y empiezan a frustrarse", en: "And they start to get frustrated" }, language)}
-            </p>
-          </div>
+        <Reveal delay={0.1} className="mt-8 space-y-3">
+          {symptoms.map((item, i) => (
+            <div key={i} className="flex gap-3">
+              <span className="shrink-0 text-[#9BC56A] font-bold mt-1">•</span>
+              <p className="text-base leading-relaxed text-[#5c746d] sm:text-lg">
+                {localize(item, language)}
+              </p>
+            </div>
+          ))}
+        </Reveal>
 
-          <div className="space-y-4">
-            <p className="text-[#5c746d]">
-              {localize({ es: "Pero el problema no es la falta de esfuerzo.", en: "But the problem isn't lack of effort." }, language)}
-            </p>
-            <p className="text-lg font-semibold text-[#2f4541]">
-              {localize({ es: "Es que su cuerpo está:", en: "It's that their body is:" }, language)}
-            </p>
-            <ul className="space-y-2 pl-1">
-              {[
-                { es: "desregulado", en: "dysregulated" },
-                { es: "lento", en: "slow" },
-                { es: "sin respuesta metabólica eficiente", en: "without efficient metabolic response" },
-              ].map((item, i) => (
-                <li key={i} className="flex gap-3">
-                  <span className="shrink-0 text-[#d97706] font-bold">•</span>
-                  <span className="font-medium text-[#2f4541]">{localize(item, language)}</span>
-                </li>
-              ))}
-            </ul>
-          </div>
-
+        <Reveal delay={0.2} className="mt-8">
           <div className="border-l-4 border-[#9BC56A] pl-6 py-2">
             <p className="text-lg font-semibold text-[#2f4541]">
-              👉 {localize({ es: "Por eso sientes que haces todo… y no pasa nada", en: "That's why you feel like you're doing everything… and nothing happens" }, language)}
+              {localize(
+                {
+                  es: "Tu cuerpo no está fallando. Solo necesita el combustible correcto.",
+                  en: "Your body isn't failing. It just needs the right fuel.",
+                },
+                language,
+              )}
             </p>
           </div>
         </Reveal>

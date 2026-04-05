@@ -1,0 +1,421 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "VibeLife" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "VibeLife logo" [ref=e8]
+        - navigation [ref=e9]:
+          - link "Home" [ref=e10] [cursor=pointer]:
+            - /url: /
+          - link "Products" [ref=e11] [cursor=pointer]:
+            - /url: /#products
+          - link "Community" [ref=e12] [cursor=pointer]:
+            - /url: /community
+          - link "About" [ref=e13] [cursor=pointer]:
+            - /url: /about
+          - link "Contact" [ref=e14] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e15]:
+          - group "Language selector" [ref=e16]:
+            - button "ES" [ref=e17]
+            - button "EN" [ref=e18]
+          - link "Chat on WhatsApp" [ref=e19] [cursor=pointer]:
+            - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+            - img [ref=e20]
+            - text: Chat on WhatsApp
+    - main [ref=e22]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - heading "It's not that you're doing something wrong…" [level=1] [ref=e28]
+            - heading "your body is overwhelmed" [level=2] [ref=e29]
+          - generic [ref=e30]:
+            - paragraph [ref=e31]: Inflammation, fatigue, slow digestion, lack of energy… These aren't isolated problems.
+            - paragraph [ref=e32]: They're signals that your body is out of balance.
+            - paragraph [ref=e33]: Amalaki is where everything starts to correct itself.
+          - generic [ref=e34]:
+            - link "I want to start with Amalaki" [ref=e35] [cursor=pointer]:
+              - /url: "#contact"
+              - text: I want to start with Amalaki
+              - img [ref=e36]
+            - link "Chat on WhatsApp" [ref=e38] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hi%2C%20I%20want%20to%20start%20with%20Amalaki%20and%20understand%20how%20to%20use%20it%20correctly.
+              - img [ref=e39]
+              - text: Chat on WhatsApp
+        - img "Amalaki - VibeLife" [ref=e43]
+      - generic [ref=e46]:
+        - heading "Your body isn't failing… it's overloaded" [level=2] [ref=e49]
+        - generic [ref=e50]:
+          - generic [ref=e51]:
+            - paragraph [ref=e52]: "If you feel:"
+            - list [ref=e53]:
+              - listitem [ref=e54]:
+                - generic [ref=e55]: •
+                - generic [ref=e56]: constantly inflamed
+              - listitem [ref=e57]:
+                - generic [ref=e58]: •
+                - generic [ref=e59]: tired even after resting
+              - listitem [ref=e60]:
+                - generic [ref=e61]: •
+                - generic [ref=e62]: with heavy digestion
+              - listitem [ref=e63]:
+                - generic [ref=e64]: •
+                - generic [ref=e65]: without real energy during the day
+              - listitem [ref=e66]:
+                - generic [ref=e67]: •
+                - generic [ref=e68]: disconnected from your own body
+            - paragraph [ref=e69]: 👉 it's not normal… even if you've gotten used to it
+          - generic [ref=e70]:
+            - paragraph [ref=e71]: "Your body is dealing every day with:"
+            - list [ref=e72]:
+              - listitem [ref=e73]:
+                - generic [ref=e74]: •
+                - generic [ref=e75]: stress
+              - listitem [ref=e76]:
+                - generic [ref=e77]: •
+                - generic [ref=e78]: poor nutrient absorption
+              - listitem [ref=e79]:
+                - generic [ref=e80]: •
+                - generic [ref=e81]: internal inflammation
+              - listitem [ref=e82]:
+                - generic [ref=e83]: •
+                - generic [ref=e84]: toxin buildup
+          - generic [ref=e85]:
+            - paragraph [ref=e86]: "And that causes:"
+            - list [ref=e87]:
+              - listitem [ref=e88]:
+                - generic [ref=e89]: •
+                - generic [ref=e90]: you feel heavy
+              - listitem [ref=e91]:
+                - generic [ref=e92]: •
+                - generic [ref=e93]: you have no energy
+              - listitem [ref=e94]:
+                - generic [ref=e95]: •
+                - generic [ref=e96]: nothing works the same
+          - paragraph [ref=e98]: 👉 That's why you feel like you're doing things… but not moving forward
+      - generic [ref=e101]:
+        - heading "A real foundation for body balance" [level=2] [ref=e104]
+        - generic [ref=e105]:
+          - paragraph [ref=e106]: "Amalaki (also known as Amla) is a fruit used for centuries in traditional medicine for its ability to:"
+          - list [ref=e107]:
+            - listitem [ref=e108]:
+              - generic [ref=e109]: •
+              - generic [ref=e110]: regenerate internal processes
+            - listitem [ref=e111]:
+              - generic [ref=e112]: •
+              - generic [ref=e113]: balance the body
+            - listitem [ref=e114]:
+              - generic [ref=e115]: •
+              - generic [ref=e116]: protect cells
+          - paragraph [ref=e117]: "It's one of nature's most powerful sources of:"
+          - list [ref=e118]:
+            - listitem [ref=e119]:
+              - generic [ref=e120]: •
+              - generic [ref=e121]: bioavailable vitamin C
+            - listitem [ref=e122]:
+              - generic [ref=e123]: •
+              - generic [ref=e124]: real antioxidants
+            - listitem [ref=e125]:
+              - generic [ref=e126]: •
+              - generic [ref=e127]: compounds that support cellular function
+          - generic [ref=e128]:
+            - paragraph [ref=e129]: 👉 It's not a trend
+            - paragraph [ref=e130]: 👉 it's a functional base for the body
+      - generic [ref=e133]:
+        - heading "The problem isn't lack of energy… it's internal depletion" [level=2] [ref=e136]
+        - generic [ref=e137]:
+          - generic [ref=e138]:
+            - paragraph [ref=e139]: "Your body is exposed every day to:"
+            - list [ref=e140]:
+              - listitem [ref=e141]:
+                - generic [ref=e142]: •
+                - generic [ref=e143]: constant stress
+              - listitem [ref=e144]:
+                - generic [ref=e145]: •
+                - generic [ref=e146]: inflammation
+              - listitem [ref=e147]:
+                - generic [ref=e148]: •
+                - generic [ref=e149]: poor nutrition
+              - listitem [ref=e150]:
+                - generic [ref=e151]: •
+                - generic [ref=e152]: accumulated cellular damage
+          - generic [ref=e153]:
+            - paragraph [ref=e154]: "That creates:"
+            - list [ref=e155]:
+              - listitem [ref=e156]:
+                - generic [ref=e157]: •
+                - generic [ref=e158]: fatigue
+              - listitem [ref=e159]:
+                - generic [ref=e160]: •
+                - generic [ref=e161]: accelerated aging
+              - listitem [ref=e162]:
+                - generic [ref=e163]: •
+                - generic [ref=e164]: slow digestion
+              - listitem [ref=e165]:
+                - generic [ref=e166]: •
+                - generic [ref=e167]: low energy
+          - paragraph [ref=e168]: 👉 And that's why nothing holds
+          - generic [ref=e169]:
+            - paragraph [ref=e170]: "Amalaki works at that level:"
+            - paragraph [ref=e171]: 👉 not on the symptom
+            - paragraph [ref=e172]: 👉 on the root
+      - generic [ref=e175]:
+        - heading "What really starts changing in your body" [level=2] [ref=e178]
+        - generic [ref=e179]:
+          - paragraph [ref=e180]: "When your body starts to balance, you begin to notice:"
+          - generic [ref=e181]:
+            - generic [ref=e182]:
+              - heading "🔹 Digestion" [level=3] [ref=e183]
+              - list [ref=e184]:
+                - listitem [ref=e185]:
+                  - generic [ref=e186]: •
+                  - generic [ref=e187]: you stop feeling heavy after eating
+                - listitem [ref=e188]:
+                  - generic [ref=e189]: •
+                  - generic [ref=e190]: your body processes food better
+                - listitem [ref=e191]:
+                  - generic [ref=e192]: •
+                  - generic [ref=e193]: inflammation decreases
+            - generic [ref=e194]:
+              - heading "🔹 Energy" [level=3] [ref=e195]
+              - list [ref=e196]:
+                - listitem [ref=e197]:
+                  - generic [ref=e198]: •
+                  - generic [ref=e199]: more stable energy throughout the day
+                - listitem [ref=e200]:
+                  - generic [ref=e201]: •
+                  - generic [ref=e202]: less dependence on coffee or stimulants
+                - listitem [ref=e203]:
+                  - generic [ref=e204]: •
+                  - generic [ref=e205]: greater mental clarity
+            - generic [ref=e206]:
+              - heading "🔹 Internal system" [level=3] [ref=e207]
+              - list [ref=e208]:
+                - listitem [ref=e209]:
+                  - generic [ref=e210]: •
+                  - generic [ref=e211]: better nutrient absorption
+                - listitem [ref=e212]:
+                  - generic [ref=e213]: •
+                  - generic [ref=e214]: less cellular depletion
+                - listitem [ref=e215]:
+                  - generic [ref=e216]: •
+                  - generic [ref=e217]: greater overall balance
+          - generic [ref=e218]:
+            - paragraph [ref=e219]: 👉 It's not fake energy
+            - paragraph [ref=e220]: 👉 it's your body working better
+      - generic [ref=e223]:
+        - heading "This isn't a 'quick fix'… it's a foundation" [level=2] [ref=e226]
+        - generic [ref=e227]:
+          - generic [ref=e228]:
+            - paragraph [ref=e229]: "Most products:"
+            - list [ref=e230]:
+              - listitem [ref=e231]:
+                - generic [ref=e232]: •
+                - generic [ref=e233]: stimulate
+              - listitem [ref=e234]:
+                - generic [ref=e235]: •
+                - generic [ref=e236]: accelerate
+              - listitem [ref=e237]:
+                - generic [ref=e238]: •
+                - generic [ref=e239]: promise quick results
+            - paragraph [ref=e240]: But they don't fix the real problem.
+          - generic [ref=e241]:
+            - paragraph [ref=e242]: "Amalaki:"
+            - list [ref=e243]:
+              - listitem [ref=e244]:
+                - generic [ref=e245]: •
+                - generic [ref=e246]: doesn't stimulate
+              - listitem [ref=e247]:
+                - generic [ref=e248]: •
+                - generic [ref=e249]: doesn't force
+              - listitem [ref=e250]:
+                - generic [ref=e251]: •
+                - generic [ref=e252]: doesn't deceive
+          - generic [ref=e253]:
+            - paragraph [ref=e254]: 👉 regulates
+            - paragraph [ref=e255]: 👉 balances
+            - paragraph [ref=e256]: 👉 strengthens
+          - paragraph [ref=e257]: 👉 That's why the results last
+      - generic [ref=e260]:
+        - heading "When your body starts to respond" [level=2] [ref=e263]
+        - generic [ref=e264]:
+          - generic [ref=e265]:
+            - generic [ref=e266]: Before
+            - generic [ref=e267]: After
+            - paragraph [ref=e269]: constant inflammation
+            - paragraph [ref=e271]: feeling of lightness
+            - paragraph [ref=e273]: daily fatigue
+            - paragraph [ref=e275]: natural energy
+            - paragraph [ref=e277]: heavy digestion
+            - paragraph [ref=e279]: efficient digestion
+            - paragraph [ref=e281]: poor response to what you do
+            - paragraph [ref=e283]: better body response
+          - generic [ref=e284]:
+            - paragraph [ref=e285]: 👉 It's not magic
+            - paragraph [ref=e286]: 👉 it's physiology working better
+      - generic [ref=e289]:
+        - generic [ref=e291]:
+          - img "Amalaki - VibeLife"
+        - generic [ref=e292]:
+          - heading "This isn't the end… it's the beginning" [level=2] [ref=e295]
+          - generic [ref=e296]:
+            - generic [ref=e297]:
+              - paragraph [ref=e298]: "Many people try to:"
+              - list [ref=e299]:
+                - listitem [ref=e300]:
+                  - generic [ref=e301]: •
+                  - generic [ref=e302]: improve energy
+                - listitem [ref=e303]:
+                  - generic [ref=e304]: •
+                  - generic [ref=e305]: lose weight
+                - listitem [ref=e306]:
+                  - generic [ref=e307]: •
+                  - generic [ref=e308]: change habits
+              - paragraph [ref=e309]: But they start in the wrong place.
+            - generic [ref=e310]:
+              - paragraph [ref=e311]: "Amalaki is the foundation that allows:"
+              - list [ref=e312]:
+                - listitem [ref=e313]:
+                  - generic [ref=e314]: •
+                  - generic [ref=e315]: Rise to work better
+                - listitem [ref=e316]:
+                  - generic [ref=e317]: •
+                  - generic [ref=e318]: B-Fit to have greater impact
+                - listitem [ref=e319]:
+                  - generic [ref=e320]: •
+                  - generic [ref=e321]: your body to truly respond
+            - generic [ref=e322]:
+              - paragraph [ref=e323]: 👉 Without foundation… nothing holds
+              - paragraph [ref=e324]: 👉 With foundation… everything improves
+      - generic [ref=e327]:
+        - heading "You don't need to change everything" [level=2] [ref=e330]
+        - generic [ref=e331]:
+          - paragraph [ref=e332]: "You can use Amalaki:"
+          - list [ref=e333]:
+            - listitem [ref=e334]:
+              - generic [ref=e335]: •
+              - generic [ref=e336]: alone
+            - listitem [ref=e337]:
+              - generic [ref=e338]: •
+              - generic [ref=e339]: alongside other products
+            - listitem [ref=e340]:
+              - generic [ref=e341]: •
+              - generic [ref=e342]: as part of your daily routine
+          - generic [ref=e343]:
+            - paragraph [ref=e344]: 👉 You don't need to do it perfectly
+            - paragraph [ref=e345]: 👉 you need to do it consistently
+      - generic [ref=e348]:
+        - heading "If you feel your body isn't responding… this is for you" [level=2] [ref=e351]
+        - generic [ref=e352]:
+          - list [ref=e353]:
+            - listitem [ref=e354]:
+              - generic [ref=e355]: •
+              - generic [ref=e356]: you've tried things and they don't work
+            - listitem [ref=e357]:
+              - generic [ref=e358]: •
+              - generic [ref=e359]: you feel constantly tired
+            - listitem [ref=e360]:
+              - generic [ref=e361]: •
+              - generic [ref=e362]: you feel your body doesn't react
+            - listitem [ref=e363]:
+              - generic [ref=e364]: •
+              - generic [ref=e365]: you want to feel good again
+          - generic [ref=e366]:
+            - paragraph [ref=e367]: 👉 You don't need more products
+            - paragraph [ref=e368]: 👉 you need a better foundation
+      - generic [ref=e371]:
+        - heading "This isn't immediate… it's profound" [level=2] [ref=e374]
+        - generic [ref=e375]:
+          - paragraph [ref=e376]: "With consistent use you can notice:"
+          - list [ref=e377]:
+            - listitem [ref=e378]:
+              - generic [ref=e379]: •
+              - generic [ref=e380]: less inflammation
+            - listitem [ref=e381]:
+              - generic [ref=e382]: •
+              - generic [ref=e383]: better digestion
+            - listitem [ref=e384]:
+              - generic [ref=e385]: •
+              - generic [ref=e386]: more energy
+            - listitem [ref=e387]:
+              - generic [ref=e388]: •
+              - generic [ref=e389]: real sense of well-being
+          - paragraph [ref=e391]: "👉 And most importantly: your body starts responding again"
+      - generic [ref=e394]:
+        - heading "This isn't just a product" [level=2] [ref=e397]
+        - generic [ref=e398]:
+          - paragraph [ref=e399]: "It's part of a process where:"
+          - list [ref=e400]:
+            - listitem [ref=e401]:
+              - generic [ref=e402]: •
+              - generic [ref=e403]: you learn to understand your body
+            - listitem [ref=e404]:
+              - generic [ref=e405]: •
+              - generic [ref=e406]: you have guidance
+            - listitem [ref=e407]:
+              - generic [ref=e408]: •
+              - generic [ref=e409]: you can move forward with clarity
+          - generic [ref=e410]:
+            - paragraph [ref=e411]: 👉 Here it's not about speed
+            - paragraph [ref=e412]: 👉 it's about real transformation
+      - generic [ref=e416]:
+        - generic [ref=e417]:
+          - heading "If your foundation isn't solid… nothing else will be" [level=2] [ref=e418]
+          - generic [ref=e419]:
+            - paragraph [ref=e420]: You can try many things.
+            - paragraph [ref=e421]: But if your body isn't balanced… nothing will be enough.
+            - paragraph [ref=e422]: Amalaki is where everything starts to change.
+        - generic [ref=e423]:
+          - link "I want to start with Amalaki" [ref=e424] [cursor=pointer]:
+            - /url: "#contact"
+            - text: I want to start with Amalaki
+            - img [ref=e425]
+          - link "Chat on WhatsApp" [ref=e427] [cursor=pointer]:
+            - /url: https://wa.me/50762882188?text=Hi%2C%20I%20want%20to%20start%20with%20Amalaki%20and%20understand%20how%20to%20use%20it%20correctly.
+            - img [ref=e428]
+            - text: Chat on WhatsApp
+      - paragraph [ref=e434]: This product does not substitute medical recommendations. Results may vary from person to person.
+    - contentinfo [ref=e436]:
+      - generic [ref=e438]:
+        - generic [ref=e439]:
+          - generic [ref=e440]:
+            - img "VibeLife logo" [ref=e441]
+            - paragraph [ref=e442]: VibeLife shares options focused on natural wellness, healthy habits and direct conversations through WhatsApp.
+            - link "Contact on WhatsApp" [ref=e443] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+              - text: Contact on WhatsApp
+              - img [ref=e444]
+          - generic [ref=e447]:
+            - heading "Navigate" [level=3] [ref=e448]
+            - generic [ref=e449]:
+              - link "Home" [ref=e450] [cursor=pointer]:
+                - /url: /
+              - link "Products" [ref=e451] [cursor=pointer]:
+                - /url: /#products
+              - link "Community" [ref=e452] [cursor=pointer]:
+                - /url: /community
+              - link "About" [ref=e453] [cursor=pointer]:
+                - /url: /about
+              - link "Contact" [ref=e454] [cursor=pointer]:
+                - /url: /contact
+          - generic [ref=e455]:
+            - heading "Products" [level=3] [ref=e456]
+            - generic [ref=e457]:
+              - link "Rise" [ref=e458] [cursor=pointer]:
+                - /url: /products/rise
+              - link "Amalaki" [ref=e459] [cursor=pointer]:
+                - /url: /products/amalaki
+              - link "Accell" [ref=e460] [cursor=pointer]:
+                - /url: /products/accell
+              - link "B-Fit" [ref=e461] [cursor=pointer]:
+                - /url: /products/b-fit
+        - generic [ref=e462]:
+          - generic [ref=e463]: VibeLife
+          - generic [ref=e464]: Natural Wellness & Personal Growth
+          - generic [ref=e465]: +507 6288-2188
+    - link "Chat on WhatsApp" [ref=e467] [cursor=pointer]:
+      - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+      - img [ref=e469]
+      - generic [ref=e471]: WhatsApp
+  - alert [ref=e472]

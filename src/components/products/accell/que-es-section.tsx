@@ -9,6 +9,13 @@ import { localize } from "@/lib/i18n";
 export function AccellQueEsSection() {
   const { language } = useLanguage();
 
+  const tags = [
+    { es: "Energizante natural", en: "Natural energizer" },
+    { es: "Mejora el enfoque", en: "Improves focus" },
+    { es: "Soporte digestivo", en: "Digestive support" },
+    { es: "Hidratación celular", en: "Cellular hydration" },
+  ];
+
   return (
     <SectionShell tone="soft">
       <div className="mx-auto max-w-3xl">
@@ -17,57 +24,44 @@ export function AccellQueEsSection() {
             align="center"
             title={localize(
               {
-                es: "Un soporte real para activar tu metabolismo",
-                en: "Real support to activate your metabolism",
+                es: "Accell — Tu bebida funcional de energía inteligente",
+                en: "Accell — Your smart functional energy drink",
               },
               language,
             )}
           />
         </Reveal>
 
-        <Reveal delay={0.1} className="mt-8 space-y-8 text-base leading-8 text-[#5c746d] sm:text-lg">
-          <p className="text-lg font-semibold text-[#2f4541]">
+        <Reveal delay={0.1} className="mt-8 space-y-6 text-base leading-8 text-[#5c746d] sm:text-lg">
+          <p>
             {localize(
-              { es: "Accell es un suplemento diseñado para apoyar:", en: "Accell is a supplement designed to support:" },
+              {
+                es: "Accell es una bebida funcional en polvo — lista en segundos — con cafeína de fuentes naturales, vitaminas del grupo B, minerales esenciales y enzimas digestivas.",
+                en: "Accell is a functional powdered drink — ready in seconds — with caffeine from natural sources, B-complex vitamins, essential minerals, and digestive enzymes.",
+              },
               language,
             )}
           </p>
-
-          <ul className="space-y-2 pl-1">
-            {[
-              { es: "la función metabólica", en: "metabolic function" },
-              { es: "el control del apetito", en: "appetite control" },
-              { es: "el equilibrio energético", en: "energy balance" },
-              { es: "la quema eficiente de energía", en: "efficient energy burning" },
-            ].map((item, i) => (
-              <li key={i} className="flex gap-3">
-                <span className="shrink-0 text-[#9BC56A] font-bold">•</span>
-                <span className="font-medium text-[#2f4541]">{localize(item, language)}</span>
-              </li>
-            ))}
-          </ul>
-
-          <p className="text-[#5c746d]">
+          <p className="font-semibold text-[#2f4541]">
             {localize(
-              { es: "No trabaja desde la restricción.", en: "It doesn't work from restriction." },
+              {
+                es: "Formulada para darte energía real, enfoque sostenido y soporte metabólico. Sin picos artificiales. Sin colapsos.",
+                en: "Formulated to give you real energy, sustained focus, and metabolic support. No artificial spikes. No crashes.",
+              },
               language,
             )}
           </p>
+        </Reveal>
 
-          <div className="border-l-4 border-[#9BC56A] pl-6 py-2 space-y-2">
-            <p className="text-lg font-semibold text-[#2f4541]">
-              👉 {localize({ es: "trabaja desde la regulación del cuerpo", en: "it works from body regulation" }, language)}
-            </p>
-          </div>
-
-          <div className="space-y-2 pt-2">
-            <p className="text-lg font-semibold text-[#2f4541]">
-              👉 {localize({ es: "No es un \"quemador mágico\"", en: "It's not a \"magic burner\"" }, language)}
-            </p>
-            <p className="text-lg font-semibold text-[#2f4541]">
-              👉 {localize({ es: "es un activador funcional", en: "it's a functional activator" }, language)}
-            </p>
-          </div>
+        <Reveal delay={0.2} className="mt-8 flex flex-wrap gap-3">
+          {tags.map((tag, i) => (
+            <span
+              key={i}
+              className="rounded-full bg-[#9BC56A]/20 px-4 py-2 text-sm font-medium text-[#2f4541]"
+            >
+              {localize(tag, language)}
+            </span>
+          ))}
         </Reveal>
       </div>
     </SectionShell>

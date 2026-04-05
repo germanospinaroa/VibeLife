@@ -1,0 +1,200 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "VibeLife" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "VibeLife logo" [ref=e8]
+        - navigation [ref=e9]:
+          - link "Home" [ref=e10] [cursor=pointer]:
+            - /url: /
+          - link "Products" [ref=e11] [cursor=pointer]:
+            - /url: /#products
+          - link "Community" [ref=e12] [cursor=pointer]:
+            - /url: /community
+          - link "About" [ref=e13] [cursor=pointer]:
+            - /url: /about
+          - link "Contact" [ref=e14] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e15]:
+          - group "Language selector" [ref=e16]:
+            - button "ES" [ref=e17]
+            - button "EN" [ref=e18]
+          - link "Chat on WhatsApp" [ref=e19] [cursor=pointer]:
+            - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+            - img [ref=e20]
+            - text: Chat on WhatsApp
+    - main [ref=e22]:
+      - navigation "Breadcrumb" [ref=e25]:
+        - link "Home" [ref=e26] [cursor=pointer]:
+          - /url: /
+        - img [ref=e27]
+        - link "Products" [ref=e29] [cursor=pointer]:
+          - /url: /#products
+        - img [ref=e30]
+        - generic [ref=e32]: Amalaki
+      - generic [ref=e37]:
+        - generic [ref=e38]:
+          - generic [ref=e39]: For the one who wants to restore balance from within
+          - heading "Amalaki" [level=1] [ref=e40]
+          - paragraph [ref=e41]: An option aligned with routines that prioritize balance, daily care and natural wellness.
+          - generic [ref=e42]:
+            - link "Ask on WhatsApp" [ref=e43] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hi%2C%20I%20want%20more%20information%20about%20Amalaki.
+              - img [ref=e44]
+              - text: Ask on WhatsApp
+            - link "View products" [ref=e46] [cursor=pointer]:
+              - /url: /#products
+              - text: View products
+              - img [ref=e47]
+        - generic [ref=e50]:
+          - generic [ref=e53]:
+            - generic [ref=e54]:
+              - text: Available option
+              - paragraph [ref=e55]: An option designed to support your daily wellness with a clear and direct proposition.
+            - generic [ref=e56]:
+              - text: In your routine
+              - paragraph [ref=e57]: It can fit as part of healthier habits, more consistency and a more balanced routine.
+          - generic [ref=e59]:
+            - generic [ref=e60]:
+              - paragraph [ref=e61]: Approach
+              - paragraph [ref=e62]: Product selected to support your daily wellness.
+            - generic [ref=e63]:
+              - paragraph [ref=e64]: Style
+              - paragraph [ref=e65]: Clear, trustworthy and easy to understand.
+            - generic [ref=e66]:
+              - paragraph [ref=e67]: More information
+              - paragraph [ref=e68]: Get it directly through WhatsApp.
+      - generic [ref=e71]:
+        - generic [ref=e73]:
+          - generic [ref=e74]: Overview
+          - heading "Amalaki in your routine" [level=2] [ref=e75]
+          - paragraph [ref=e76]: Amalaki is designed for people who want a solution more connected to balance, nourishment and consistent care.
+        - generic [ref=e78]:
+          - text: Clear information
+          - paragraph [ref=e79]: Amalaki is presented as an option to support healthier habits and a more balanced routine.
+          - generic [ref=e80]:
+            - generic [ref=e81]:
+              - paragraph [ref=e82]: Daily use
+              - paragraph [ref=e83]: Designed to fit practically within your lifestyle.
+            - generic [ref=e84]:
+              - paragraph [ref=e85]: Responsible approach
+              - paragraph [ref=e86]: Without exaggerated promises, with a clear message around wellness and habits.
+      - generic [ref=e89]:
+        - generic [ref=e93]:
+          - generic [ref=e94]:
+            - paragraph [ref=e95]: How it fits
+            - paragraph [ref=e96]: An option designed to support routines that are clearer, more consistent and aligned with daily wellness.
+          - generic [ref=e97]:
+            - generic [ref=e98]: Morning or daytime routines
+            - generic [ref=e99]: More consistent habits
+            - generic [ref=e100]: Better personal organization
+            - generic [ref=e101]: Daily wellness with intention
+        - generic [ref=e103]:
+          - generic [ref=e104]: Lifestyle
+          - heading "How Amalaki fits into your routine" [level=2] [ref=e105]
+          - paragraph [ref=e106]: It can support self-care moments, more balanced routines and habits oriented toward more conscious living.
+      - generic [ref=e108]:
+        - generic [ref=e109]:
+          - generic [ref=e110]: General benefits
+          - heading "What Amalaki communicates" [level=2] [ref=e111]
+          - paragraph [ref=e112]: A clear summary of how the product is presented within a wellness routine.
+        - generic [ref=e113]:
+          - generic [ref=e115]:
+            - text: Key point
+            - paragraph [ref=e116]: Supports habits related to daily balance
+          - generic [ref=e118]:
+            - text: Key point
+            - paragraph [ref=e119]: Fits into consistent care routines
+          - generic [ref=e121]:
+            - text: Key point
+            - paragraph [ref=e122]: Complements more conscious lifestyles
+          - generic [ref=e124]:
+            - text: Key point
+            - paragraph [ref=e125]: Maintains a clear and responsible approach
+      - generic [ref=e127]:
+        - generic [ref=e128]:
+          - generic [ref=e129]: Who it may be for
+          - heading "Who may connect with Amalaki?" [level=2] [ref=e130]
+          - paragraph [ref=e131]: People interested in healthier habits, better balance and daily wellness.
+        - generic [ref=e132]:
+          - paragraph [ref=e135]: People looking for more balance in everyday life
+          - paragraph [ref=e138]: People interested in natural wellness
+          - paragraph [ref=e141]: People who value self-care routines
+          - paragraph [ref=e144]: People who want a more conscious routine
+      - generic [ref=e146]:
+        - generic [ref=e147]:
+          - generic [ref=e148]: Related products
+          - heading "More available options" [level=2] [ref=e149]
+          - paragraph [ref=e150]: Other options that may also support your daily wellness.
+        - generic [ref=e151]:
+          - generic [ref=e153]:
+            - heading "Rise" [level=3] [ref=e155]
+            - paragraph [ref=e156]: Sustained energy for the whole day. Not the coffee spike that crashes at 10am. Real focus for the woman who has a lot to give and little fuel left.
+            - link "View product" [ref=e157] [cursor=pointer]:
+              - /url: /products/rise
+              - text: View product
+              - img [ref=e158]
+          - generic [ref=e161]:
+            - heading "B-Fit" [level=3] [ref=e163]
+            - paragraph [ref=e164]: Supports physical wellness habits consistently. Not to change everything — to sustain what you are already building.
+            - link "View product" [ref=e165] [cursor=pointer]:
+              - /url: /products/b-fit
+              - text: View product
+              - img [ref=e166]
+      - generic [ref=e171]:
+        - text: Product CTA
+        - heading "Want to learn more about Amalaki?" [level=2] [ref=e172]
+        - paragraph [ref=e173]: Message us on WhatsApp and we will help you with more information about the product and how it may fit your routine.
+        - generic [ref=e174]:
+          - link "Chat on WhatsApp" [ref=e175] [cursor=pointer]:
+            - /url: https://wa.me/50762882188?text=Hi%2C%20I%20want%20more%20information%20about%20Amalaki.
+            - img [ref=e176]
+            - text: Chat on WhatsApp
+          - link "Explore community" [ref=e178] [cursor=pointer]:
+            - /url: /community
+            - text: Explore community
+            - img [ref=e179]
+    - contentinfo [ref=e182]:
+      - generic [ref=e184]:
+        - generic [ref=e185]:
+          - generic [ref=e186]:
+            - img "VibeLife logo" [ref=e187]
+            - paragraph [ref=e188]: VibeLife shares options focused on natural wellness, healthy habits and direct conversations through WhatsApp.
+            - link "Contact on WhatsApp" [ref=e189] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+              - text: Contact on WhatsApp
+              - img [ref=e190]
+          - generic [ref=e193]:
+            - heading "Navigate" [level=3] [ref=e194]
+            - generic [ref=e195]:
+              - link "Home" [ref=e196] [cursor=pointer]:
+                - /url: /
+              - link "Products" [ref=e197] [cursor=pointer]:
+                - /url: /#products
+              - link "Community" [ref=e198] [cursor=pointer]:
+                - /url: /community
+              - link "About" [ref=e199] [cursor=pointer]:
+                - /url: /about
+              - link "Contact" [ref=e200] [cursor=pointer]:
+                - /url: /contact
+          - generic [ref=e201]:
+            - heading "Products" [level=3] [ref=e202]
+            - generic [ref=e203]:
+              - link "Rise" [ref=e204] [cursor=pointer]:
+                - /url: /products/rise
+              - link "Amalaki" [ref=e205] [cursor=pointer]:
+                - /url: /products/amalaki
+              - link "Accell" [ref=e206] [cursor=pointer]:
+                - /url: /products/accell
+              - link "B-Fit" [ref=e207] [cursor=pointer]:
+                - /url: /products/b-fit
+        - generic [ref=e208]:
+          - generic [ref=e209]: VibeLife
+          - generic [ref=e210]: Natural Wellness & Personal Growth
+          - generic [ref=e211]: +507 6288-2188
+    - link "Chat on WhatsApp" [ref=e213] [cursor=pointer]:
+      - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+      - img [ref=e215]
+      - generic [ref=e217]: WhatsApp
+  - alert [ref=e218]

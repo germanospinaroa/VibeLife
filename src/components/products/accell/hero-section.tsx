@@ -22,8 +22,8 @@ export function AccellHeroSection() {
             <h1 className="text-balance text-4xl font-semibold leading-tight text-[#2f4541] sm:text-5xl">
               {localize(
                 {
-                  es: "No es falta de motivación…",
-                  en: "It's not lack of motivation…",
+                  es: "Energía que funciona.",
+                  en: "Energy that works.",
                 },
                 language,
               )}
@@ -31,20 +31,39 @@ export function AccellHeroSection() {
             <h2 className="text-3xl font-semibold leading-tight text-[#9BC56A] sm:text-4xl mt-2">
               {localize(
                 {
-                  es: "es que tu metabolismo no está respondiendo",
-                  en: "your metabolism isn't responding",
+                  es: "No solo te activa — te mantiene.",
+                  en: "It doesn't just activate you — it keeps you going.",
                 },
                 language,
               )}
             </h2>
           </div>
 
-          <div className="mt-4 space-y-4 text-base leading-8 text-[#5c746d] sm:text-lg">
+          <p className="text-base leading-relaxed text-[#5c746d] sm:text-lg">
+            {localize(
+              {
+                es: "Accell es la bebida funcional que diseñamos para quienes viven en movimiento.",
+                en: "Accell is the functional drink we designed for people who live in motion.",
+              },
+              language,
+            )}
+          </p>
+
+          <div className="space-y-3 text-base leading-8 text-[#5c746d] sm:text-lg">
             <p>
               {localize(
                 {
-                  es: "Si sientes que haces esfuerzos y tu cuerpo no cambia, no es que te falte disciplina.",
-                  en: "If you feel like you're making effort and your body isn't changing, it's not that you lack discipline.",
+                  es: "No más cafés de urgencia que te alteran.",
+                  en: "No more emergency coffees that leave you jittery.",
+                },
+                language,
+              )}
+            </p>
+            <p>
+              {localize(
+                {
+                  es: "No más energizantes que te dan pico y caída.",
+                  en: "No more energy drinks that spike and crash.",
                 },
                 language,
               )}
@@ -52,17 +71,8 @@ export function AccellHeroSection() {
             <p className="font-semibold text-[#2f4541]">
               {localize(
                 {
-                  es: "Es que tu sistema no está funcionando como debería.",
-                  en: "Your system isn't working the way it should.",
-                },
-                language,
-              )}
-            </p>
-            <p>
-              {localize(
-                {
-                  es: "Accell está diseñado para activar ese proceso desde adentro.",
-                  en: "Accell is designed to activate that process from within.",
+                  es: "Accell activa tu energía, enfoca tu mente y apoya tu cuerpo — de forma natural, gradual y sostenida.",
+                  en: "Accell activates your energy, focuses your mind, and supports your body — naturally, gradually, and sustainably.",
                 },
                 language,
               )}
@@ -74,14 +84,14 @@ export function AccellHeroSection() {
               className={buttonVariants({ size: "lg", className: "sm:flex-1" })}
               href="#contact"
             >
-              {localize({ es: "Quiero empezar con Accell", en: "I want to start with Accell" }, language)}
+              {localize({ es: "Quiero probar Accell", en: "I want to try Accell" }, language)}
               <ArrowRight className="h-4 w-4" />
             </Link>
             <WhatsAppCta
               className="sm:flex-1"
               message={{
-                es: "Hola, quiero empezar con Accell y saber cómo usarlo correctamente",
-                en: "Hi, I want to start with Accell and know how to use it correctly.",
+                es: "Hola, quiero saber más sobre Accell y cómo empezar",
+                en: "Hi, I want to know more about Accell and how to get started.",
               }}
               size="lg"
             >

@@ -9,22 +9,38 @@ import { localize } from "@/lib/i18n";
 export function AccellResultadosSection() {
   const { language } = useLanguage();
 
-  const rows = [
+  const moments = [
     {
-      before: { es: "dificultad para bajar de peso", en: "difficulty losing weight" },
-      after: { es: "mayor control sobre tu alimentación", en: "greater control over your eating" },
+      icon: "🏋️",
+      title: { es: "Antes del ejercicio", en: "Before exercise" },
+      desc: {
+        es: "Prepara tu cuerpo, activa tu energía y mejora tu rendimiento físico.",
+        en: "Prepare your body, activate your energy, and improve your physical performance.",
+      },
     },
     {
-      before: { es: "ansiedad por comida", en: "food anxiety" },
-      after: { es: "mejor respuesta física", en: "better physical response" },
+      icon: "🍎",
+      title: { es: "Entre comidas", en: "Between meals" },
+      desc: {
+        es: "Una alternativa de solo 30 calorías que controla el antojo sin romper tu dieta.",
+        en: "A 30-calorie alternative that controls cravings without breaking your diet.",
+      },
     },
     {
-      before: { es: "metabolismo lento", en: "slow metabolism" },
-      after: { es: "sensación de avance", en: "sense of progress" },
+      icon: "✈️",
+      title: { es: "Cuando viajes", en: "When you travel" },
+      desc: {
+        es: "Práctico, fácil de llevar. Tu energía donde quiera que estés.",
+        en: "Practical and easy to carry. Your energy wherever you are.",
+      },
     },
     {
-      before: { es: "frustración constante", en: "constant frustration" },
-      after: { es: "más confianza en el proceso", en: "more confidence in the process" },
+      icon: "💼",
+      title: { es: "Antes de una junta importante", en: "Before an important meeting" },
+      desc: {
+        es: "Activa tu desempeño mental. Más enfoque, más claridad, más seguridad.",
+        en: "Activates your mental performance. More focus, more clarity, more confidence.",
+      },
     },
   ];
 
@@ -36,44 +52,36 @@ export function AccellResultadosSection() {
             align="center"
             title={localize(
               {
-                es: "Cuando tu cuerpo vuelve a responder",
-                en: "When your body responds again",
+                es: "¿Cuándo tomar Accell?",
+                en: "When to take Accell?",
               },
               language,
             )}
           />
         </Reveal>
 
-        <Reveal delay={0.1} className="mt-12 space-y-8">
-          <div className="grid grid-cols-2 gap-px rounded-2xl overflow-hidden border border-[#9BC56A]/20">
-            <div className="bg-[#fff5f0] px-6 py-4 text-center">
-              <span className="text-sm font-semibold uppercase tracking-widest text-[#d97706]">
-                {localize({ es: "Antes", en: "Before" }, language)}
-              </span>
+        <Reveal delay={0.1} className="mt-10 grid gap-6 sm:grid-cols-2">
+          {moments.map((m, i) => (
+            <div key={i} className="flex gap-4">
+              <span className="text-2xl shrink-0">{m.icon}</span>
+              <div className="space-y-1">
+                <p className="font-semibold text-[#2f4541]">{localize(m.title, language)}</p>
+                <p className="text-sm leading-relaxed text-[#5c746d]">{localize(m.desc, language)}</p>
+              </div>
             </div>
-            <div className="bg-[#f0f9e8] px-6 py-4 text-center">
-              <span className="text-sm font-semibold uppercase tracking-widest text-[#6f9d49]">
-                {localize({ es: "Después", en: "After" }, language)}
-              </span>
-            </div>
-            {rows.map((row, i) => (
-              <>
-                <div key={`before-${i}`} className="bg-white/60 px-6 py-5 border-t border-[#9BC56A]/10">
-                  <p className="font-medium text-[#d97706]">{localize(row.before, language)}</p>
-                </div>
-                <div key={`after-${i}`} className="bg-white/80 px-6 py-5 border-t border-[#9BC56A]/10">
-                  <p className="font-medium text-[#6f9d49]">{localize(row.after, language)}</p>
-                </div>
-              </>
-            ))}
-          </div>
+          ))}
+        </Reveal>
 
-          <div className="border-l-4 border-[#9BC56A] pl-6 py-2 space-y-2">
+        <Reveal delay={0.2} className="mt-8">
+          <div className="border-l-4 border-[#9BC56A] pl-6 py-2">
             <p className="text-lg font-semibold text-[#2f4541]">
-              👉 {localize({ es: "No es inmediato", en: "It's not immediate" }, language)}
-            </p>
-            <p className="text-lg font-semibold text-[#2f4541]">
-              👉 {localize({ es: "pero es real", en: "but it's real" }, language)}
+              {localize(
+                {
+                  es: "¡Toma Accell en cualquier momento que necesites más energía!",
+                  en: "Take Accell whenever you need more energy!",
+                },
+                language,
+              )}
             </p>
           </div>
         </Reveal>
