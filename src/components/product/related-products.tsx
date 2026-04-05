@@ -64,7 +64,7 @@ export function RelatedProducts({ product }: RelatedProductsProps) {
                   className: "mt-6 w-full justify-center",
                   variant: "ghost",
                 })}
-                href={`/products/${related.slug}`}
+                href={`/${related.slug}`}
               >
                 {localize(
                   {

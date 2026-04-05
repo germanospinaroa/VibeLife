@@ -84,7 +84,7 @@ export function Footer() {
               {products.map((product) => (
                 <Link
                   className="block text-sm text-muted transition hover:text-[#2f4541]"
-                  href={`/products/${product.slug}`}
+                  href={`/${product.slug}`}
                   key={product.slug}
                 >
                   {product.name}
