@@ -1,0 +1,347 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "VibeLife" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "VibeLife logo" [ref=e8]
+        - navigation [ref=e9]:
+          - link "Home" [ref=e10] [cursor=pointer]:
+            - /url: /
+          - link "Products" [ref=e11] [cursor=pointer]:
+            - /url: /#products
+          - link "Community" [ref=e12] [cursor=pointer]:
+            - /url: /community
+          - link "About" [ref=e13] [cursor=pointer]:
+            - /url: /about
+          - link "Contact" [ref=e14] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e15]:
+          - group "Language selector" [ref=e16]:
+            - button "ES" [ref=e17]
+            - button "EN" [ref=e18]
+          - link "Chat on WhatsApp" [ref=e19] [cursor=pointer]:
+            - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+            - img [ref=e20]
+            - text: Chat on WhatsApp
+    - main [ref=e22]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - heading "Energy that works." [level=1] [ref=e28]
+            - heading "It doesn't just activate you — it keeps you going." [level=2] [ref=e29]
+          - paragraph [ref=e30]: Accell is the functional drink we designed for people who live in motion.
+          - generic [ref=e31]:
+            - paragraph [ref=e32]: No more emergency coffees that leave you jittery.
+            - paragraph [ref=e33]: No more energy drinks that spike and crash.
+            - paragraph [ref=e34]: Accell activates your energy, focuses your mind, and supports your body — naturally, gradually, and sustainably.
+          - generic [ref=e35]:
+            - link "I want to try Accell" [ref=e36] [cursor=pointer]:
+              - /url: "#contact"
+              - text: I want to try Accell
+              - img [ref=e37]
+            - link "Chat on WhatsApp" [ref=e39] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hi%2C%20I%20want%20to%20know%20more%20about%20Accell%20and%20how%20to%20get%20started.
+              - img [ref=e40]
+              - text: Chat on WhatsApp
+        - img "Accell - VibeLife" [ref=e44]
+      - generic [ref=e47]:
+        - heading "Does this sound familiar?" [level=2] [ref=e50]
+        - generic [ref=e51]:
+          - generic [ref=e52]:
+            - generic [ref=e53]: •
+            - paragraph [ref=e54]: You need caffeine to function, but coffee isn't cutting it anymore
+          - generic [ref=e55]:
+            - generic [ref=e56]: •
+            - paragraph [ref=e57]: You feel energy crashes mid-morning or after lunch
+          - generic [ref=e58]:
+            - generic [ref=e59]: •
+            - paragraph [ref=e60]: You want to work out, but you show up running on empty
+          - generic [ref=e61]:
+            - generic [ref=e62]: •
+            - paragraph [ref=e63]: You struggle to focus for more than an hour at a time
+          - generic [ref=e64]:
+            - generic [ref=e65]: •
+            - paragraph [ref=e66]: You're looking for something that helps — without excess sugar or strange ingredients
+        - paragraph [ref=e69]: Your body isn't failing. It just needs the right fuel.
+      - generic [ref=e72]:
+        - heading "Accell — Your smart functional energy drink" [level=2] [ref=e75]
+        - generic [ref=e76]:
+          - paragraph [ref=e77]: Accell is a functional powdered drink — ready in seconds — with caffeine from natural sources, B-complex vitamins, essential minerals, and digestive enzymes.
+          - paragraph [ref=e78]: Formulated to give you real energy, sustained focus, and metabolic support. No artificial spikes. No crashes.
+        - generic [ref=e79]:
+          - generic [ref=e80]: Natural energizer
+          - generic [ref=e81]: Improves focus
+          - generic [ref=e82]: Digestive support
+          - generic [ref=e83]: Cellular hydration
+      - generic [ref=e86]:
+        - heading "It's not a common energy drink" [level=2] [ref=e89]
+        - generic [ref=e90]:
+          - paragraph [ref=e91]: Most energy drinks give you a jolt… and then a crash.
+          - paragraph [ref=e92]: Accell doesn't.
+          - paragraph [ref=e93]: "Accell uses functional ingredients that work in synergy:"
+        - generic [ref=e94]:
+          - generic [ref=e95]:
+            - generic [ref=e96]: •
+            - paragraph [ref=e97]: Caffeine from natural sources (green tea) → gradual energy
+          - generic [ref=e98]:
+            - generic [ref=e99]: •
+            - paragraph [ref=e100]: B vitamins → neurological and energy support
+          - generic [ref=e101]:
+            - generic [ref=e102]: •
+            - paragraph [ref=e103]: Digestive enzymes → optimal absorption
+          - generic [ref=e104]:
+            - generic [ref=e105]: •
+            - paragraph [ref=e106]: Minerals → real hydration at the cellular level
+        - paragraph [ref=e109]: The result? Clean energy, clear mind, active body.
+      - generic [ref=e112]:
+        - heading "What Accell does for you" [level=2] [ref=e115]
+        - generic [ref=e116]:
+          - generic [ref=e117]:
+            - generic [ref=e118]: ⚡
+            - generic [ref=e119]:
+              - paragraph [ref=e120]: Sustained energy
+              - paragraph [ref=e121]: Activates your energy without spikes or sudden crashes. Keeps you active for longer.
+          - generic [ref=e122]:
+            - generic [ref=e123]: 🧠
+            - generic [ref=e124]:
+              - paragraph [ref=e125]: Mental focus
+              - paragraph [ref=e126]: Improves your mental clarity and concentration. Ideal for work, study, or training.
+          - generic [ref=e127]:
+            - generic [ref=e128]: 💪
+            - generic [ref=e129]:
+              - paragraph [ref=e130]: Physical performance
+              - paragraph [ref=e131]: Support for active muscle. Less fatigue, more endurance.
+          - generic [ref=e132]:
+            - generic [ref=e133]: 🔥
+            - generic [ref=e134]:
+              - paragraph [ref=e135]: Metabolic support
+              - paragraph [ref=e136]: Activates metabolism gradually for better energy utilization.
+          - generic [ref=e137]:
+            - generic [ref=e138]: 🍽️
+            - generic [ref=e139]:
+              - paragraph [ref=e140]: Appetite control
+              - paragraph [ref=e141]: Reduces hunger spikes between meals thanks to its functional formulation.
+          - generic [ref=e142]:
+            - generic [ref=e143]: 🌿
+            - generic [ref=e144]:
+              - paragraph [ref=e145]: Digestion + absorption
+              - paragraph [ref=e146]: Digestive enzymes that improve nutrient absorption.
+          - generic [ref=e147]:
+            - generic [ref=e148]: 💧
+            - generic [ref=e149]:
+              - paragraph [ref=e150]: Cellular hydration
+              - paragraph [ref=e151]: Essential minerals to maintain hydric balance.
+      - generic [ref=e154]:
+        - heading "What's inside Accell" [level=2] [ref=e157]
+        - generic [ref=e158]:
+          - generic [ref=e159]:
+            - paragraph [ref=e160]: Green Tea Extract
+            - paragraph [ref=e161]: Natural source of caffeine. Gradual energy, antioxidants, and mild thermogenesis.
+          - generic [ref=e162]:
+            - paragraph [ref=e163]: B Vitamins (B2, B3, B5, B6, B12)
+            - paragraph [ref=e164]: Essential for energy metabolism and neurological function.
+          - generic [ref=e165]:
+            - paragraph [ref=e166]: Ginger
+            - paragraph [ref=e167]: Natural anti-inflammatory. Supports digestion and overall well-being.
+          - generic [ref=e168]:
+            - paragraph [ref=e169]: Trikatu
+            - paragraph [ref=e170]: Ayurvedic blend of black pepper, ginger, and long pepper. Activates metabolism.
+          - generic [ref=e171]:
+            - paragraph [ref=e172]: Minerals (Zinc, Magnesium, Chromium)
+            - paragraph [ref=e173]: Regulate blood sugar, support muscle and immune function.
+          - generic [ref=e174]:
+            - paragraph [ref=e175]: Digestive enzymes
+            - paragraph [ref=e176]: Improve nutrient absorption and reduce post-meal bloating.
+      - generic [ref=e179]:
+        - heading "Accell is not just another energy drink" [level=2] [ref=e182]
+        - generic [ref=e183]:
+          - generic [ref=e184]:
+            - generic [ref=e185]: ✓
+            - generic [ref=e186]:
+              - paragraph [ref=e187]: Low in sugar
+              - paragraph [ref=e188]: Without the glycemic spikes of conventional energy drinks.
+          - generic [ref=e189]:
+            - generic [ref=e190]: ✓
+            - generic [ref=e191]:
+              - paragraph [ref=e192]: Natural ingredients
+              - paragraph [ref=e193]: No artificial colors, no unnecessary fillers.
+          - generic [ref=e194]:
+            - generic [ref=e195]: ✓
+            - generic [ref=e196]:
+              - paragraph [ref=e197]: Vegan and gluten-free
+              - paragraph [ref=e198]: For every lifestyle.
+          - generic [ref=e199]:
+            - generic [ref=e200]: ✓
+            - generic [ref=e201]:
+              - paragraph [ref=e202]: Hot or cold
+              - paragraph [ref=e203]: Ready in seconds, however you like it.
+          - generic [ref=e204]:
+            - generic [ref=e205]: ✓
+            - generic [ref=e206]:
+              - paragraph [ref=e207]: Formulated with purpose
+              - paragraph [ref=e208]: Every ingredient has a function. Nothing is decorative.
+      - generic [ref=e211]:
+        - heading "When to take Accell?" [level=2] [ref=e214]
+        - generic [ref=e215]:
+          - generic [ref=e216]:
+            - generic [ref=e217]: 🏋️
+            - generic [ref=e218]:
+              - paragraph [ref=e219]: Before exercise
+              - paragraph [ref=e220]: Prepare your body, activate your energy, and improve your physical performance.
+          - generic [ref=e221]:
+            - generic [ref=e222]: 🍎
+            - generic [ref=e223]:
+              - paragraph [ref=e224]: Between meals
+              - paragraph [ref=e225]: A 30-calorie alternative that controls cravings without breaking your diet.
+          - generic [ref=e226]:
+            - generic [ref=e227]: ✈️
+            - generic [ref=e228]:
+              - paragraph [ref=e229]: When you travel
+              - paragraph [ref=e230]: Practical and easy to carry. Your energy wherever you are.
+          - generic [ref=e231]:
+            - generic [ref=e232]: 💼
+            - generic [ref=e233]:
+              - paragraph [ref=e234]: Before an important meeting
+              - paragraph [ref=e235]: Activates your mental performance. More focus, more clarity, more confidence.
+        - paragraph [ref=e238]: Take Accell whenever you need more energy!
+      - generic [ref=e241]:
+        - heading "This easy to prepare" [level=2] [ref=e244]
+        - generic [ref=e245]:
+          - generic [ref=e246]:
+            - generic [ref=e247]: "1"
+            - generic [ref=e248]:
+              - paragraph [ref=e249]: Open
+              - paragraph [ref=e250]: One sachet or one teaspoon (7 g)
+          - generic [ref=e251]:
+            - generic [ref=e252]: "2"
+            - generic [ref=e253]:
+              - paragraph [ref=e254]: Mix
+              - paragraph [ref=e255]: In cold or hot water — however you like it
+          - generic [ref=e256]:
+            - generic [ref=e257]: "3"
+            - generic [ref=e258]:
+              - paragraph [ref=e259]: Enjoy
+              - paragraph [ref=e260]: 1 to 2 servings a day, when you need it
+        - paragraph [ref=e262]: Its compact size makes it perfect for taking everywhere. At the gym, at work, on the plane.
+      - generic [ref=e265]:
+        - heading "Accell is for you if…" [level=2] [ref=e268]
+        - generic [ref=e269]:
+          - generic [ref=e270]:
+            - generic [ref=e271]: •
+            - paragraph [ref=e272]: You're an athlete or train regularly
+          - generic [ref=e273]:
+            - generic [ref=e274]: •
+            - paragraph [ref=e275]: You have long days and need sustained focus
+          - generic [ref=e276]:
+            - generic [ref=e277]: •
+            - paragraph [ref=e278]: You want to control cravings between meals
+          - generic [ref=e279]:
+            - generic [ref=e280]: •
+            - paragraph [ref=e281]: You want energy without depending on coffee or sugary drinks
+          - generic [ref=e282]:
+            - generic [ref=e283]: •
+            - paragraph [ref=e284]: You watch what you eat but need a real boost
+          - generic [ref=e285]:
+            - generic [ref=e286]: •
+            - paragraph [ref=e287]: You live on the go and don't have time for complications
+      - generic [ref=e290]:
+        - heading "What to expect with Accell?" [level=2] [ref=e293]
+        - generic [ref=e294]:
+          - paragraph [ref=e295]: Accell is not an artificial stimulant. It's a functional drink formulated to give you real, sustained energy — not a 20-minute spike followed by a crash.
+          - paragraph [ref=e296]: "What many people notice from the first days:"
+          - list [ref=e297]:
+            - listitem [ref=e298]:
+              - generic [ref=e299]: •
+              - generic [ref=e300]: More energy when training or working
+            - listitem [ref=e301]:
+              - generic [ref=e302]: •
+              - generic [ref=e303]: Fewer cravings between meals
+            - listitem [ref=e304]:
+              - generic [ref=e305]: •
+              - generic [ref=e306]: Greater mental clarity
+            - listitem [ref=e307]:
+              - generic [ref=e308]: •
+              - generic [ref=e309]: Lighter digestion
+          - paragraph [ref=e311]: Results are built with consistency. Take it every day and let it work.
+      - generic [ref=e314]:
+        - heading "Download the full information" [level=2] [ref=e317]
+        - generic [ref=e318]:
+          - 'link "Accell Brochure Full product presentation: benefits, positioning, and lifestyle." [ref=e319] [cursor=pointer]':
+            - /url: /downloads/Accell-Brochure.pdf
+            - img [ref=e320]
+            - generic [ref=e323]:
+              - paragraph [ref=e324]: Accell Brochure
+              - paragraph [ref=e325]: "Full product presentation: benefits, positioning, and lifestyle."
+          - link "Technical Sheet (Datasheet) Detailed nutritional information, ingredients, and usage instructions." [ref=e326] [cursor=pointer]:
+            - /url: /downloads/Accell-Datasheet.pdf
+            - img [ref=e327]
+            - generic [ref=e330]:
+              - paragraph [ref=e331]: Technical Sheet (Datasheet)
+              - paragraph [ref=e332]: Detailed nutritional information, ingredients, and usage instructions.
+      - generic [ref=e335]:
+        - heading "Energized. Agile. Focused. Confident." [level=2] [ref=e338]
+        - generic [ref=e339]:
+          - paragraph [ref=e340]: That's the power of Accell.
+          - paragraph [ref=e341]: If you're looking for a practical product that complements your diet, provides energy, and helps you improve your performance, the answer is Accell — a boost for your body, mind, and energy.
+          - paragraph [ref=e343]: You're not alone in this process. We have the support and guidance you need to get the most out of Accell.
+      - generic [ref=e347]:
+        - generic [ref=e348]:
+          - heading "Your energy. Your focus. Your pace." [level=2] [ref=e349]
+          - generic [ref=e350]:
+            - paragraph [ref=e351]: You don't have to choose between living at full speed and taking care of yourself.
+            - paragraph [ref=e352]: With Accell, you can have both.
+            - paragraph [ref=e353]: Natural energy. Clear mind. Active body. That starts here.
+        - generic [ref=e354]:
+          - link "I want to start with Accell" [ref=e355] [cursor=pointer]:
+            - /url: "#contact"
+            - text: I want to start with Accell
+            - img [ref=e356]
+          - link "Chat on WhatsApp" [ref=e358] [cursor=pointer]:
+            - /url: https://wa.me/50762882188?text=Hi%2C%20I%20want%20to%20start%20with%20Accell%20and%20know%20how%20to%20use%20it%20correctly.
+            - img [ref=e359]
+            - text: Chat on WhatsApp
+      - paragraph [ref=e365]: This product does not substitute medical recommendations. Results may vary from person to person.
+    - contentinfo [ref=e367]:
+      - generic [ref=e369]:
+        - generic [ref=e370]:
+          - generic [ref=e371]:
+            - img "VibeLife logo" [ref=e372]
+            - paragraph [ref=e373]: VibeLife shares options focused on natural wellness, healthy habits and direct conversations through WhatsApp.
+            - link "Contact on WhatsApp" [ref=e374] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+              - text: Contact on WhatsApp
+              - img [ref=e375]
+          - generic [ref=e378]:
+            - heading "Navigate" [level=3] [ref=e379]
+            - generic [ref=e380]:
+              - link "Home" [ref=e381] [cursor=pointer]:
+                - /url: /
+              - link "Products" [ref=e382] [cursor=pointer]:
+                - /url: /#products
+              - link "Community" [ref=e383] [cursor=pointer]:
+                - /url: /community
+              - link "About" [ref=e384] [cursor=pointer]:
+                - /url: /about
+              - link "Contact" [ref=e385] [cursor=pointer]:
+                - /url: /contact
+          - generic [ref=e386]:
+            - heading "Products" [level=3] [ref=e387]
+            - generic [ref=e388]:
+              - link "Rise" [ref=e389] [cursor=pointer]:
+                - /url: /products/rise
+              - link "Amalaki" [ref=e390] [cursor=pointer]:
+                - /url: /products/amalaki
+              - link "Accell" [ref=e391] [cursor=pointer]:
+                - /url: /products/accell
+              - link "B-Fit" [ref=e392] [cursor=pointer]:
+                - /url: /products/b-fit
+        - generic [ref=e393]:
+          - generic [ref=e394]: VibeLife
+          - generic [ref=e395]: Natural Wellness & Personal Growth
+          - generic [ref=e396]: +507 6288-2188
+    - link "Chat on WhatsApp" [ref=e398] [cursor=pointer]:
+      - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+      - img [ref=e400]
+      - generic [ref=e402]: WhatsApp
+  - alert [ref=e403]
