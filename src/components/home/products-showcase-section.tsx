@@ -68,10 +68,10 @@ export function ProductsShowcaseSection() {
               </p>
 
               {/* Contenedor de imagen */}
-              <div className={`relative mt-5 flex h-[200px] items-center justify-center rounded-xl p-4 ${product.slug === "ice" ? "bg-transparent" : "bg-gradient-to-br from-white/80 to-[#f5f5f5]"}`}>
+              <div className="relative mt-5 flex h-[200px] items-center justify-center rounded-xl bg-gradient-to-br from-white/80 to-[#f5f5f5] p-4">
                 <Image
                   alt={product.name}
-                  className={`h-full w-full object-contain ${product.slug === "ice" ? "drop-shadow-lg" : ""}`}
+                  className={`h-full w-full object-contain ${product.slug === "ice" ? "mix-blend-multiply" : ""}`}
                   height={200}
                   src={product.image}
                   width={160}

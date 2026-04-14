@@ -86,14 +86,16 @@ export function IceHeroSection() {
 
         {/* Right: Product Image */}
         <Reveal delay={0.2} preset="scale" className="flex justify-center">
-          <Image
-            alt="UltraICE - VibeLife"
-            className="h-auto w-full max-w-[340px] object-contain drop-shadow-xl"
-            height={600}
-            priority
-            src="/images/products/ice.png"
-            width={400}
-          />
+          <div className="relative overflow-hidden rounded-2xl bg-gradient-to-br from-[#D4E4F4]/70 to-[#2E5F9A]/20 p-8 shadow-[0_8px_32px_rgba(27,58,107,0.15)]">
+            <Image
+              alt="UltraICE - VibeLife"
+              className="h-full w-full object-contain mix-blend-multiply"
+              height={600}
+              priority
+              src="/images/products/ice.png"
+              width={400}
+            />
+          </div>
         </Reveal>
       </div>
     </SectionShell>
