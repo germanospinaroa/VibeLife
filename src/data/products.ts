@@ -1,7 +1,7 @@
 import type { LocalizedString } from "@/lib/i18n";
 
 export type Product = {
-  slug: "rise" | "amalaki" | "accell" | "b-fit";
+  slug: "rise" | "amalaki" | "accell" | "b-fit" | "ice";
   name: string;
   image: string;
   kicker: LocalizedString;
@@ -271,6 +271,46 @@ export const products: Product[] = [
     relatedProducts: ["accell", "amalaki"],
     gradientClassName:
       "from-[#9BC56A]/44 via-white to-[#456F78]/24",
+  },
+  {
+    slug: "ice",
+    name: "UltraICE",
+    image: "/images/products/ice.png",
+    kicker: {
+      es: "Para la que siente que algo no está bien — aunque no sabe qué",
+      en: "For the one who feels something is off — but can't quite name it",
+    },
+    shortDescription: {
+      es: "Equilibrio desde el sistema que regula todo. Para el cansancio sin explicación, la mente nublada y el malestar crónico que nada ha podido resolver.",
+      en: "Balance from the system that regulates everything. For unexplained fatigue, brain fog and chronic discomfort that nothing has been able to resolve.",
+    },
+    heroDescription: {
+      es: "UltraICE apoya la homeostasis natural del cuerpo a través del sistema endocannabinoide. Sin cáñamo. Con tecnología UltraCell® de alta absorción.",
+      en: "UltraICE supports the body's natural homeostasis through the endocannabinoid system. No hemp. With high-absorption UltraCell® technology.",
+    },
+    overview: {
+      es: "Una fórmula líquida botánica de espectro completo diseñada para quienes buscan equilibrio profundo y bienestar sostenido.",
+      en: "A full-spectrum botanical liquid formula designed for those seeking deep balance and sustained wellbeing.",
+    },
+    lifestyle: {
+      es: "Se integra en la rutina diaria con solo 2 goteros bajo la lengua. Ideal para quienes ya han probado otras opciones sin resultados.",
+      en: "Fits into the daily routine with just 2 droppers under the tongue. Ideal for those who have already tried other options without results.",
+    },
+    benefits: [
+      { es: "Apoya los ciclos naturales de descanso y sueño", en: "Supports natural rest and sleep cycles" },
+      { es: "Reduce la respuesta al estrés y la ansiedad", en: "Reduces stress response and anxiety" },
+      { es: "Apoya una respuesta inflamatoria equilibrada", en: "Supports a balanced inflammatory response" },
+      { es: "Mejora la claridad mental y el enfoque", en: "Improves mental clarity and focus" },
+    ],
+    audience: [
+      { es: "Personas que duermen pero no descansan", en: "People who sleep but don't rest" },
+      { es: "Personas con malestar crónico difuso", en: "People with diffuse chronic discomfort" },
+      { es: "Personas con niebla mental frecuente", en: "People with frequent brain fog" },
+      { es: "Personas que buscan bienestar sostenido, no parches", en: "People seeking sustained wellbeing, not patches" },
+    ],
+    relatedProducts: ["amalaki", "b-fit"],
+    gradientClassName:
+      "from-[#1B3A6B]/20 via-white to-[#D4E4F4]/60",
   },
 ];
 

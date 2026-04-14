@@ -58,7 +58,7 @@ export function ProductsShowcaseSection() {
         </div>
       </div>
 
-      <StaggerGroup className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
+      <StaggerGroup className="mt-12 grid gap-6 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-5">
         {products.map((product) => (
           <StaggerItem key={product.slug}>
             <div className="group flex h-full flex-col overflow-hidden rounded-2xl bg-white/84 p-6 shadow-[0_2px_12px_rgba(62,102,112,0.06)] transition-all duration-300 hover:shadow-[0_8px_24px_rgba(62,102,112,0.12)] hover:-translate-y-1">
@@ -103,6 +103,10 @@ export function ProductsShowcaseSection() {
                   { es: "Apoyo metabólico", en: "Metabolic support" },
                   language
                 )}
+                {product.name === "UltraICE" && localize(
+                  { es: "Soporte homeostático · UltraCell®", en: "Homeostatic support · UltraCell®" },
+                  language
+                )}
               </p>
 
               {/* Descripción breve */}
@@ -121,6 +125,10 @@ export function ProductsShowcaseSection() {
                 )}
                 {product.name === "B-Fit" && localize(
                   { es: "Una opción para acompañar hábitos más sostenibles.", en: "An option to support more sustainable habits." },
+                  language
+                )}
+                {product.name === "UltraICE" && localize(
+                  { es: "Equilibrio desde el sistema que regula todo. Para el cansancio sin explicación y el malestar que nada ha podido resolver.", en: "Balance from the system that regulates everything. For unexplained fatigue and discomfort nothing has been able to resolve." },
                   language
                 )}
               </p>
