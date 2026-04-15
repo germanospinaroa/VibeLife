@@ -4,8 +4,8 @@ export const navigation = [
     href: "/",
   },
   {
-    label: { es: "Productos", en: "Products" },
-    href: "/#products",
+    label: { es: "Catálogo", en: "Catalog" },
+    href: "/catalogo",
   },
   {
     label: { es: "Comunidad", en: "Community" },
