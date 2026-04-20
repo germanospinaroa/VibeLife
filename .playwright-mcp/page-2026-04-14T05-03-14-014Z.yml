@@ -1,0 +1,359 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "VibeLife" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "VibeLife logo" [ref=e8]
+        - navigation [ref=e9]:
+          - link "Home" [ref=e10] [cursor=pointer]:
+            - /url: /
+          - link "Products" [ref=e11] [cursor=pointer]:
+            - /url: /#products
+          - link "Community" [ref=e12] [cursor=pointer]:
+            - /url: /community
+          - link "About" [ref=e13] [cursor=pointer]:
+            - /url: /about
+          - link "Contact" [ref=e14] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e15]:
+          - group "Language selector" [ref=e16]:
+            - button "ES" [ref=e17]
+            - button "EN" [ref=e18]
+          - link "Chat on WhatsApp" [ref=e19] [cursor=pointer]:
+            - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+            - img [ref=e20]
+            - text: Chat on WhatsApp
+    - main [ref=e22]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]:
+            - generic [ref=e28]: DEEP BALANCE & WELLBEING
+            - heading "When exhaustion has no explanation," [level=1] [ref=e29]
+            - heading "the problem goes deeper." [level=2] [ref=e30]
+          - paragraph [ref=e31]: UltraICE supports your body's natural balance from the system that regulates everything — so you feel well without anyone noticing, but you definitely will.
+          - generic [ref=e32]: UltraICE™ · Homeostatic Support · 60 mL · 30 servings
+          - generic [ref=e33]:
+            - link "Find out if it's for me →" [ref=e34] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hi%2C%20I%20want%20to%20know%20if%20UltraICE%20is%20the%20right%20product%20for%20me.
+              - img [ref=e35]
+              - text: Find out if it's for me →
+            - link "How is it used?" [ref=e37] [cursor=pointer]:
+              - /url: "#como-usar"
+              - text: How is it used?
+              - img [ref=e38]
+        - img "UltraICE - VibeLife" [ref=e41]
+      - generic [ref=e44]:
+        - heading "Have you felt this way?" [level=2] [ref=e47]
+        - generic [ref=e48]:
+          - generic [ref=e50]:
+            - generic [ref=e51]: "1"
+            - paragraph [ref=e52]: Your body doesn't respond like it used to — even though you sleep, you don't rest.
+          - generic [ref=e54]:
+            - generic [ref=e55]: "2"
+            - paragraph [ref=e56]: You have days of intense inflammation, tension or discomfort with no clear cause.
+          - generic [ref=e58]:
+            - generic [ref=e59]: "3"
+            - paragraph [ref=e60]: Your mind is foggy. It's not lack of sleep — it's something deeper.
+          - generic [ref=e62]:
+            - generic [ref=e63]: "4"
+            - paragraph [ref=e64]: You feel stress consuming you from within even though everything looks fine on the outside.
+          - generic [ref=e66]:
+            - generic [ref=e67]: "5"
+            - paragraph [ref=e68]: You've tried things, but nothing gets to the root of the problem.
+        - generic [ref=e70]:
+          - paragraph [ref=e71]: "What you feel has a name: imbalance."
+          - paragraph [ref=e72]: Your body has a system designed to keep you in balance — the endocannabinoid system. When that system is disrupted, everything else is too.
+          - paragraph [ref=e73]: UltraICE works exactly there.
+      - generic [ref=e76]:
+        - heading "Not just another supplement. Support from where the body needs it." [level=2] [ref=e79]
+        - generic [ref=e81]:
+          - paragraph [ref=e82]: UltraICE™ is a full-spectrum liquid formula designed to support homeostasis — your body's natural ability to find and maintain its own balance.
+          - paragraph [ref=e83]: "It contains no hemp. It's not CBD. It's an advanced botanical solution that works with your endocannabinoid system so your body functions as it was designed: in balance."
+        - generic [ref=e84]:
+          - generic [ref=e86]:
+            - generic [ref=e87]: ⚖️
+            - heading "Balance from within" [level=3] [ref=e88]
+            - paragraph [ref=e89]: Supports the natural processes that regulate sleep, mood, stress response and inflammation. It doesn't force it — it accompanies it.
+          - generic [ref=e91]:
+            - generic [ref=e92]: 💧
+            - heading "Exceptional absorption" [level=3] [ref=e93]
+            - paragraph [ref=e94]: UltraCell® technology converts compounds into a water-soluble format. Your body absorbs it up to 10x better than a conventional capsule or oil supplement.
+          - generic [ref=e96]:
+            - generic [ref=e97]: 🌿
+            - heading "Botanicals that actually work" [level=3] [ref=e98]
+            - paragraph [ref=e99]: Turmeric, resveratrol, shiitake, açaí, green tea, ginger, echinacea and hops — scientifically backed ingredients in the right amounts.
+      - generic [ref=e102]:
+        - heading "UltraICE is for you if..." [level=2] [ref=e105]
+        - generic [ref=e106]:
+          - generic [ref=e108]:
+            - generic [ref=e109]: 🌙
+            - heading "You don't rest even though you sleep" [level=3] [ref=e110]
+            - paragraph [ref=e111]: Sleep comes, but rest doesn't. You wake up tired, tense, unrecovered. UltraICE supports natural rest cycles from the system that regulates them.
+          - generic [ref=e113]:
+            - generic [ref=e114]: 🧠
+            - heading "Your mind won't stop — even when you want it to" [level=3] [ref=e115]
+            - paragraph [ref=e116]: Thoughts, stress, low-grade anxiety that's always there. The Mimetix™ formula includes ingredients that support stress management and protect brain cells.
+          - generic [ref=e118]:
+            - generic [ref=e119]: 🔥
+            - heading "Frequent inflammation, tension or discomfort" [level=3] [ref=e120]
+            - paragraph [ref=e121]: That diffuse discomfort, that feeling that something's off. Turmeric, resveratrol and ginger work together to support a healthy inflammatory response.
+          - generic [ref=e123]:
+            - generic [ref=e124]: ✨
+            - heading "You want general wellbeing — not a product for one symptom" [level=3] [ref=e125]
+            - paragraph [ref=e126]: You're not looking for a patch. You want to feel genuinely well, sustainably. UltraICE works on the system that coordinates everything else.
+      - generic [ref=e129]:
+        - generic [ref=e131]:
+          - heading "What you'll notice — no impossible promises" [level=2] [ref=e132]
+          - paragraph [ref=e133]: "Every body is different. These are the changes reported by those who use it consistently:"
+        - generic [ref=e134]:
+          - generic [ref=e136]:
+            - generic [ref=e137]: ✓
+            - paragraph [ref=e138]: Better sleep quality — deeper, more restorative
+          - generic [ref=e140]:
+            - generic [ref=e141]: ✓
+            - paragraph [ref=e142]: Less tension and anxiety throughout the day
+          - generic [ref=e144]:
+            - generic [ref=e145]: ✓
+            - paragraph [ref=e146]: More balanced inflammatory response — less chronic discomfort
+          - generic [ref=e148]:
+            - generic [ref=e149]: ✓
+            - paragraph [ref=e150]: More mental clarity — less fog, more focus
+          - generic [ref=e152]:
+            - generic [ref=e153]: ✓
+            - paragraph [ref=e154]: Sustained general wellbeing — no spikes and crashes
+          - generic [ref=e156]:
+            - generic [ref=e157]: ✓
+            - paragraph [ref=e158]: Faster recovery after physical or mental effort
+        - paragraph [ref=e160]: "*These benefits are reported by users and do not constitute medical promises. UltraICE is not designed to diagnose, treat or prevent any disease. If you have a health condition, consult your doctor before use."
+      - generic [ref=e163]:
+        - generic [ref=e165]:
+          - heading "What's inside — and why it matters" [level=2] [ref=e166]
+          - paragraph [ref=e167]: Two botanical blends that work together to support your endocannabinoid system.
+        - generic [ref=e169]:
+          - heading "Homeostatic Support Blend" [level=3] [ref=e170]
+          - paragraph [ref=e171]: The ingredients that reach deep balance.
+          - generic [ref=e172]:
+            - generic [ref=e174]:
+              - generic [ref=e175]: 🌾
+              - generic [ref=e176]:
+                - paragraph [ref=e177]: Turmeric (Root Extract)
+                - paragraph [ref=e178]: The anti-inflammatory queen. Supports the body's natural inflammatory response, protects cells from oxidative damage and works in synergy with the endocannabinoid system to amplify its effects.
+            - generic [ref=e180]:
+              - generic [ref=e181]: 🍇
+              - generic [ref=e182]:
+                - paragraph [ref=e183]: Resveratrol
+                - paragraph [ref=e184]: The most powerful antioxidant in the formula. Protects cells from damage caused by stress and free radicals. Anti-inflammatory properties that reach the whole body, not just one part.
+            - generic [ref=e186]:
+              - generic [ref=e187]: 🍄
+              - generic [ref=e188]:
+                - paragraph [ref=e189]: Shiitake Mushroom Extract
+                - paragraph [ref=e190]: Immunity and detoxification from herbal tradition with modern backing. Its beta-glucans modulate the immune system and help reduce systemic inflammation.
+            - generic [ref=e192]:
+              - generic [ref=e193]: 🫐
+              - generic [ref=e194]:
+                - paragraph [ref=e195]: Açaí Berry Extract
+                - paragraph [ref=e196]: Antioxidants, vitamins, minerals and essential fatty acids. Supports cognitive function and brain health. One of the most nutritionally dense foods on the planet.
+        - generic [ref=e198]:
+          - heading "Mimetix™ Blend" [level=3] [ref=e199]
+          - paragraph [ref=e200]: The formula that mimics what your body already knows how to do.
+          - paragraph [ref=e202]: Mimetix™ is not cannabidiol. It's botanical compounds that act similarly on endocannabinoid system receptors — without hemp, without THC, without restrictions. Science takes what the body already wants to do to a completely new level.
+          - generic [ref=e203]:
+            - generic [ref=e205]:
+              - generic [ref=e206]: 🍵
+              - generic [ref=e207]:
+                - paragraph [ref=e208]: Green Tea Leaf Extract
+                - paragraph [ref=e209]: Reduces cortisol (the stress hormone). Activates CB1 receptors and increases nerve growth factor. Clarity without jitteriness.
+            - generic [ref=e211]:
+              - generic [ref=e212]: 🌼
+              - generic [ref=e213]:
+                - paragraph [ref=e214]: Hops Flower Extract
+                - paragraph [ref=e215]: Antiviral, anti-inflammatory, and — perhaps most relevantly — supports healthy sleep and stress management. Protects brain cells.
+            - generic [ref=e217]:
+              - generic [ref=e218]: 🟡
+              - generic [ref=e219]:
+                - paragraph [ref=e220]: Turmeric Root Extract (Mimetix)
+                - paragraph [ref=e221]: Increases the body's own endocannabinoid levels. Acts similarly to CBD on CB1 receptors — without being CBD.
+            - generic [ref=e223]:
+              - generic [ref=e224]: 🫚
+              - generic [ref=e225]:
+                - paragraph [ref=e226]: Ginger Root Extract
+                - paragraph [ref=e227]: Reduces inflammation and activates CB2 receptors — the ones most related to the immune system and pain response.
+            - generic [ref=e229]:
+              - generic [ref=e230]: 🌸
+              - generic [ref=e231]:
+                - paragraph [ref=e232]: Echinacea Extract
+                - paragraph [ref=e233]: Supports immune function and activates CB2 receptors. Inhibits FAAH — the enzyme that breaks down anandamide, the wellbeing endocannabinoid the body produces naturally.
+      - generic [ref=e236]:
+        - heading "Why does UltraICE work when others don't?" [level=2] [ref=e239]
+        - generic [ref=e240]:
+          - paragraph [ref=e241]: "Most capsule or oil supplements have a problem: your body doesn't absorb them well. Oil and water don't mix — and your digestive system is mostly water."
+          - generic [ref=e242]:
+            - paragraph [ref=e243]: UltraCell® technology solves exactly that.
+            - paragraph [ref=e244]: It converts oil-based compounds into a water-soluble format, meaning your body can absorb up to 90% of what it takes.
+            - paragraph [ref=e245]: This isn't marketing. It's demonstrated in clinical studies.
+          - paragraph [ref=e246]: "The result: you feel it sooner, it lasts longer, it works better."
+        - table [ref=e249]:
+          - rowgroup [ref=e250]:
+            - row "Conventional supplement UltraICE with UltraCell®" [ref=e251]:
+              - columnheader [ref=e252]
+              - columnheader "Conventional supplement" [ref=e253]
+              - columnheader "UltraICE with UltraCell®" [ref=e254]
+          - rowgroup [ref=e255]:
+            - row "Format Capsule / oil Water-soluble liquid" [ref=e256]:
+              - cell "Format" [ref=e257]
+              - cell "Capsule / oil" [ref=e258]
+              - cell "Water-soluble liquid" [ref=e259]
+            - row "Absorption 10–20% Up to 90%" [ref=e260]:
+              - cell "Absorption" [ref=e261]
+              - cell "10–20%" [ref=e262]
+              - cell "Up to 90%" [ref=e263]
+            - row "Time to effect 1–2 hours 15–45 minutes" [ref=e264]:
+              - cell "Time to effect" [ref=e265]
+              - cell "1–2 hours" [ref=e266]
+              - cell "15–45 minutes" [ref=e267]
+            - row "What reaches your body A fraction Most of it" [ref=e268]:
+              - cell "What reaches your body" [ref=e269]
+              - cell "A fraction" [ref=e270]
+              - cell "Most of it" [ref=e271]
+      - generic [ref=e274]:
+        - heading "Simple. Daily. No complications." [level=2] [ref=e277]
+        - generic [ref=e278]:
+          - generic [ref=e280]:
+            - generic [ref=e281]:
+              - generic [ref=e282]: 🔄
+              - generic [ref=e283]: "1"
+            - generic [ref=e284]:
+              - paragraph [ref=e285]: Shake
+              - paragraph [ref=e286]: Shake the bottle well before each use.
+          - generic [ref=e288]:
+            - generic [ref=e289]:
+              - generic [ref=e290]: 💧
+              - generic [ref=e291]: "2"
+            - generic [ref=e292]:
+              - paragraph [ref=e293]: Measure
+              - paragraph [ref=e294]: 2 droppers = 1 serving (2 mL). Each bottle has 30 servings.
+          - generic [ref=e296]:
+            - generic [ref=e297]:
+              - generic [ref=e298]: 👅
+              - generic [ref=e299]: "3"
+            - generic [ref=e300]:
+              - paragraph [ref=e301]: Apply
+              - paragraph [ref=e302]: Place the liquid under your tongue for maximum absorption. Hold for 30–60 seconds before swallowing.
+          - generic [ref=e304]:
+            - generic [ref=e305]:
+              - generic [ref=e306]: 📅
+              - generic [ref=e307]: "4"
+            - generic [ref=e308]:
+              - paragraph [ref=e309]: Consistency
+              - paragraph [ref=e310]: Use it daily. You can repeat every 4 hours if needed. Balance is built with consistency, not a single dose.
+        - generic [ref=e311]:
+          - paragraph [ref=e313]: 💧 Staying well hydrated during the day enhances results. A balanced body needs water to function.
+          - paragraph [ref=e314]: "Caution: avoid spilling on clothing and surfaces — the color is intense."
+      - generic [ref=e317]:
+        - generic [ref=e319]:
+          - heading "What those who already use it feel" [level=2] [ref=e320]
+          - paragraph [ref=e321]: Real results from real people — no impossible transformations.
+        - generic [ref=e322]:
+          - generic [ref=e324]:
+            - paragraph [ref=e325]: "\"I'd been sleeping poorly for months without understanding why. In the second week with UltraICE I started noticing I woke up differently. Not suddenly — but rested.\""
+            - generic [ref=e326]:
+              - generic [ref=e327]: M
+              - generic [ref=e328]:
+                - paragraph [ref=e329]: Marcela R.
+                - paragraph [ref=e330]: Bogotá
+          - generic [ref=e332]:
+            - paragraph [ref=e333]: "\"What surprised me most was the mental clarity. I always had that fog over me. I didn't know that could improve until it did.\""
+            - generic [ref=e334]:
+              - generic [ref=e335]: P
+              - generic [ref=e336]:
+                - paragraph [ref=e337]: Patricia G.
+                - paragraph [ref=e338]: Medellín
+          - generic [ref=e340]:
+            - paragraph [ref=e341]: "\"I'm skeptical of all this. I tried it because a friend insisted. Three weeks later I told her she was right. The discomfort I'd been carrying all the time just gradually faded.\""
+            - generic [ref=e342]:
+              - generic [ref=e343]: L
+              - generic [ref=e344]:
+                - paragraph [ref=e345]: Lorena T.
+                - paragraph [ref=e346]: Cali
+      - generic [ref=e349]:
+        - heading "What we're most asked about UltraICE" [level=2] [ref=e352]
+        - generic [ref=e353]:
+          - button "Does UltraICE contain CBD or hemp?" [ref=e355]:
+            - generic [ref=e356]: Does UltraICE contain CBD or hemp?
+            - img [ref=e357]
+          - button "How long does it take to take effect?" [ref=e360]:
+            - generic [ref=e361]: How long does it take to take effect?
+            - img [ref=e362]
+          - button "Can it be taken with other supplements or medications?" [ref=e365]:
+            - generic [ref=e366]: Can it be taken with other supplements or medications?
+            - img [ref=e367]
+          - button "Does it have a taste? Is it hard to take?" [ref=e370]:
+            - generic [ref=e371]: Does it have a taste? Is it hard to take?
+            - img [ref=e372]
+          - button "Is it for women only?" [ref=e375]:
+            - generic [ref=e376]: Is it for women only?
+            - img [ref=e377]
+          - button "What if I don't notice anything?" [ref=e380]:
+            - generic [ref=e381]: What if I don't notice anything?
+            - img [ref=e382]
+      - generic [ref=e387]:
+        - img
+        - generic [ref=e388]:
+          - heading "Ready to try it?" [level=2] [ref=e389]
+          - paragraph [ref=e390]: You don't need to have everything figured out. Write to us and we'll tell you if UltraICE is right for you — in 5 minutes, no pressure.
+          - generic [ref=e391]:
+            - link "Chat on WhatsApp →" [ref=e392] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hi%2C%20I%20want%20to%20know%20more%20about%20UltraICE%20and%20if%20it's%20the%20right%20product%20for%20me.
+              - img [ref=e393]
+              - text: Chat on WhatsApp →
+            - link "See all products" [ref=e395] [cursor=pointer]:
+              - /url: /#products
+              - text: See all products
+              - img [ref=e396]
+      - paragraph [ref=e403]: "* These products have not been evaluated by the FDA. They are not intended to diagnose, treat, cure or prevent any disease. Results may vary from person to person. Consult your doctor if you have questions related to your health."
+    - contentinfo [ref=e405]:
+      - generic [ref=e407]:
+        - generic [ref=e408]:
+          - generic [ref=e409]:
+            - img "VibeLife logo" [ref=e410]
+            - paragraph [ref=e411]: VibeLife shares options focused on natural wellness, healthy habits and direct conversations through WhatsApp.
+            - link "Contact on WhatsApp" [ref=e412] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+              - text: Contact on WhatsApp
+              - img [ref=e413]
+          - generic [ref=e416]:
+            - heading "Navigate" [level=3] [ref=e417]
+            - generic [ref=e418]:
+              - link "Home" [ref=e419] [cursor=pointer]:
+                - /url: /
+              - link "Products" [ref=e420] [cursor=pointer]:
+                - /url: /#products
+              - link "Community" [ref=e421] [cursor=pointer]:
+                - /url: /community
+              - link "About" [ref=e422] [cursor=pointer]:
+                - /url: /about
+              - link "Contact" [ref=e423] [cursor=pointer]:
+                - /url: /contact
+          - generic [ref=e424]:
+            - heading "Products" [level=3] [ref=e425]
+            - generic [ref=e426]:
+              - link "Rise" [ref=e427] [cursor=pointer]:
+                - /url: /rise
+              - link "Amalaki" [ref=e428] [cursor=pointer]:
+                - /url: /amalaki
+              - link "Accell" [ref=e429] [cursor=pointer]:
+                - /url: /accell
+              - link "B-Fit" [ref=e430] [cursor=pointer]:
+                - /url: /b-fit
+              - link "UltraICE" [ref=e431] [cursor=pointer]:
+                - /url: /ice
+        - generic [ref=e432]:
+          - generic [ref=e433]: VibeLife
+          - generic [ref=e434]: Natural Wellness & Personal Growth
+          - generic [ref=e435]: +507 6288-2188
+    - link "Chat on WhatsApp" [ref=e437] [cursor=pointer]:
+      - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+      - img [ref=e439]
+      - generic [ref=e441]: WhatsApp
+  - alert [ref=e442]

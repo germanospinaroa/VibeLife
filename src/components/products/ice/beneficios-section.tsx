@@ -9,28 +9,24 @@ import { localize } from "@/lib/i18n";
 
 const beneficios = [
   {
-    es: "Mejor calidad de sueño — más profundo, más reparador",
-    en: "Better sleep quality — deeper, more restorative",
+    es: "Te sientes más ligera durante el día",
+    en: "You feel lighter throughout the day",
   },
   {
-    es: "Menos tensión y ansiedad durante el día",
-    en: "Less tension and anxiety throughout the day",
+    es: "Tu cuerpo responde mejor cuando te mueves",
+    en: "Your body responds better when you move",
   },
   {
-    es: "Respuesta inflamatoria más equilibrada — menos malestar crónico",
-    en: "More balanced inflammatory response — less chronic discomfort",
+    es: "Recuperas energía sin exigirte tanto",
+    en: "You recover energy without pushing yourself so hard",
   },
   {
-    es: "Más claridad mental — menos niebla, más enfoque",
-    en: "More mental clarity — less fog, more focus",
+    es: "Menos sensación de carga acumulada",
+    en: "Less feeling of accumulated burden",
   },
   {
-    es: "Bienestar general sostenido — no picos y caídas",
-    en: "Sustained general wellbeing — no spikes and crashes",
-  },
-  {
-    es: "Recuperación más rápida después del esfuerzo físico o mental",
-    en: "Faster recovery after physical or mental effort",
+    es: "Más bienestar real, no momentáneo",
+    en: "More real wellbeing, not fleeting",
   },
 ];
 
@@ -45,15 +41,15 @@ export function IceBeneficiosSection() {
             align="center"
             title={localize(
               {
-                es: "Lo que notarás — sin promesas imposibles",
-                en: "What you'll notice — no impossible promises",
+                es: "Lo que puedes empezar a notar",
+                en: "What you can start to notice",
               },
               language,
             )}
             description={localize(
               {
-                es: "Cada cuerpo es diferente. Estos son los cambios que reportan quienes lo usan de forma consistente:",
-                en: "Every body is different. These are the changes reported by those who use it consistently:",
+                es: "No es magia. No es inmediato. Es constancia — y darle a tu cuerpo lo que sí necesita.",
+                en: "It's not magic. It's not immediate. It's consistency — and giving your body what it actually needs.",
               },
               language,
             )}

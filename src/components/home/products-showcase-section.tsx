@@ -104,7 +104,7 @@ export function ProductsShowcaseSection() {
                   language
                 )}
                 {product.name === "UltraICE" && localize(
-                  { es: "Soporte homeostático · UltraCell®", en: "Homeostatic support · UltraCell®" },
+                  { es: "Resveratrol · Cúrcuma · UltraCell®", en: "Resveratrol · Turmeric · UltraCell®" },
                   language
                 )}
               </p>
@@ -128,7 +128,7 @@ export function ProductsShowcaseSection() {
                   language
                 )}
                 {product.name === "UltraICE" && localize(
-                  { es: "Equilibrio desde el sistema que regula todo. Para el cansancio sin explicación y el malestar que nada ha podido resolver.", en: "Balance from the system that regulates everything. For unexplained fatigue and discomfort nothing has been able to resolve." },
+                  { es: "Para la que se levanta cansada aunque haya dormido. Resveratrol y Cúrcuma para que tu cuerpo no viva en desgaste constante.", en: "For the one who wakes up tired even though she slept. Resveratrol and Turmeric so your body doesn't live in constant wear." },
                   language
                 )}
               </p>

@@ -21,12 +21,12 @@ const catalogProducts = [
     name: "UltraICE",
     image: "/images/products/ice.png",
     tagline: {
-      es: "Para la que no descansa, aunque duerma",
-      en: "For the one who doesn't rest, even when she sleeps",
+      es: "Para la que siente que su cuerpo ya no responde igual",
+      en: "For the one who feels her body doesn't respond the same anymore",
     },
     description: {
-      es: "Apoya el equilibrio interno cuando sientes que tu mente no para, tu cuerpo no se recupera o vives con tensión constante.",
-      en: "Supports internal balance when you feel your mind won't stop, your body won't recover, or you live with constant tension.",
+      es: "Con Resveratrol y Cúrcuma para que tu cuerpo no viva en desgaste constante. Menos pesadez, menos carga acumulada, más energía real.",
+      en: "With Resveratrol and Turmeric so your body doesn't live in constant wear. Less heaviness, less accumulated burden, more real energy.",
     },
     href: "/ice",
     gradient: "from-[#1B3A6B]/12 to-[#D4E4F4]/40",

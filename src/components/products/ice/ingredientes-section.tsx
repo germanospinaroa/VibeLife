@@ -7,79 +7,73 @@ import { SectionShell } from "@/components/shared/section-shell";
 import { SectionHeading } from "@/components/ui/section-heading";
 import { localize } from "@/lib/i18n";
 
-const mezclaSoporte = [
-  {
-    nombre: { es: "Cúrcuma (Extracto de raíz)", en: "Turmeric (Root Extract)" },
-    descripcion: {
-      es: "La reina antiinflamatoria. Apoya la respuesta inflamatoria natural del cuerpo, protege las células del daño oxidativo y trabaja en sinergia con el sistema endocannabinoide para amplificar sus efectos.",
-      en: "The anti-inflammatory queen. Supports the body's natural inflammatory response, protects cells from oxidative damage and works in synergy with the endocannabinoid system to amplify its effects.",
-    },
-    emoji: "🌾",
-  },
+const ingredientesDestacados = [
   {
     nombre: { es: "Resveratrol", en: "Resveratrol" },
     descripcion: {
-      es: "El antioxidante más poderoso de la fórmula. Protege las células del daño causado por el estrés y los radicales libres. Propiedades antiinflamatorias que llegan a todo el cuerpo, no solo a una parte.",
-      en: "The most powerful antioxidant in the formula. Protects cells from damage caused by stress and free radicals. Anti-inflammatory properties that reach the whole body, not just one part.",
+      es: "Ayuda a proteger tu cuerpo desde adentro. Es ese tipo de apoyo que hace que tu cuerpo no se deteriore igual con el tiempo. Como si le dieras herramientas para mantenerse mejor, por más tiempo.",
+      en: "Helps protect your body from the inside. It's the kind of support that keeps your body from deteriorating the same way over time. Like giving it tools to stay better, for longer.",
     },
     emoji: "🍇",
+    color: "#2E5F9A",
   },
+  {
+    nombre: { es: "Cúrcuma", en: "Turmeric" },
+    descripcion: {
+      es: "Ayuda a que tu cuerpo no viva en desgaste constante. Reduce esa sensación de pesadez, inflamación o lentitud que muchas veces normalizamos… pero que no debería ser parte de tu día a día.",
+      en: "Helps your body stop living in constant wear. Reduces that feeling of heaviness, inflammation or sluggishness that we often normalize… but that shouldn't be part of your everyday life.",
+    },
+    emoji: "🌾",
+    color: "#1B3A6B",
+  },
+];
+
+const otrosIngredientes = [
   {
     nombre: { es: "Extracto de Hongo Shiitake", en: "Shiitake Mushroom Extract" },
     descripcion: {
-      es: "Inmunidad y desintoxicación desde la tradición herbal con respaldo moderno. Sus betaglucanos modulan el sistema inmunológico y ayudan a reducir la inflamación sistémica.",
-      en: "Immunity and detoxification from herbal tradition with modern backing. Its beta-glucans modulate the immune system and help reduce systemic inflammation.",
+      es: "Modula el sistema inmunológico y ayuda a reducir la inflamación sistémica.",
+      en: "Modulates the immune system and helps reduce systemic inflammation.",
     },
     emoji: "🍄",
   },
   {
     nombre: { es: "Extracto de Baya de Açaí", en: "Açaí Berry Extract" },
     descripcion: {
-      es: "Antioxidantes, vitaminas, minerales y ácidos grasos esenciales. Apoya la función cognitiva y la salud cerebral. Uno de los alimentos más nutricionalmente densos del planeta.",
-      en: "Antioxidants, vitamins, minerals and essential fatty acids. Supports cognitive function and brain health. One of the most nutritionally dense foods on the planet.",
+      es: "Antioxidantes y ácidos grasos esenciales. Apoya la función cognitiva y la salud cerebral.",
+      en: "Antioxidants and essential fatty acids. Supports cognitive function and brain health.",
     },
     emoji: "🫐",
   },
-];
-
-const mimetix = [
   {
     nombre: { es: "Extracto de Hoja de Té Verde", en: "Green Tea Leaf Extract" },
     descripcion: {
-      es: "Reduce el cortisol (la hormona del estrés). Activa los receptores CB1 y aumenta el factor de crecimiento neuronal. Claridad sin nerviosismo.",
-      en: "Reduces cortisol (the stress hormone). Activates CB1 receptors and increases nerve growth factor. Clarity without jitteriness.",
+      es: "Reduce el cortisol. Claridad mental sin nerviosismo.",
+      en: "Reduces cortisol. Mental clarity without jitteriness.",
     },
     emoji: "🍵",
   },
   {
     nombre: { es: "Extracto de Flor de Lúpulo", en: "Hops Flower Extract" },
     descripcion: {
-      es: "Antiviral, antiinflamatorio, y — quizás lo más relevante — apoya el sueño saludable y el manejo del estrés. Protege las células cerebrales.",
-      en: "Antiviral, anti-inflammatory, and — perhaps most relevantly — supports healthy sleep and stress management. Protects brain cells.",
+      es: "Apoya el sueño saludable y el manejo del estrés.",
+      en: "Supports healthy sleep and stress management.",
     },
     emoji: "🌼",
   },
   {
-    nombre: { es: "Extracto de Raíz de Cúrcuma (Mimetix)", en: "Turmeric Root Extract (Mimetix)" },
-    descripcion: {
-      es: "Aumenta los niveles de endocannabinoides propios del cuerpo. Actúa de forma similar al CBD sobre los receptores CB1 — sin ser CBD.",
-      en: "Increases the body's own endocannabinoid levels. Acts similarly to CBD on CB1 receptors — without being CBD.",
-    },
-    emoji: "🟡",
-  },
-  {
     nombre: { es: "Extracto de Raíz de Jengibre", en: "Ginger Root Extract" },
     descripcion: {
-      es: "Reduce la inflamación y activa los receptores CB2 — los que están más relacionados con el sistema inmunológico y la respuesta al dolor.",
-      en: "Reduces inflammation and activates CB2 receptors — the ones most related to the immune system and pain response.",
+      es: "Reduce la inflamación y activa el sistema inmunológico desde los receptores CB2.",
+      en: "Reduces inflammation and activates the immune system through CB2 receptors.",
     },
     emoji: "🫚",
   },
   {
     nombre: { es: "Extracto de Equinácea", en: "Echinacea Extract" },
     descripcion: {
-      es: "Apoya la función inmunológica y activa receptores CB2. Inhibe la FAAH — la enzima que descompone la anandamida, el endocannabinoide del bienestar que el cuerpo produce naturalmente.",
-      en: "Supports immune function and activates CB2 receptors. Inhibits FAAH — the enzyme that breaks down anandamide, the wellbeing endocannabinoid the body produces naturally.",
+      es: "Apoya la función inmunológica y el bienestar que el cuerpo produce naturalmente.",
+      en: "Supports immune function and the wellbeing the body naturally produces.",
     },
     emoji: "🌸",
   },
@@ -103,85 +97,83 @@ export function IceIngredientesSection() {
             )}
             description={localize(
               {
-                es: "Dos mezclas botánicas que trabajan juntas para apoyar tu sistema endocannabinoide.",
-                en: "Two botanical blends that work together to support your endocannabinoid system.",
+                es: "Dos ingredientes que las personas reconocen. Y que realmente hacen la diferencia.",
+                en: "Two ingredients people recognize. And that truly make a difference.",
               },
               language,
             )}
           />
         </Reveal>
 
-        {/* Bloque A */}
-        <Reveal delay={0.1} className="mt-12">
-          <div className="rounded-2xl bg-[#1B3A6B]/5 border border-[#1B3A6B]/10 p-8">
-            <h3 className="text-xl font-semibold text-[#1B3A6B] mb-2">
+        {/* Ingredientes destacados */}
+        <StaggerGroup className="mt-12 grid gap-6 sm:grid-cols-2">
+          {ingredientesDestacados.map((item, index) => (
+            <StaggerItem key={index}>
+              <div
+                className="flex flex-col gap-4 rounded-2xl p-7 h-full border"
+                style={{
+                  background: `${item.color}08`,
+                  borderColor: `${item.color}20`,
+                }}
+              >
+                <span className="text-4xl">{item.emoji}</span>
+                <h3
+                  className="text-xl font-semibold"
+                  style={{ color: item.color }}
+                >
+                  {localize(item.nombre, language)}
+                </h3>
+                <p className="text-base leading-8 text-[#5c746d]">
+                  {localize(item.descripcion, language)}
+                </p>
+              </div>
+            </StaggerItem>
+          ))}
+        </StaggerGroup>
+
+        {/* Nota sobre absorción */}
+        <Reveal delay={0.2} className="mt-8">
+          <div className="rounded-2xl bg-white/80 border border-[#D4E4F4] p-8">
+            <p className="text-lg font-semibold text-[#1B3A6B] mb-3">
               {localize(
-                { es: "Mezcla de Soporte Homeostático", en: "Homeostatic Support Blend" },
-                language,
-              )}
-            </h3>
-            <p className="text-sm text-[#5c746d] mb-6">
-              {localize(
-                { es: "Los ingredientes que llegan al equilibrio profundo.", en: "The ingredients that reach deep balance." },
+                {
+                  es: "Y algo clave que casi nadie te dice.",
+                  en: "And something key almost no one tells you.",
+                },
                 language,
               )}
             </p>
-            <StaggerGroup className="space-y-4">
-              {mezclaSoporte.map((item, index) => (
-                <StaggerItem key={index}>
-                  <div className="flex gap-4 rounded-xl bg-white/80 p-5">
-                    <span className="shrink-0 text-2xl">{item.emoji}</span>
-                    <div>
-                      <p className="font-semibold text-[#1B3A6B] mb-1">
-                        {localize(item.nombre, language)}
-                      </p>
-                      <p className="text-sm leading-7 text-[#5c746d]">
-                        {localize(item.descripcion, language)}
-                      </p>
-                    </div>
-                  </div>
-                </StaggerItem>
-              ))}
-            </StaggerGroup>
+            <p className="text-base leading-8 text-[#5c746d]">
+              {localize(
+                {
+                  es: "No sirve de nada tomar algo… si tu cuerpo no lo absorbe. UltraICE está diseñado con tecnología UltraCell® para que realmente funcione en tu cuerpo, no solo para que lo tomes.",
+                  en: "There's no point in taking something… if your body doesn't absorb it. UltraICE is designed with UltraCell® technology so it truly works in your body, not just for you to take it.",
+                },
+                language,
+              )}
+            </p>
           </div>
         </Reveal>
 
-        {/* Bloque B — Mimetix */}
-        <Reveal delay={0.2} className="mt-8">
-          <div className="rounded-2xl bg-[#2E5F9A]/5 border border-[#2E5F9A]/15 p-8">
-            <h3 className="text-xl font-semibold text-[#2E5F9A] mb-2">
+        {/* Otros ingredientes */}
+        <Reveal delay={0.3} className="mt-8">
+          <div className="rounded-2xl bg-[#2E5F9A]/5 border border-[#2E5F9A]/10 p-8">
+            <h3 className="text-lg font-semibold text-[#2E5F9A] mb-5">
               {localize(
-                { es: "Mezcla Mimetix™", en: "Mimetix™ Blend" },
+                { es: "También contiene", en: "Also contains" },
                 language,
               )}
             </h3>
-            <p className="text-sm text-[#5c746d] mb-2">
-              {localize(
-                { es: "La fórmula que imita lo que tu cuerpo ya sabe hacer.", en: "The formula that mimics what your body already knows how to do." },
-                language,
-              )}
-            </p>
-            <div className="rounded-xl bg-white/60 p-5 mb-6">
-              <p className="text-sm leading-7 text-[#5c746d]">
-                {localize(
-                  {
-                    es: "Mimetix™ no es cannabidiol. Son compuestos botánicos que actúan de forma similar sobre los receptores del sistema endocannabinoide — sin cáñamo, sin THC, sin restricciones. La ciencia lleva a un nivel completamente nuevo lo que el cuerpo ya quiere hacer.",
-                    en: "Mimetix™ is not cannabidiol. It's botanical compounds that act similarly on endocannabinoid system receptors — without hemp, without THC, without restrictions. Science takes what the body already wants to do to a completely new level.",
-                  },
-                  language,
-                )}
-              </p>
-            </div>
-            <StaggerGroup className="space-y-4">
-              {mimetix.map((item, index) => (
+            <StaggerGroup className="grid gap-4 sm:grid-cols-2">
+              {otrosIngredientes.map((item, index) => (
                 <StaggerItem key={index}>
-                  <div className="flex gap-4 rounded-xl bg-white/80 p-5">
-                    <span className="shrink-0 text-2xl">{item.emoji}</span>
+                  <div className="flex gap-3 rounded-xl bg-white/80 p-4">
+                    <span className="shrink-0 text-xl">{item.emoji}</span>
                     <div>
-                      <p className="font-semibold text-[#2E5F9A] mb-1">
+                      <p className="font-semibold text-[#1B3A6B] text-sm mb-1">
                         {localize(item.nombre, language)}
                       </p>
-                      <p className="text-sm leading-7 text-[#5c746d]">
+                      <p className="text-xs leading-6 text-[#5c746d]">
                         {localize(item.descripcion, language)}
                       </p>
                     </div>

@@ -33,11 +33,17 @@ export function IceFinalSection() {
           />
 
           <div className="relative z-10">
-            <h2 className="max-w-3xl text-balance text-4xl font-semibold text-white sm:text-5xl">
+            <p className="text-xs font-semibold uppercase tracking-[0.22em] text-white/60">
+              {localize(
+                { es: "¿No sabes si es para ti?", en: "Not sure if it's for you?" },
+                language,
+              )}
+            </p>
+            <h2 className="mt-4 max-w-3xl text-balance text-4xl font-semibold text-white sm:text-5xl">
               {localize(
                 {
-                  es: "¿Listo para probarlo?",
-                  en: "Ready to try it?",
+                  es: "Escríbeme.",
+                  en: "Write to me.",
                 },
                 language,
               )}
@@ -46,8 +52,8 @@ export function IceFinalSection() {
             <p className="mt-6 max-w-2xl text-pretty text-base leading-8 text-white/80 sm:text-lg">
               {localize(
                 {
-                  es: "No necesitas tener todo claro. Escríbenos y te contamos si UltraICE es el correcto para ti — en 5 minutos, sin presión.",
-                  en: "You don't need to have everything figured out. Write to us and we'll tell you if UltraICE is right for you — in 5 minutes, no pressure.",
+                  es: "Cuéntame cómo te has estado sintiendo y te digo si este puede ser un buen punto de partida para ti.",
+                  en: "Tell me how you've been feeling and I'll tell you if this could be a good starting point for you.",
                 },
                 language,
               )}
@@ -57,8 +63,8 @@ export function IceFinalSection() {
               <WhatsAppCta
                 className="bg-white text-[#1B3A6B] hover:bg-[#D4E4F4]"
                 message={{
-                  es: "Hola, quiero saber más sobre UltraICE y si es el producto correcto para mí.",
-                  en: "Hi, I want to know more about UltraICE and if it's the right product for me.",
+                  es: "Hola, quiero contarte cómo me he estado sintiendo y saber si UltraICE puede ser para mí.",
+                  en: "Hi, I want to tell you how I've been feeling and find out if UltraICE could be right for me.",
                 }}
                 variant="light"
               >

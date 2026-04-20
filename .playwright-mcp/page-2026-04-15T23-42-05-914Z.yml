@@ -1,0 +1,178 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e2]:
+    - banner [ref=e4]:
+      - generic [ref=e6]:
+        - link "VibeLife" [ref=e7] [cursor=pointer]:
+          - /url: /
+          - img "VibeLife logo" [ref=e8]
+        - navigation [ref=e9]:
+          - link "Home" [ref=e10] [cursor=pointer]:
+            - /url: /
+          - link "Catalog" [ref=e11] [cursor=pointer]:
+            - /url: /catalogo
+          - link "Community" [ref=e12] [cursor=pointer]:
+            - /url: /community
+          - link "About" [ref=e13] [cursor=pointer]:
+            - /url: /about
+          - link "Contact" [ref=e14] [cursor=pointer]:
+            - /url: /contact
+        - generic [ref=e15]:
+          - group "Language selector" [ref=e16]:
+            - button "ES" [ref=e17]
+            - button "EN" [ref=e18]
+          - link "Chat on WhatsApp" [ref=e19] [cursor=pointer]:
+            - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+            - img [ref=e20]
+            - text: Chat on WhatsApp
+    - main [ref=e22]:
+      - generic [ref=e25]:
+        - generic [ref=e26]:
+          - generic [ref=e27]: Catalog
+          - heading "It's not a perfect plan. It's finding what is right for you today." [level=1] [ref=e28]:
+            - text: It's not a perfect plan.
+            - text: It's finding what is right for you today.
+          - paragraph [ref=e29]: Each product serves a different purpose. You don't need all of them — just the one that connects with how you're feeling right now.
+        - generic [ref=e31]:
+          - paragraph [ref=e32]: Options to support you
+          - paragraph [ref=e33]: We don't show a catalog of promises. We show real options for what you're experiencing right now.
+          - paragraph [ref=e34]: Not sure which to choose? Tell me how you feel and I'll tell you which one makes the most sense for you.
+      - generic [ref=e36]:
+        - generic [ref=e37]:
+          - heading "Options to support you" [level=2] [ref=e38]
+          - paragraph [ref=e39]: Each product was designed for a different moment. Find yours.
+        - generic [ref=e40]:
+          - generic [ref=e44]:
+            - img "UltraICE" [ref=e46]
+            - generic [ref=e47]:
+              - heading "UltraICE" [level=3] [ref=e48]
+              - paragraph [ref=e49]: For the one who doesn't rest, even when she sleeps
+              - paragraph [ref=e50]: Supports internal balance when you feel your mind won't stop, your body won't recover, or you live with constant tension.
+              - generic [ref=e51]:
+                - link "View product" [ref=e52] [cursor=pointer]:
+                  - /url: /ice
+                  - text: View product
+                  - img [ref=e53]
+                - link "Ask on WhatsApp" [ref=e55] [cursor=pointer]:
+                  - /url: https://wa.me/50762882188?text=Hi%2C%20I'd%20like%20to%20know%20more%20about%20UltraICE%20from%20VibeLife.
+                  - img [ref=e56]
+                  - text: Ask on WhatsApp
+          - generic [ref=e61]:
+            - img "Rise" [ref=e63]
+            - generic [ref=e64]:
+              - heading "Rise" [level=3] [ref=e65]
+              - paragraph [ref=e66]: For the one who drags herself through mornings
+              - paragraph [ref=e67]: Functional energy to start the day without depending on coffee or pushing yourself too hard.
+              - generic [ref=e68]:
+                - link "View product" [ref=e69] [cursor=pointer]:
+                  - /url: /rise
+                  - text: View product
+                  - img [ref=e70]
+                - link "Ask on WhatsApp" [ref=e72] [cursor=pointer]:
+                  - /url: https://wa.me/50762882188?text=Hi%2C%20I'd%20like%20to%20know%20more%20about%20Rise%20from%20VibeLife.
+                  - img [ref=e73]
+                  - text: Ask on WhatsApp
+          - generic [ref=e78]:
+            - img "Amalaki" [ref=e80]
+            - generic [ref=e81]:
+              - heading "Amalaki" [level=3] [ref=e82]
+              - paragraph [ref=e83]: For the one who feels something isn't right inside
+              - paragraph [ref=e84]: Digestive and nutritional support when you feel inflammation, heaviness or internal disorder.
+              - generic [ref=e85]:
+                - link "View product" [ref=e86] [cursor=pointer]:
+                  - /url: /amalaki
+                  - text: View product
+                  - img [ref=e87]
+                - link "Ask on WhatsApp" [ref=e89] [cursor=pointer]:
+                  - /url: https://wa.me/50762882188?text=Hi%2C%20I'd%20like%20to%20know%20more%20about%20Amalaki%20from%20VibeLife.
+                  - img [ref=e90]
+                  - text: Ask on WhatsApp
+          - generic [ref=e95]:
+            - img "Accell" [ref=e97]
+            - generic [ref=e98]:
+              - heading "Accell" [level=3] [ref=e99]
+              - paragraph [ref=e100]: For the one who wants to move again
+              - paragraph [ref=e101]: Supports your physical energy and recovery when you want to resume activity, but your body doesn't respond the same.
+              - generic [ref=e102]:
+                - link "View product" [ref=e103] [cursor=pointer]:
+                  - /url: /accell
+                  - text: View product
+                  - img [ref=e104]
+                - link "Ask on WhatsApp" [ref=e106] [cursor=pointer]:
+                  - /url: https://wa.me/50762882188?text=Hi%2C%20I'd%20like%20to%20know%20more%20about%20Accell%20from%20VibeLife.
+                  - img [ref=e107]
+                  - text: Ask on WhatsApp
+          - generic [ref=e112]:
+            - img "B-Fit" [ref=e114]
+            - generic [ref=e115]:
+              - heading "B-Fit" [level=3] [ref=e116]
+              - paragraph [ref=e117]: For the one who wants to feel good in her body
+              - paragraph [ref=e118]: Support in physical wellness processes without pressure, through accompaniment and consistency.
+              - generic [ref=e119]:
+                - link "View product" [ref=e120] [cursor=pointer]:
+                  - /url: /b-fit
+                  - text: View product
+                  - img [ref=e121]
+                - link "Ask on WhatsApp" [ref=e123] [cursor=pointer]:
+                  - /url: https://wa.me/50762882188?text=Hi%2C%20I'd%20like%20to%20know%20more%20about%20B-Fit%20from%20VibeLife.
+                  - img [ref=e124]
+                  - text: Ask on WhatsApp
+      - generic [ref=e129]:
+        - img
+        - generic [ref=e130]:
+          - paragraph [ref=e131]: Not sure which to choose?
+          - heading "You don't have to decide alone." [level=2] [ref=e132]
+          - paragraph [ref=e133]: Tell me how you've been feeling and I'll tell you which one can be a good starting point.
+          - generic [ref=e134]:
+            - link "Chat on WhatsApp →" [ref=e135] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hi%2C%20I%20want%20to%20know%20which%20VibeLife%20product%20is%20right%20for%20me.
+              - img [ref=e136]
+              - text: Chat on WhatsApp →
+            - link "Learn about VibeLife" [ref=e138] [cursor=pointer]:
+              - /url: /
+              - text: Learn about VibeLife
+              - img [ref=e139]
+    - contentinfo [ref=e142]:
+      - generic [ref=e144]:
+        - generic [ref=e145]:
+          - generic [ref=e146]:
+            - img "VibeLife logo" [ref=e147]
+            - paragraph [ref=e148]: VibeLife shares options focused on natural wellness, healthy habits and direct conversations through WhatsApp.
+            - link "Contact on WhatsApp" [ref=e149] [cursor=pointer]:
+              - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+              - text: Contact on WhatsApp
+              - img [ref=e150]
+          - generic [ref=e153]:
+            - heading "Navigate" [level=3] [ref=e154]
+            - generic [ref=e155]:
+              - link "Home" [ref=e156] [cursor=pointer]:
+                - /url: /
+              - link "Catalog" [ref=e157] [cursor=pointer]:
+                - /url: /catalogo
+              - link "Community" [ref=e158] [cursor=pointer]:
+                - /url: /community
+              - link "About" [ref=e159] [cursor=pointer]:
+                - /url: /about
+              - link "Contact" [ref=e160] [cursor=pointer]:
+                - /url: /contact
+          - generic [ref=e161]:
+            - heading "Products" [level=3] [ref=e162]
+            - generic [ref=e163]:
+              - link "Rise" [ref=e164] [cursor=pointer]:
+                - /url: /rise
+              - link "Amalaki" [ref=e165] [cursor=pointer]:
+                - /url: /amalaki
+              - link "Accell" [ref=e166] [cursor=pointer]:
+                - /url: /accell
+              - link "B-Fit" [ref=e167] [cursor=pointer]:
+                - /url: /b-fit
+              - link "UltraICE" [ref=e168] [cursor=pointer]:
+                - /url: /ice
+        - generic [ref=e169]:
+          - generic [ref=e170]: VibeLife
+          - generic [ref=e171]: Natural Wellness & Personal Growth
+          - generic [ref=e172]: +507 6288-2188
+    - link "Chat on WhatsApp" [ref=e174] [cursor=pointer]:
+      - /url: https://wa.me/50762882188?text=Hi%2C%20I%20would%20like%20more%20information%20about%20VibeLife%20and%20the%20available%20options.
+      - img [ref=e176]
+      - generic [ref=e178]: WhatsApp
+  - alert [ref=e179]

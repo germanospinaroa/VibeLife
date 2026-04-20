@@ -45,8 +45,15 @@ export function IceQueEsSection() {
             align="center"
             title={localize(
               {
-                es: "No es un suplemento más. Es apoyo desde donde el cuerpo lo necesita.",
-                en: "Not just another supplement. Support from where the body needs it.",
+                es: "No es otro suplemento más.",
+                en: "Not just another supplement.",
+              },
+              language,
+            )}
+            description={localize(
+              {
+                es: "Es una forma simple de ayudar a tu cuerpo a volver a sentirse ligero, con más energía y menos carga.",
+                en: "It's a simple way to help your body feel lighter again, with more energy and less burden.",
               },
               language,
             )}
@@ -58,8 +65,8 @@ export function IceQueEsSection() {
             <p className="text-base leading-8 text-[#5c746d] sm:text-lg">
               {localize(
                 {
-                  es: "UltraICE™ es una fórmula líquida de espectro completo diseñada para apoyar la homeostasis — la capacidad natural de tu cuerpo de encontrar y mantener su propio equilibrio.",
-                  en: "UltraICE™ is a full-spectrum liquid formula designed to support homeostasis — your body's natural ability to find and maintain its own balance.",
+                  es: "¿Por qué se siente diferente? Porque no se trata de darte algo más. Se trata de ayudar a tu cuerpo a funcionar mejor.",
+                  en: "Why does it feel different? Because it's not about giving you something more. It's about helping your body function better.",
                 },
                 language,
               )}
@@ -67,8 +74,8 @@ export function IceQueEsSection() {
             <p className="mt-4 text-base leading-8 text-[#5c746d] sm:text-lg">
               {localize(
                 {
-                  es: "No contiene cáñamo. No es CBD. Es una solución botánica avanzada que trabaja con tu sistema endocannabinoide para que tu cuerpo funcione como fue diseñado: en equilibrio.",
-                  en: "It contains no hemp. It's not CBD. It's an advanced botanical solution that works with your endocannabinoid system so your body functions as it was designed: in balance.",
+                  es: "Con constancia — y con lo que sí necesita.",
+                  en: "With consistency — and with what it actually needs.",
                 },
                 language,
               )}

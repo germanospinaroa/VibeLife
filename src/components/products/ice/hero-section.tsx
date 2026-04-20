@@ -22,15 +22,15 @@ export function IceHeroSection() {
           <div>
             <Badge className="mb-4 bg-[#D4E4F4] text-[#1B3A6B] hover:bg-[#D4E4F4]">
               {localize(
-                { es: "EQUILIBRIO Y BIENESTAR PROFUNDO", en: "DEEP BALANCE & WELLBEING" },
+                { es: "BIENESTAR DESDE ADENTRO", en: "WELLNESS FROM WITHIN" },
                 language,
               )}
             </Badge>
             <h1 className="text-balance text-4xl font-semibold leading-tight text-[#1B3A6B] sm:text-5xl">
               {localize(
                 {
-                  es: "Cuando el cansancio no tiene explicación,",
-                  en: "When exhaustion has no explanation,",
+                  es: "No es la edad.",
+                  en: "It's not your age.",
                 },
                 language,
               )}
@@ -38,8 +38,8 @@ export function IceHeroSection() {
             <h2 className="text-3xl font-semibold leading-tight text-[#2E5F9A] sm:text-4xl mt-2">
               {localize(
                 {
-                  es: "el problema está más adentro.",
-                  en: "the problem goes deeper.",
+                  es: "Es lo que tu cuerpo viene acumulando.",
+                  en: "It's what your body has been accumulating.",
                 },
                 language,
               )}
@@ -49,8 +49,8 @@ export function IceHeroSection() {
           <p className="text-base leading-8 text-[#5c746d] sm:text-lg">
             {localize(
               {
-                es: "UltraICE apoya el equilibrio natural de tu cuerpo desde el sistema que lo regula todo — para que te sientas bien sin que nadie lo note, pero tú sí lo sientas.",
-                en: "UltraICE supports your body's natural balance from the system that regulates everything — so you feel well without anyone noticing, but you definitely will.",
+                es: "UltraICE es una forma simple de ayudar a tu cuerpo a volver a sentirse ligero, con más energía y menos carga — con Resveratrol y Cúrcuma para que no vivas en desgaste constante.",
+                en: "UltraICE is a simple way to help your body feel lighter again, with more energy and less burden — with Resveratrol and Turmeric so you don't live in constant wear.",
               },
               language,
             )}

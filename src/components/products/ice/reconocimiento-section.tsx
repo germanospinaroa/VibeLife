@@ -9,24 +9,20 @@ import { localize } from "@/lib/i18n";
 
 const sintomas = [
   {
-    es: "Tu cuerpo no responde como antes — aunque duermes, descansas mal.",
-    en: "Your body doesn't respond like it used to — even though you sleep, you don't rest.",
+    es: "Te levantas cansada aunque hayas dormido.",
+    en: "You wake up tired even though you slept.",
   },
   {
-    es: "Tienes días de mucha inflamación, tensión o malestar que no sabes de dónde viene.",
-    en: "You have days of intense inflammation, tension or discomfort with no clear cause.",
+    es: "Tu cuerpo se siente pesado.",
+    en: "Your body feels heavy.",
   },
   {
-    es: "Tu mente está nublada. No es falta de sueño — es algo más profundo.",
-    en: "Your mind is foggy. It's not lack of sleep — it's something deeper.",
+    es: "Te cuesta recuperarte, incluso cuando descansas.",
+    en: "You struggle to recover, even when you rest.",
   },
   {
-    es: "Sientes que el estrés te come por dentro aunque por fuera todo esté bien.",
-    en: "You feel stress consuming you from within even though everything looks fine on the outside.",
-  },
-  {
-    es: "Has probado cosas, pero nada llega al fondo del problema.",
-    en: "You've tried things, but nothing gets to the root of the problem.",
+    es: "Y lo peor es que no sabes exactamente qué está pasando.",
+    en: "And the worst part is you don't know exactly what's happening.",
   },
 ];
 
@@ -40,7 +36,7 @@ export function IceReconocimientoSection() {
           <SectionHeading
             align="center"
             title={localize(
-              { es: "¿Te has sentido así?", en: "Have you felt this way?" },
+              { es: "Si sientes que ya no eres la misma…", en: "If you feel like you're not yourself anymore…" },
               language,
             )}
           />
@@ -66,8 +62,8 @@ export function IceReconocimientoSection() {
             <p className="text-lg font-semibold text-[#1B3A6B]">
               {localize(
                 {
-                  es: "Eso que sientes tiene nombre: desequilibrio.",
-                  en: "What you feel has a name: imbalance.",
+                  es: "No es falta de disciplina.",
+                  en: "It's not a lack of discipline.",
                 },
                 language,
               )}
@@ -75,8 +71,8 @@ export function IceReconocimientoSection() {
             <p className="mt-4 text-base leading-8 text-[#5c746d]">
               {localize(
                 {
-                  es: "Tu cuerpo tiene un sistema diseñado para mantenerte en equilibrio — el sistema endocannabinoide. Cuando ese sistema se desregula, todo lo demás también.",
-                  en: "Your body has a system designed to keep you in balance — the endocannabinoid system. When that system is disrupted, everything else is too.",
+                  es: "Es que tu cuerpo lleva tiempo en desgaste… y nadie te enseñó cómo apoyarlo de verdad.",
+                  en: "Your body has been wearing down for a long time… and no one taught you how to truly support it.",
                 },
                 language,
               )}
@@ -84,8 +80,8 @@ export function IceReconocimientoSection() {
             <p className="mt-4 text-lg font-semibold text-[#2E5F9A]">
               {localize(
                 {
-                  es: "UltraICE trabaja exactamente ahí.",
-                  en: "UltraICE works exactly there.",
+                  es: "UltraICE empieza por dentro.",
+                  en: "UltraICE starts from within.",
                 },
                 language,
               )}

@@ -10,34 +10,34 @@ import { localize } from "@/lib/i18n";
 const perfiles = [
   {
     icon: "🌙",
-    title: { es: "No descansas aunque duermas", en: "You don't rest even though you sleep" },
+    title: { es: "Se levanta cansada aunque haya dormido", en: "Wakes up tired even though she slept" },
     body: {
-      es: "El sueño llega, pero el descanso no. Te despiertas cansada, tensa, sin haber recuperado. UltraICE apoya los ciclos naturales de descanso desde el sistema que los regula.",
-      en: "Sleep comes, but rest doesn't. You wake up tired, tense, unrecovered. UltraICE supports natural rest cycles from the system that regulates them.",
+      es: "El descanso llega, pero la recuperación no. Algo en tu cuerpo sigue sin reponerse del todo — y lo sientes desde que abres los ojos.",
+      en: "Rest comes, but recovery doesn't. Something in your body still hasn't fully replenished — and you feel it from the moment you open your eyes.",
     },
   },
   {
-    icon: "🧠",
-    title: { es: "Tu mente no para — aunque quieras", en: "Your mind won't stop — even when you want it to" },
+    icon: "🔄",
+    title: { es: "Siente que su cuerpo ya no responde igual", en: "Feels like her body doesn't respond the same anymore" },
     body: {
-      es: "Pensamientos, estrés, ansiedad baja que siempre está ahí. La fórmula Mimetix™ incluye ingredientes que apoyan el manejo del estrés y protegen las células cerebrales.",
-      en: "Thoughts, stress, low-grade anxiety that's always there. The Mimetix™ formula includes ingredients that support stress management and protect brain cells.",
+      es: "No es edad. Es desgaste acumulado. Tu cuerpo puede volver a funcionar mejor — solo necesita el apoyo correcto.",
+      en: "It's not age. It's accumulated wear. Your body can work better again — it just needs the right support.",
     },
   },
   {
-    icon: "🔥",
-    title: { es: "Inflamación, tensión o molestias frecuentes", en: "Frequent inflammation, tension or discomfort" },
+    icon: "🔁",
+    title: { es: "Ha intentado muchas cosas, pero nada se sostiene", en: "Has tried many things, but nothing sticks" },
     body: {
-      es: "Ese malestar difuso, esa sensación de que algo no está bien. Cúrcuma, resveratrol y jengibre trabajan juntos para apoyar una respuesta inflamatoria saludable.",
-      en: "That diffuse discomfort, that feeling that something's off. Turmeric, resveratrol and ginger work together to support a healthy inflammatory response.",
+      es: "No es que hayas fallado. Es que muchas soluciones no llegan al fondo del problema. UltraICE trabaja en el origen, no en el síntoma.",
+      en: "You haven't failed. It's that many solutions don't reach the root of the problem. UltraICE works at the source, not the symptom.",
     },
   },
   {
     icon: "✨",
-    title: { es: "Quieres bienestar general — no un producto para un síntoma", en: "You want general wellbeing — not a product for one symptom" },
+    title: { es: "Quiere sentirse mejor sin complicarse la vida", en: "Wants to feel better without overcomplicating things" },
     body: {
-      es: "No buscas un parche. Buscas sentirte bien de forma sostenida. UltraICE trabaja en el sistema que coordina todo lo demás.",
-      en: "You're not looking for a patch. You want to feel genuinely well, sustainably. UltraICE works on the system that coordinates everything else.",
+      es: "No tienes que hacerlo perfecto. Solo empezar por algo que sí tenga sentido — y ser constante con eso.",
+      en: "You don't have to do it perfectly. Just start with something that actually makes sense — and be consistent with it.",
     },
   },
 ];
@@ -52,7 +52,11 @@ export function IceParaQuienSection() {
           <SectionHeading
             align="center"
             title={localize(
-              { es: "UltraICE es para ti si...", en: "UltraICE is for you if..." },
+              { es: "Para quién es UltraICE", en: "Who UltraICE is for" },
+              language,
+            )}
+            description={localize(
+              { es: "Para la mujer que:", en: "For the woman who:" },
               language,
             )}
           />
