@@ -1,5 +1,3 @@
-"use server";
-
 import {
   type AdelvisActionState,
   type AdelvisFormValues,
@@ -8,15 +6,13 @@ import {
 } from "@/lib/adelvis-intake";
 
 const SUPABASE_URL =
-  process.env.SUPABASE_URL ??
   process.env.NEXT_PUBLIC_SUPABASE_URL ??
   "https://lbckrtgtnjknafjyskie.supabase.co";
 const SUPABASE_PUBLISHABLE_KEY =
-  process.env.SUPABASE_PUBLISHABLE_KEY ??
   process.env.NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY ??
   "sb_publishable_XIaOdwNxPy6KaWNXZBd-Dw_kIx2VcXO";
 const SUPABASE_TABLE =
-  process.env.SUPABASE_ADELVIS_TABLE ?? "adelvis_intake_submissions";
+  process.env.NEXT_PUBLIC_SUPABASE_ADELVIS_TABLE ?? "adelvis_intake_submissions";
 
 function normalizeSingleLine(value: FormDataEntryValue | null) {
   return typeof value === "string" ? value.replace(/\s+/g, " ").trim() : "";
@@ -67,11 +63,7 @@ function validateForm(values: AdelvisFormValues, consentAccepted: boolean) {
 
 async function readErrorDetails(response: Response) {
   const body = await response.text();
-
-  if (!body) {
-    return { status: response.status };
-  }
-
+  if (!body) return { status: response.status };
   try {
     return JSON.parse(body);
   } catch {
@@ -85,7 +77,6 @@ function getFirstInsight(values: AdelvisFormValues) {
 }
 
 export async function submitAdelvisIntake(
-  _previousState: AdelvisActionState,
   formData: FormData,
 ): Promise<AdelvisActionState> {
   const values = getFormValues(formData);
@@ -128,7 +119,6 @@ export async function submitAdelvisIntake(
           Prefer: "return=minimal",
         },
         body: JSON.stringify(payload),
-        cache: "no-store",
       },
     );
 

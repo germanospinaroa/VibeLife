@@ -1,27 +1,16 @@
 "use client";
 
-import { useActionState, useEffect, useRef } from "react";
-import { useFormStatus } from "react-dom";
+import { useEffect, useRef, useState, useTransition } from "react";
 import { CheckCircle2, SendHorizonal } from "lucide-react";
 import { submitAdelvisIntake } from "@/app/adelvis/actions";
 import { Button } from "@/components/ui/button";
 import {
   adelvisIntakeSections,
   initialAdelvisActionState,
+  type AdelvisActionState,
   type AdelvisFieldDefinition,
 } from "@/lib/adelvis-intake";
 import { cn } from "@/lib/utils";
-
-function SubmitButton() {
-  const { pending } = useFormStatus();
-
-  return (
-    <Button className="w-full sm:w-auto" size="lg" type="submit">
-      <SendHorizonal className="h-4 w-4" />
-      {pending ? "Guardando respuestas..." : "Enviar definicion"}
-    </Button>
-  );
-}
 
 type FieldProps = {
   field: AdelvisFieldDefinition;
@@ -73,10 +62,8 @@ function FormField({ field, error }: FieldProps) {
 }
 
 export function AdelvisIntakeForm() {
-  const [state, formAction] = useActionState(
-    submitAdelvisIntake,
-    initialAdelvisActionState,
-  );
+  const [state, setState] = useState<AdelvisActionState>(initialAdelvisActionState);
+  const [isPending, startTransition] = useTransition();
   const formRef = useRef<HTMLFormElement>(null);
   const statusRef = useRef<HTMLDivElement>(null);
 
@@ -84,11 +71,19 @@ export function AdelvisIntakeForm() {
     if (state.status === "success") {
       formRef.current?.reset();
     }
-
     if (state.status !== "idle") {
       statusRef.current?.scrollIntoView({ behavior: "smooth", block: "nearest" });
     }
   }, [state.status]);
+
+  function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
+    e.preventDefault();
+    const formData = new FormData(e.currentTarget);
+    startTransition(async () => {
+      const result = await submitAdelvisIntake(formData);
+      setState(result);
+    });
+  }
 
   return (
     <div className="surface-panel relative rounded-[34px] p-5 shadow-[0_24px_80px_rgba(62,102,112,0.16)] sm:p-7 lg:p-8">
@@ -129,7 +124,7 @@ export function AdelvisIntakeForm() {
         )}
       </div>
 
-      <form action={formAction} className="mt-8 space-y-6" ref={formRef}>
+      <form className="mt-8 space-y-6" onSubmit={handleSubmit} ref={formRef}>
         {adelvisIntakeSections.map((section, index) => (
           <section
             className="rounded-[30px] border border-[#456F78]/10 bg-white/72 p-4 sm:p-5"
@@ -188,7 +183,10 @@ export function AdelvisIntakeForm() {
               No hay respuestas correctas o incorrectas. Lo mas importante es que
               suene real, claro y alineado contigo.
             </p>
-            <SubmitButton />
+            <Button className="w-full sm:w-auto" disabled={isPending} size="lg" type="submit">
+              <SendHorizonal className="h-4 w-4" />
+              {isPending ? "Guardando respuestas..." : "Enviar definicion"}
+            </Button>
           </div>
 
           {state.errors.form ? (
