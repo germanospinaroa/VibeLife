@@ -27,7 +27,9 @@ export const metadata: Metadata = {
   },
   description: site.description.es,
   icons: {
-    icon: "/images/brand/vibelife-logo-transparent.png",
+    icon: [{ url: "/favicon.png", type: "image/png" }],
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
   },
   openGraph: {
     title: "¿Cansada de intentar? Esto es diferente. — VibeLife",
